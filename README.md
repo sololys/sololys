@@ -10,6 +10,29 @@
 
 ---
 
+## 🔬 Featured Technology Spydspiss: Aethelgard Molecular
+
+### [🌿 sololys / femos-biomimetic-nitrogenase (Åpent Forskningsrepo)](https://github.com/sololys/femos-biomimetic-nitrogenase)
+*Bio-inspirert lavtemperatur nitrogenfiksering ($N_2 \to NH_3$) og deterministisk fail-closed elektrokatalytisk validering.*
+
+```text
+       ┌─────────────────────────────────────────────────────────────────┐
+       │   AETHELGARD MOLECULAR: BIO-INORGANIC NITROGENASE PLATFORM      │
+       ├─────────────────────────────────────────────────────────────────┤
+       │ • Reaksjonsbetingelser: Romtemperatur (20–60 °C) / 1 atm         │
+       │ • Drivkraft: Proton-Coupled Electron Transfer (PCET ved -1.55V) │
+       │ • Valideringskjerne: Fe-Mo-S v3.2 (38 Fiendtlige Regresjonstester)│
+       │ • Sikkerhetsgaranti: Strict Fail-Closed (Zero-Defaults / 0.0V)  │
+       │ • Målgruppe: Innovasjon Norge, SINTEF, Yara, UiO & NTNU         │
+       └─────────────────────────────────────────────────────────────────┘
+```
+
+* **Offisielt Produktrepo:** 👉 **[github.com/sololys/femos-biomimetic-nitrogenase](https://github.com/sololys/femos-biomimetic-nitrogenase)**
+* **Spesifikasjon & Protokoll:** [`PROTOKOLL_FE_MO_S.md`](https://github.com/sololys/femos-biomimetic-nitrogenase/blob/main/PROTOKOLL_FE_MO_S.md)
+* **Valideringsmotor:** [`femos_engine.py`](https://github.com/sololys/femos-biomimetic-nitrogenase/blob/main/femos_engine.py) & [`test_femos_hostile_inputs.py`](https://github.com/sololys/femos-biomimetic-nitrogenase/blob/main/test_femos_hostile_inputs.py)
+
+---
+
 ## 🏛️ Porteføljearkitektur (The 2-Repo Master Hub)
 
 ```text
@@ -20,7 +43,7 @@
  │  • Deterministisk Fail-Closed Valideringsmotor v3.2 (38 fiendtlige tester)  │
  │  • Målgruppe: Innovasjon Norge, SINTEF, Yara, UiA, NTNU                     │
  └──────────────────────────────────────┬──────────────────────────────────────┘
-                                        │
+                                        │ (Kanonisk telemetri & koordinatbinding)
  ┌──────────────────────────────────────▼──────────────────────────────────────┐
  │  2. DET KANONISKE MASTER MONOREPOET (Maskinrommet)                          │
  │  Repository: sololys/Gemini-Core [PRIVATE]                                  │
@@ -28,10 +51,10 @@
  │  • Locus Zero Rust Kjerne (L0–L5), QSA DARE Riccati Stabilitet (ρ < 1.0),    │
  │    SUSY Dual-Superposition, DCR-CRS Rotorsikkerhet og UE5 C++ Arkitektur    │
  └──────────────────────────────────────┬──────────────────────────────────────┘
-                                        │
+                                        │ (Historisk proveniens)
  ┌──────────────────────────────────────▼──────────────────────────────────────┐
- │  3. FROSNE HISTORISKE REFERANSEARKIVER (Read-Only)                          │
- │  • realiseringsgrammatikk-artifact-family (31-dørs Ω-Rosetta & EBNF Grammatikk)│
+ │  3. FROSNE HISTORISKE REFERANSEARKIVER [ARCHIVED / READ-ONLY 🔒]            │
+ │  • realiseringsgrammatikk-artifact-family (31-dørs Ω-Rosetta & EBNF)        │
  │  • FASE_SPEIL_v0_1 (Cyber-fysisk OT Interlock & Speilkammer)                │
  │  • aic-coaching-sovereign-engine (FSM & Telemetriarkiv)                     │
  │  • Kjerne-privat. (Genesis-kjerne fra juli 2026)                            │
@@ -66,4 +89,4 @@ $$\text{PHYSICAL\_AUTHORITY} = 5.00\text{V Galvanisk D-Latch (0.00V ved feil)}$$
 * **Selskap:** ReismannPoint Systems AS // Kreativ Systems
 * **Offisiell Nettside:** [kreativ-systems.org](https://kreativ-systems.org/)
 * **ORCID Forskerprofil:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)
-* **GitHub Spydspiss:** [sololys/femos-biomimetic-nitrogenase](https://github.com/sololys/femos-biomimetic-nitrogenase)
+* **Offisielt Produkt:** [sololys/femos-biomimetic-nitrogenase](https://github.com/sololys/femos-biomimetic-nitrogenase)
