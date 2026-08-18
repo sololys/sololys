@@ -75,13 +75,11 @@
 
 ---
 
-## 🛡️ Fundamentale Invarianter
+## 🗺️ Dokumentasjon & Navigasjonskart
 
-$$\boxed{\text{generation} \neq \text{realization}}$$
-$$\text{DIRECT\_RAW\_TO\_OPEN} = \text{KILL}$$
-$$\text{HOLD\_IMPLIES\_OPEN} = \text{FALSE}$$
-$$\text{WITNESS} = \text{APPEND\_ONLY (SHA-256 Hash Chained \& Disk Persistent)}$$
-$$\text{PHYSICAL\_AUTHORITY} = 5.00\text{V Galvanisk D-Latch (0.00V ved feil)}$$
+* 🗺️ **[GitHub City Map v0.3 (Mega-Arkitektur & 10 Sektorer)](./GITHUB_CITY_MAP.md)** — Den offisielle navigasjonsautoriteten for hele megalopolisen og de 10 kanoniske sektorene.
+* 📊 **[Fullstendig 5-Dimensjonalt Koordinatatlas (v1.1)](./COORDINATE_ATLAS.md)** — Komplett reviderbar evidensmatrise (Source, Status, Method, Commit, Validation Level).
+* 🔬 **[Aethelgard Molecular Forskningskjerne](https://github.com/sololys/femos-biomimetic-nitrogenase)** — Offisiell protokoll og fail-closed valideringsmotor v3.2.
 
 ---
 
