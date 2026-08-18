@@ -33,6 +33,29 @@
 
 ---
 
+## 🎮 Featured Gaming & Virtual Worlds: Reality Forge & Sosionomos
+
+### [🕹️ Sektor 04: Reality Forge & Sosionomos Spillmotor-Arkitektur](https://github.com/sololys/Gemini-Core)
+*Deterministisk spillmotor-adapter, sanntids fysikkvalidering og in-game omdømme/sosialstyring for Unreal Engine 5 & Godot.*
+
+```text
+       ┌─────────────────────────────────────────────────────────────────┐
+       │   REALITY FORGE & SOSIONOMOS: GAMING & VIRTUAL WORLDS VERTICAL  │
+       ├─────────────────────────────────────────────────────────────────┤
+       │ • Motor-integrasjon: Unreal Engine 5 C++ & Godot Architecture   │
+       │ • Spillteori & Tillit: Sosionomos Desentralisert Omdømmenav     │
+       │ • Verdensrealisering: Fail-Closed AGY Game Governor (Π_K Port) │
+       │ • Ytelsesstandard: O(1) Betinget Latching / CyberKoala C++ Mønster│
+       │ • Kjernefil: reality_forge_game_engine_adapter.py               │
+       └─────────────────────────────────────────────────────────────────┘
+```
+
+* **Game Domain Adapter:** [`03_ENGINES/scripts/reality_forge_game_engine_adapter.py`](https://github.com/sololys/Gemini-Core)
+* **Sosionomos Kjerne:** [`03_ENGINES/scripts/sosionomos_metamorphosis_engine.py`](https://github.com/sololys/Gemini-Core)
+* **Forskningsartikkel:** *«Sosionomos: Non-Closing Stream Architecture for Autonomous Game Agents»* (Torjusen, 2026)
+
+---
+
 ## 🏛️ Porteføljearkitektur (The 2-Repo Master Hub)
 
 ```text
