@@ -5,10 +5,6 @@
 [![Fe-Mo-S Validation CI](https://github.com/sololys/femos-biomimetic-nitrogenase/actions/workflows/ci.yml/badge.svg)](https://github.com/sololys/femos-biomimetic-nitrogenase/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Arkitektonisk & Epistemisk Avgrensing:**  
-> Dette overordnede portefølje- og koordinatnavet samordner **realiseringsgrammatikk, kontrollarkitektur, simulerte maskinvareparametere, molekylære forskningsmål og kvantetilstandsmodeller (QSA)** i ett versjonert rammeverk. Atlaset dokumenterer arkitektonisk og matematisk konsistens; det utgjør ikke alene eksperimentell validering av de fysiske påstandene.
-
----
 
 ## 🔬 Featured Technology Spydspiss: Aethelgard Molecular
 
@@ -111,3 +107,8 @@
 * **Offisiell Nettside:** [kreativ-systems.org](https://kreativ-systems.org/)
 * **ORCID Forskerprofil:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)
 * **Offisielt Produkt:** [sololys/femos-biomimetic-nitrogenase](https://github.com/sololys/femos-biomimetic-nitrogenase)
+
+---
+
+> **Arkitektonisk & Epistemisk Avgrensing:**  
+> Dette overordnede portefølje- og koordinatnavet samordner **realiseringsgrammatikk, kontrollarkitektur, simulerte maskinvareparametere, molekylære forskningsmål og kvantetilstandsmodeller (QSA)** i ett versjonert rammeverk. Atlaset dokumenterer arkitektonisk og matematisk konsistens; det utgjør ikke alene eksperimentell validering av de fysiske påstandene.
