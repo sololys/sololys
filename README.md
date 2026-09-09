@@ -193,4 +193,28 @@ $$\boxed{\text{"The Non-Lying Core does not judge truth. It renders pretence imp
 
 <br>
 
+## 📚 4. Curated Flagship Treatises // Brahman.1 Baseline
+
+<br>
+
+The **Brahman.1** architectural baseline consolidates $1,197$ passing deterministic verification tests across seven primary research vectors. The following flagship treatises define the theoretical, physical, and mathematical boundaries of the ecosystem:
+
+<br>
+
+| Forskningsområde | Traktat & Kanonisk Referanse | Teoretisk Kjerne & Fysisk Invariant | Epistemisk Skranke |
+| :--- | :--- | :--- | :---: |
+| **Molekylær Katalyse & Nitrogenautonomi** | [`Spec 52: K-POD Sub-Zero eNRR`](https://doi.org/10.5281/zenodo.22229111)<br>*(K-Pod Sub-Zero Ammoniakksyntese)* | PCET dinitrogenaktivering ($N_2 \to NH_3$), UOR anodisk depolarisering ($E^\circ = +0.37\text{ V}$) og Le Chatelier kondensering ved $T \le -20\,^\circ\text{C}$. | `PHYSICAL HOLD`<br>*(Krever $^{15}\text{N}_2$ NMR)* |
+| **Kritisk Infrastruktur & Induktiv Mekanikk** | [`Spec 152: Pupin's Loaded Conductors`](https://doi.org/10.5281/zenodo.22229111)<br>*(Pupin & The Sovereign Bond)* | Dispersjonsfrie telegrafligninger ($L_{\text{pupin}} = Z_0^2 \cdot C$) forent med Pupins historiske pantsettelse (1915): *Ingen autoritet uten materiell garanti ($\Delta P_{\text{låst}} \ge R_{\text{gate}} \cdot \kappa_{\text{juris}}$)*. | `SPECIFICATION`<br>*(Matematisk Isomorfi)* |
+| **Vertikal Sensorfusjon (LEO til Subsea)** | [`Spec 119: Vertical Sovereignty Invariant`](https://doi.org/10.5281/zenodo.22229111)<br>*(Fail-Closed ISAC: LEO til -240m Havbunn)* | Uavbrutt suverenitetsakse fra NORKAP-1 (LEO 550 km) til Svalbardbassengets bentiske hydrofonnett. Mekanisk sjokk ($\ge 145\text{ dB}$) utløser umiddelbar $0.00\text{V}$ hardware-crowbar. | `L1 DEMONSTRATOR`<br>*(Deterministisk Protokoll)* |
+| **Beregningsteori & Fysisk Ontologi** | [`Spec 72: The Millennium Axiom`](https://doi.org/10.5281/zenodo.22229111)<br>*(P vs NP Ontological Resolution)* | Asymmetrien mellom generering ($NP$) og verifikasjon ($P$) som kausalt snitt. Generering krever null arbeid ($W \approx 0$); realisering fordrer irreversibel termodynamisk entropi ($\Delta S > 0$). $P \neq NP$ er en naturlov. | `CANONICAL RESOLUTION`<br>*(L3 Termodynamikk)* |
+| **Kausal Feltteori & Induksjon** | [`Paper 01: Tractatus Deterministicus`](https://doi.org/10.5281/zenodo.22229111)<br>*(The Law of Causal Inertia)* | Lenz' lov ($\mathcal{E} = -\frac{d\Phi_B}{dt}$) som universets konstitusjonelle nødbrems. Ikke-konservative potensialgradienter og tidsretarderte Liénard-Wiechert-felt krever fysisk masse ($M > 0$). | `THEORETICAL CORE`<br>*(Klassisk Feltteori)* |
+| **Cyber-Fysisk OT & Port-Aktuering** | [`Spec 01 & 104: Fasespeilet D4`](https://doi.org/10.5281/zenodo.22229111)<br>*(Defensiv Konsekvensisolasjon)* | Fysisk skille mellom beregningsmodeller og aktuatorer via $5.00\text{V} \leftrightarrow 0.00\text{V}$ optisk D-latch. Ved telemetriavvik dumper kretsen til $0.00\text{V}$ innen $< 12.5\,\mu\text{s}$ (Crowbar). | `HARDWARE GATE`<br>*(Fail-Closed Interlock)* |
+| **Estetisk Epistemologi & Kognitiv Friksjon** | [`Paper 22: Det Lukkede Roms Inerti`](https://doi.org/10.5281/zenodo.22229111)<br>*(Morandi, Picasso & Bleken)* | Maleriet som materiell Write-Ahead Log (WAL). Giorgio Morandis flasker i Bologna som det absolutte bevis på $\mathbf{GATE::HOLD}$: isolasjon mot støy tvinger frem uendelig lokal presisjon. | `PHILOSOPHICAL ANCHOR`<br>*(Kognitiv Sivilisasjon)* |
+
+<br>
+
+---
+
+<br>
+
 *Navigasjon:* [`COORDINATE_ATLAS.md`](./COORDINATE_ATLAS.md) · [`GITHUB_CITY_MAP.md`](./GITHUB_CITY_MAP.md) · **CERN Zenodo:** [10.5281/zenodo.22229111](https://doi.org/10.5281/zenodo.22229111)
