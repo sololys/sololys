@@ -12,10 +12,6 @@
 
 ---
 
-<p align="center">
-  <img src="./assets/citymap_locus_zero.jpg" alt="Citadel Master Plan: Locus Zero" width="100%" />
-</p>
-
 ## 🏙️ 1. City Silhouette & Mega-Arkitektur
 
 ```text

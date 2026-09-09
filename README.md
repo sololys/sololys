@@ -24,10 +24,6 @@
 
 ## 🛡️ 2. Concentric Shells of Negation
 
-<p align="center">
-  <img src="./assets/citymap_locus_zero.jpg" alt="Citadel Master Plan: Locus Zero" width="100%" />
-</p>
-
 1. **Shell 1: The Seismic Dampener (The Outer Crypt):**  
    Clad in passive acoustic metamaterial baffles. The primary superstructure makes zero direct contact with the rock, suspended within a permanent magnetic levitation cradle ($\le 1\text{ nm}$ structural excursion under a magnitude 6.0 seismic event).
 2. **Shell 2: The Electromagnetic Vacuum (The Black Zone):**  
