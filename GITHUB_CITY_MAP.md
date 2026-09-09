@@ -7,10 +7,14 @@
   * 🌐 **Public Spydspiss / Produkt:** [`sololys/femos-biomimetic-nitrogenase`](https://github.com/sololys/femos-biomimetic-nitrogenase)
   * 🔒 **Private Master Monorepo:** [`sololys/Gemini-Core`](https://github.com/sololys/Gemini-Core)
 * **Forfatter:** Marius Egerhei Torjusen (ORCID: [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637))
-* **System:** ReismannPoint Systems AS // Kreativ Systems ([kreativ-systems.org](https://kreativ-systems.org/))
+* **Tilhørighet:** Independent researcher and systems architect, Risør, Norway ([kreativ-systems.org](https://kreativ-systems.org/))
 * **Dokument-ID:** `GITHUB-CITY-MAP-v0.3-MASTER-2026`
 
 ---
+
+<p align="center">
+  <img src="./assets/citymap_locus_zero.jpg" alt="Citadel Master Plan: Locus Zero" width="100%" />
+</p>
 
 ## 🏙️ 1. City Silhouette & Mega-Arkitektur
 
