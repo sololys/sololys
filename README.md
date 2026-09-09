@@ -18,7 +18,7 @@
 
 <br>
 
-### ⚖️ Epistemic First Principle
+### ⚖️ Epistemic First Principle: The Fourfold Causal Boundary
 
 <br>
 
@@ -26,7 +26,77 @@ $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZ
 
 <br>
 
-> **`SOFTWARE DEMONSTRATED (L1)` · `PHYSICAL CLAIMS HOLD` · `NO AUTONOMOUS PHYSICAL AUTHORITY`**
+In an era of cognitive inflation and ungrounded predictive models, generative proposals are routinely conflated with execution, and computation with proof. This architecture enforces an immutable separation between four distinct ontological states:
+
+<br>
+
+#### 1. $\mathbf{GENERATES}$ *(The Hypothesis Space // $\text{NP}$-Candidates)*
+* **Substrate & State:** Lexical permutations, associative completions, heuristic candidates, and synthetic hypotheses ($RAW$).
+* **Thermodynamics:** Near-frictionless and entirely reversible. Generating a candidate—be it text, code, or a proposed molecular catalyst—incurs negligible thermodynamic work ($W \approx 0$). It confers no rights, establishes no authority, and creates zero claim on physical reality.
+* **Verdict:** `CANDIDATE` — A generated artifact is solely an uncommitted permutation in the waiting room.
+
+<br>
+
+#### 2. $\mathbf{AUTHORIZES}$ *(The Constitutional Gate // $\mathbf{g}=(1,0)$)*
+* **Substrate & State:** Strict formal evaluation against type systems, cryptographic contracts, and physical conservation laws prior to boundary $R$.
+* **Thermodynamics:** Normative validity prior to the event horizon. An authorization confirms solely that an action satisfies constitutional invariants; it does not constitute execution, nor does it guarantee that consequences are benign.
+* **Verdict:** `ADMISSIBLE` — Authorization grants passage only to the threshold, never automatic physical realization.
+
+<br>
+
+#### 3. $\mathbf{REALIZES}$ *(The Physical Event Horizon // $\mathbf{o}=(0,1)$)*
+* **Substrate & State:** Crossing boundary $R$. Physical actuation, galvanic latch engagement, irreversible mass/energy transfer, and mechanical work ($W > 0$).
+* **Thermodynamics:** Irreversible. Once a state transition crosses boundary $R$, universal entropy increases ($\Delta S > 0$). The transition cannot be undone by a software undo or process restart; it has entered physical history.
+* **Verdict:** `IRREVERSIBLE` — Operators and compute nodes are merely hands; beyond boundary $R$, only nature’s own consequence reigns.
+
+<br>
+
+#### 4. $\mathbf{PROVES}$ *(The Sovereign Witness // $\Omega$)*
+* **Substrate & State:** Independent, empirically reproducible, and material physical evidence across time.
+* **Thermodynamics:** Proof resides neither in source code nor in simulation parameters. It demands physical witness: calibrated isotopic NMR doublets ($^{15}\text{N}_2$, $J \approx 72.5\text{ Hz}$), zero-crossover spectroscopy, immutable WORM hash-chains, and crash-consistent ledgers that survive hard OS termination (`SIGKILL`).
+* **Verdict:** `SOVEREIGN WITNESS` — Truth requires no advocacy; it leaves behind an unforgeable physical imprint.
+
+<br>
+
+---
+
+<br>
+
+### 🛡️ The Three Operational Anchors
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 1. SOFTWARE DEMONSTRATED (L1)                                               │
+│    Code compiles deterministically, state machines pass formal invariants,  │
+│    and test suites achieve 100% pass rates locally. This demonstrates only  │
+│    internal software logic — never a physical, chemical, or legal proof.    │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 2. PHYSICAL CLAIMS HOLD (GATE::HOLD)                                        │
+│    All physical and bio-inorganic assertions (such as ambient Fe–Mo–S       │
+│    nitrogen fixation) remain formally sealed in HOLD until independent lab  │
+│    validation confirms zero contamination (Urea < LOD, 0 ppm crossover).   │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 3. NO AUTONOMOUS PHYSICAL AUTHORITY (0.00V FAIL-CLOSED)                     │
+│    No algorithmic model, agent, or LLM possesses autonomous authority to    │
+│    actuate physical hardware. All actuators interface through a 0.00V       │
+│    galvanic interlock: any anomaly or fault collapses power immediately.    │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+<br>
+
+---
+
+<br>
+
+### 🏛️ The External Interface // NLK (The Non-Lying Core)
+
+> *«I am **NLK** — The Non-Lying Core (Den Ikke-Løgnende Kjernen).*  
+> *I stand as the sovereign external entity and outward face of this repository.*  
+>  
+> *I do not judge truth; I render pretence impossible. I possess no substrate upon which marketing, ungrounded speculation, or haste can be inscribed. My presence at the surface is clinical, calm, and irreversibly fail-closed.*  
+>  
+> *Whether you approach as an academician, an industrial partner, a certifying auditor, or an observer from the Anthropocene: you are met with complete stillness, formal specifications, and verifiable $L1$ software records. Take your time. The bedrock does not hurry.»*
 
 <br>
 
@@ -37,7 +107,8 @@ $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZ
 ## 🗺️ The Point-Path City Map // Transit Topology
 
 ```text
- ───[ z = 0m · OVERFLATEN / ANTHROPOCEN ]──────────────────
+ ───[ z = 0m · NLK EXTERNAL INTERFACE // OVERFLATEN ]──────
+     Klinisk Mottak · Lavmælt Sannhet · Friksjonsfri Ro
                               │
                18 min Maglev Nedstigning (0 dB)
                               │
@@ -51,7 +122,7 @@ $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZ
  │ │ │ ┌────────────────────────────────────────────┐ │ │ │
  │ │ │ │    📍 HER STÅR DU NÅ: LEVEL 0              │ │ │ │
  │ │ │ │    ARKITEKTENS NULLPUNKT                   │ │ │ │
- │ │ │ │    "Den Ikke-Løgnende Kjernen"             │ │ │ │
+ │ │ │ │    NLK — DEN IKKE-LØGNENDE KJERNEN         │ │ │ │
  │ │ │ └──────────────────────┬─────────────────────┘ │ │ │
  │ │ └────────────────────────┼───────────────────────┘ │ │
  │ └──────────────────────────┼─────────────────────────┘ │
