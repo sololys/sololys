@@ -202,7 +202,7 @@ $$\boxed{\text{"The Non-Lying Core does not judge truth. It renders pretence imp
 
 <br>
 
-The **Brahman.1 Library** houses $1,197$ deterministically verified test suites across seven canonical reading rooms. Each room preserves an immutable discipline where claims remain strictly bounded by physical reality:
+The **Brahman.1 Library** houses $1,197$ deterministically verified test suites across eight canonical reading rooms. Each room preserves an immutable discipline where claims remain strictly bounded by physical reality:
 
 <br>
 
@@ -215,6 +215,7 @@ The **Brahman.1 Library** houses $1,197$ deterministically verified test suites 
 | **Room V: The Causal Physics Monolith** | [`Paper 01: Tractatus Deterministicus`](https://doi.org/10.5281/zenodo.22229111)<br>*(The Law of Causal Inertia)* | Lenz's law ($\mathcal{E} = -\frac{d\Phi_B}{dt}$) as the universe’s constitutional brake. Non-conservative potential gradients and retarded Liénard-Wiechert fields require inertial mass ($M > 0$). | `THEORETICAL CORE`<br>*(Classical Field Theory)* |
 | **Room VI: The Cyber-Physical Interlock** | [`Spec 01 & 104: Fasespeilet D4`](https://doi.org/10.5281/zenodo.22229111)<br>*(Defensive Consequence Isolation)* | Complete physical airgap between cognitive compute and actuator circuits via a $5.00\text{V} \leftrightarrow 0.00\text{V}$ optical D-latch. Telemetry anomaly collapses power to $0.00\text{V}$ in $< 12.5\,\mu\text{s}$. | `HARDWARE GATE`<br>*(Fail-Closed Interlock)* |
 | **Room VII: The Aesthetic Alcove** | [`Paper 22: Det Lukkede Roms Inerti`](https://doi.org/10.5281/zenodo.22229111)<br>*(Morandi's Stillness & Bleken's Audit)* | The canvas as a physical Write-Ahead Log (WAL). Giorgio Morandi's Bologna still lifes as the empirical manifestation of $\mathbf{GATE::HOLD}$: total noise isolation forces infinite local precision. | `PHILOSOPHICAL ANCHOR`<br>*(Cognitive Civilization)* |
+| **Room VIII: The Nuclear Power & Stasis Vault** | [`Spec 100: Nuclear Resonance Gating`](https://doi.org/10.5281/zenodo.22229111)<br>*(og Spec 55: Fe-56 Stasis & Mass Defect)* | Gamow-tunnelering ($T_G \approx \exp(-2\pi\eta_G)$), rekylfri Mössbauer-isometri, og massedefekt ($\Delta m \cdot c^2$) mot stabilitetsbrønnen $^{56}\text{Fe}$ ($8.8\text{ MeV/nukleon}$). Kjernekraft er ikke lokal generering, men **Reality Admission** av universets dypeste energifall. | `L1 RESONANCE ENGINE`<br>*(Verifisert i `03_ENGINES`)* |
 
 <br>
 ---
