@@ -1,114 +1,63 @@
-# 🌌 Marius Egerhei Torjusen (sololys)
+# 🌌 Marius Egerhei Torjusen (@sololys)
 
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-0431-6637)
-[![Website](https://img.shields.io/badge/Web-kreativ--systems.org-blue)](https://kreativ-systems.org/)
-[![Fe-Mo-S Validation CI](https://github.com/sololys/femos-biomimetic-nitrogenase/actions/workflows/ci.yml/badge.svg)](https://github.com/sololys/femos-biomimetic-nitrogenase/actions)
+[![ORCID: 0009-0006-0431-6637](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-0431-6637)
+[![Zenodo DOI: 10.5281/zenodo.18436983](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.18436983-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.18436983)
+[![LinkedIn: Marius Torjusen](https://img.shields.io/badge/LinkedIn-Marius_Torjusen-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
+[![Web: kreativ-systems.org](https://img.shields.io/badge/Web-kreativ--systems.org-0052CC)](https://kreativ-systems.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-## 🔬 Featured Technology Spydspiss: Aethelgard Molecular
-
-### [🌿 sololys / femos-biomimetic-nitrogenase (Åpent Forskningsrepo)](https://github.com/sololys/femos-biomimetic-nitrogenase)
-*Bio-inspirert lavtemperatur nitrogenfiksering ($N_2 \to NH_3$) og deterministisk fail-closed elektrokatalytisk validering.*
-
-```text
-       ┌─────────────────────────────────────────────────────────────────┐
-       │   AETHELGARD MOLECULAR: BIO-INORGANIC NITROGENASE PLATFORM      │
-       ├─────────────────────────────────────────────────────────────────┤
-       │ • Reaksjonsbetingelser: Romtemperatur (20–60 °C) / 1 atm         │
-       │ • Drivkraft: Proton-Coupled Electron Transfer (PCET ved -1.55V) │
-       │ • Valideringskjerne: Fe-Mo-S v3.2 (38 Fiendtlige Regresjonstester)│
-       │ • Sikkerhetsgaranti: Strict Fail-Closed (Zero-Defaults / 0.0V)  │
-       │ • Målgruppe: Innovasjon Norge, SINTEF, Yara, UiO & NTNU         │
-       └─────────────────────────────────────────────────────────────────┘
-```
-
-* **Offisielt Produktrepo:** 👉 **[github.com/sololys/femos-biomimetic-nitrogenase](https://github.com/sololys/femos-biomimetic-nitrogenase)**
-* **Spesifikasjon & Protokoll:** [`PROTOKOLL_FE_MO_S.md`](https://github.com/sololys/femos-biomimetic-nitrogenase/blob/main/PROTOKOLL_FE_MO_S.md)
-* **Valideringsmotor:** [`femos_engine.py`](https://github.com/sololys/femos-biomimetic-nitrogenase/blob/main/femos_engine.py) & [`test_femos_hostile_inputs.py`](https://github.com/sololys/femos-biomimetic-nitrogenase/blob/main/test_femos_hostile_inputs.py)
+> **Independent researcher and systems architect** · Risør, Norway  
+> *I design fail-closed software architectures that separate generated candidates from authorized and witnessed consequences.*
 
 ---
 
-## 🎮 Featured Gaming & Virtual Worlds: Reality Forge & Sosionomos
+### ⚖️ Epistemic Boundary
 
-### [🕹️ Sektor 04: Reality Forge & Sosionomos Spillmotor-Arkitektur](https://github.com/sololys/Gemini-Core)
-*Deterministisk spillmotor-adapter, sanntids fysikkvalidering og in-game omdømme/sosialstyring for Unreal Engine 5 & Godot.*
+$$\boxed{\text{GENERATES} \neq \text{AUTHORIZES} \neq \text{REALIZES} \neq \text{PROVES}}$$
 
-```text
-       ┌─────────────────────────────────────────────────────────────────┐
-       │   REALITY FORGE & SOSIONOMOS: GAMING & VIRTUAL WORLDS VERTICAL  │
-       ├─────────────────────────────────────────────────────────────────┤
-       │ • Motor-integrasjon: Unreal Engine 5 C++ & Godot Architecture   │
-       │ • Spillteori & Tillit: Sosionomos Desentralisert Omdømmenav     │
-       │ • Verdensrealisering: Fail-Closed AGY Game Governor (Π_K Port) │
-       │ • Ytelsesstandard: O(1) Betinget Latching / CyberKoala C++ Mønster│
-       │ • Kjernefil: reality_forge_game_engine_adapter.py               │
-       └─────────────────────────────────────────────────────────────────┘
-```
+> **`SOFTWARE DEMONSTRATED` · `PHYSICAL CLAIMS HOLD` · `NO AUTONOMOUS PHYSICAL AUTHORITY`**
 
-* **Game Domain Adapter:** [`03_ENGINES/scripts/reality_forge_game_engine_adapter.py`](https://github.com/sololys/Gemini-Core)
-* **Sosionomos Kjerne:** [`03_ENGINES/scripts/sosionomos_metamorphosis_engine.py`](https://github.com/sololys/Gemini-Core)
-* **Forskningsartikkel:** *«Sosionomos: Non-Closing Stream Architecture for Autonomous Game Agents»* (Torjusen, 2026)
+All executable code in public repositories constitutes software-level (`L1`) demonstrators only. It does not establish autonomous physical, chemical, or legal authority without external, independent physical verification.
 
 ---
 
-## 🏛️ Porteføljearkitektur (The 2-Repo Master Hub)
+### 🏛️ System Architecture: Three Tiers
 
-```text
- ┌─────────────────────────────────────────────────────────────────────────────┐
- │  1. DEN OFFENTLIGE FORSKNINGSSPYDSPISSEN (Aethelgard Molecular)            │
- │  Repository: sololys/femos-biomimetic-nitrogenase [PUBLIC]                  │
- │  • Lavtemperatur nitrogenase-katalyse (N2 -> NH3, T < 60 °C, PCET ved -1.55V)│
- │  • Deterministisk Fail-Closed Valideringsmotor v3.2 (38 fiendtlige tester)  │
- │  • Målgruppe: Innovasjon Norge, SINTEF, Yara, UiA, NTNU                     │
- └──────────────────────────────────────┬──────────────────────────────────────┘
-                                        │ (Kanonisk telemetri & koordinatbinding)
- ┌──────────────────────────────────────▼──────────────────────────────────────┐
- │  2. DET KANONISKE MASTER MONOREPOET (Maskinrommet)                          │
- │  Repository: sololys/Gemini-Core [PRIVATE]                                  │
- │  • 10 Kanoniske Sektorer (01_OPEN til 10_GOOGLELM)                           │
- │  • Locus Zero Rust Kjerne (L0–L5), QSA DARE Riccati Stabilitet (ρ < 1.0),    │
- │    SUSY Dual-Superposition, DCR-CRS Rotorsikkerhet og UE5 C++ Arkitektur    │
- └──────────────────────────────────────┬──────────────────────────────────────┘
-                                        │ (Historisk proveniens)
- ┌──────────────────────────────────────▼──────────────────────────────────────┐
- │  3. FROSNE HISTORISKE REFERANSEARKIVER [ARCHIVED / READ-ONLY 🔒]            │
- │  • realiseringsgrammatikk-artifact-family (31-dørs Ω-Rosetta & EBNF)        │
- │  • FASE_SPEIL_v0_1 (Cyber-fysisk OT Interlock & Speilkammer)                │
- │  • aic-coaching-sovereign-engine (FSM & Telemetriarkiv)                     │
- │  • Kjerne-privat. (Genesis-kjerne fra juli 2026)                            │
- └─────────────────────────────────────────────────────────────────────────────┘
-```
+1. **Offentlige Demonstratorer (Open / Inspectable Surface)**  
+   Den verifiserbare flaten. Programvareimplementasjoner, deterministiske enhetstester og reproduserbare kryptografiske vitnelogger som eksterne kan laste ned, kjøre og etterprøve direkte.
+2. **Brahman.1 (Versjonert Arkitektur & Distribusjonsbaseline)**  
+   Den formelle arkitekturen og baseline-spesifikasjonen (v1.0.0). Forener Control Barrier Functions (CBF), SystemVerilog fail-closed maskinvareporter (0.00V stasis) og 4-stegs realiseringsruting ($\text{RAW} \to \text{ESTIMATE} \to \text{STRUCT} \to \text{OPEN}$).
+3. **Gemini-Core (Internt Utviklingsmonorepo / Maskinrom)**  
+   Det lukkede, append-only forsknings- og utviklingsmiljøet. Inneholder kontinuerlige simuleringsmodeller (Reality Forge i Godot 4.3 / C++ HAL), lokale Infranett-motorer, RTDRA-logistikk og den fulle testsuiten (1000+ tester).
 
 ---
 
-## 🌐 5-Dimensjonalt Koordinatatlas (v1.1)
+### 🔬 Offentlige Repositorier & Demonstratorer
 
-| Akse | Domene | Nøkkelkoordinater | Evidensnivå |
-| :--- | :--- | :--- | :--- |
-| **AX1** | **Ontologisk Realisering** | $\text{RAW } (0\text{x}01) \to \text{ESTIMATE} \to \text{STRUCT} \to \text{VIABILITY} \to \Omega \to \text{OPEN } (0\text{x}02)$ | 🔵 `CONFIGURED` |
-| **AX2** | **Topologisk Symmetri** | $31 = 15 + 1 + 15$ Dører. Door 31 (Rosetta Axis), Door 22 (Commit Locus) | 🔵 `ALGEBRAIC` |
-| **AX3** | **Hardware & Termisk** | $80.0\text{ kHz}$ Zeta-puls, $4.12\text{ K}$ Cryo, $5.00\text{V}$ Galvanisk D-Latch | 🟣 `SIMULATED` |
-| **AX4** | **Aethelgard Molekylær** | $[\text{Fe}_7\text{MoS}_9\text{C}]$, $E = -0.9\text{V} / -1.55\text{V}$, Mössbauer $0.45\text{ mm/s}$, Raman $1918\text{ cm}^{-1}$, KIE $\ge 5.0$ | 🟡 `LITERATURE_TARGET` |
-| **AX5** | **Kvantetilstandsaktuering** | $N_{\text{state}} = 15$, $dt = 4.0\text{ ns}$ ($250\text{ MHz}$), DARE Riccati Spektralradius $\rho = 0.999840 < 1.0$ | 🟣 `NUMERICAL_SIMULATION` |
-
----
-
-## 🗺️ Dokumentasjon & Navigasjonskart
-
-* 🗺️ **[GitHub City Map v0.3 (Mega-Arkitektur & 10 Sektorer)](./GITHUB_CITY_MAP.md)** — Den offisielle navigasjonsautoriteten for hele megalopolisen og de 10 kanoniske sektorene.
-* 📊 **[Fullstendig 5-Dimensjonalt Koordinatatlas (v1.1)](./COORDINATE_ATLAS.md)** — Komplett reviderbar evidensmatrise (Source, Status, Method, Commit, Validation Level).
-* 🔬 **[Aethelgard Molecular Forskningskjerne](https://github.com/sololys/femos-biomimetic-nitrogenase)** — Offisiell protokoll og fail-closed valideringsmotor v3.2.
+| Repository | Evidensnivå | Fokusområde |
+| :--- | :---: | :--- |
+| [`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators) | `L1: SOFTWARE ONLY` | Deterministiske konsekvensporter, tilstandsmaskiner, replaybare vitnelogger og manifest-hasher. |
+| [`epistemic-architectures`](https://github.com/sololys/epistemic-architectures) | `SPECIFICATION` | Formelt referansemateriale for epistemisk tilsyn, autoritetsgrenser og fail-closed AI-governance. |
+| [`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes) | `WORKING NOTES` | Eksempler, utvidelser og praktiske notater knyttet til epistemiske arkitekturer. |
+| [`femos-biomimetic-nitrogenase`](https://github.com/sololys/femos-biomimetic-nitrogenase) | `HYPOTHESIS / PHYSICAL HOLD` | Kvantekjemisk beregningsmodell og deterministisk programvarevalidering for lavtemperatur Fe–Mo–S PCET-katalyse. *(Lokal kode beviser programvarelogikk; fysisk reaksjon krever ekstern laboratoriebekreftelse).* |
+| [`loop-engineering`](https://github.com/sololys/loop-engineering) | `TOOLING` | Praktiske mønstre, eval-rammeverk og CLI-verktøy for autonome kode-agenter. |
 
 ---
 
-## 📬 Kontakt & Organisasjon
-* **Selskap:** ReismannPoint Systems AS // Kreativ Systems
-* **Offisiell Nettside:** [kreativ-systems.org](https://kreativ-systems.org/)
-* **ORCID Forskerprofil:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)
-* **Offisielt Produkt:** [sololys/femos-biomimetic-nitrogenase](https://github.com/sololys/femos-biomimetic-nitrogenase)
+### 📄 Publikasjoner & Varig Arkiv
+
+* **CERN Zenodo Archive:** [10.5281/zenodo.18436983](https://doi.org/10.5281/zenodo.18436983)  
+  *Varig DOI-arkiv for avhandlinger, preprints og matematiske spesifikasjoner (bl.a. The Law of Causal Inertia og Tractatus Causalis).*
+* **ORCID Record:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
+  *Offisiell forskeridentifikator som knytter preprints, programvare og siteringer sammen.*
+* **Spesifikasjonskart & Koordinatatlas:**  
+  *For dypere strukturell navigasjon og den fulle 5D-matrisen, se [COORDINATE_ATLAS.md](./COORDINATE_ATLAS.md) og [GITHUB_CITY_MAP.md](./GITHUB_CITY_MAP.md).*
 
 ---
 
-> **Arkitektonisk & Epistemisk Avgrensing:**  
-> Dette overordnede portefølje- og koordinatnavet samordner **realiseringsgrammatikk, kontrollarkitektur, simulerte maskinvareparametere, molekylære forskningsmål og kvantetilstandsmodeller (QSA)** i ett versjonert rammeverk. Atlaset dokumenterer arkitektonisk og matematisk konsistens; det utgjør ikke alene eksperimentell validering av de fysiske påstandene.
+### 📬 Kontakt
+
+* **Marius Egerhei Torjusen**  
+* **Rolle:** Independent researcher & systems architect, Risør, Norway  
+* **Nett:** [kreativ-systems.org](https://kreativ-systems.org/)  
+* **LinkedIn:** [linkedin.com/in/marius-torjusen-9aa392392](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
