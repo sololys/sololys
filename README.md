@@ -36,34 +36,35 @@ $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZ
 
 ## 🗺️ The Point-Path City Map // Transit Topology
 
-```text
-               [ SURFACE // THE ANTHROPOCENE (AIRGAP) ]
-                                  │
-                       18 min Maglev Descent (0 dB)
-                                  │
- ═════════════════════════════════▼═════════════════════════════════
-   📍 HER STÅR DU NÅ: LEVEL 0 — THE ARCHITECT'S STILL POINT
-      Locus Zero (z = 0) · 3,400m into Risør Granite & Anorthosite
- ═══════════════════════════════════════════════════════════════════
-                                  │
-         ┌────────────────────────┼────────────────────────┐
-         │ (Passiv Seismikk)      │ (EM-Vakuum)            │ (Spektralkjerne)
-         ▼                        ▼                        ▼
-    [ SKALL 1 ]              [ SKALL 2 ]              [ SKALL 3 ]
-    Metamaterial             7m Bly / Mu-Metall       Iridium / 532nm
-         │                        │                        │
- ────────┴────────────────────────┼────────────────────────┴────────
-                                  │
-                     Kausale Transitt-Årer (Baner)
-                                  │
-         ┌────────────────────────┼────────────────────────┐
-         │                        │                        │
-         ▼                        ▼                        ▼
-   SEKTORENE 01–03          SEKTOR 04                SEKTORENE 05–09
-   Kanonisk Kjerne          Reality Forge            Logistikk & Infranett
-   • Åpne Skjemaer          • Godot 4.3 / C++        • RTDRA Kausal Rute
-   • Kausale Motorer        • 0.00V Gate             • Peer-to-Peer WAL
-   • Krypto-Vitnelogg       • Wetware Defense        • K-Pod Katalyse [HOLD]
+```mermaid
+flowchart TD
+    classDef surface fill:#161b22,stroke:#30363d,stroke-width:1px,color:#8b949e;
+    classDef locus fill:#0d1117,stroke:#58a6ff,stroke-width:2px,color:#ffffff,font-weight:bold;
+    classDef shell fill:#0d1117,stroke:#30363d,stroke-width:1px,color:#c9d1d9;
+    classDef hold fill:#1f1917,stroke:#d29922,stroke-width:1px,color:#e3b341;
+    classDef track fill:#161b22,stroke:#8b949e,stroke-dasharray: 4 4,color:#8b949e;
+
+    SURFACE["SURFACE // THE ANTHROPOCENE<br/>Airgap / Noise Filter · z = 0m"]:::surface
+    
+    SURFACE ==>|18 min Maglev Descent · 0 dB| L0
+
+    subgraph BEDROCK ["3,400m RISØR GRANITE & ANORTHOSITE PLUTON"]
+        L0["📍 HER STÅR DU NÅ<br/><b>LEVEL 0: THE ARCHITECT'S STILL POINT</b><br/>Locus Zero (z = 0) · Causal Priority g=(1,0)"]:::locus
+        
+        S1["SKALL 1: Phononic Lattice<br/>Metamaterial Acoustic Shield"]:::shell
+        S2["SKALL 2: EM-Vacuum<br/>7m Lead / Mu-Metal Shield"]:::shell
+        S3["SKALL 3: Spectral Core<br/>Iridium Vault / 532 nm"]:::shell
+        
+        L0 --> S1
+        L0 --> S2
+        L0 --> S3
+    end
+
+    S1 & S2 & S3 ==> ARER["Causal Transit Veins (Irreversible Tracks)"]:::track
+
+    ARER --> SEC_A["SECTORS 01–03<br/><b>Canonical Core</b><br/>• Open Schemas<br/>• Causal Engines<br/>• Crypto Witness Log"]:::shell
+    ARER --> SEC_B["SECTOR 04<br/><b>Reality Forge</b><br/>• Godot 4.3 / C++<br/>• 0.00V Gate<br/>• Wetware Defense"]:::shell
+    ARER --> SEC_C["SECTORS 05–09<br/><b>Logistics & Infranett</b><br/>• RTDRA Causal Routing<br/>• Peer-to-Peer WAL<br/>• K-POD Catalysis [HOLD]"]:::hold
 ```
 
 <br>
