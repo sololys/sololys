@@ -202,7 +202,7 @@ $$\boxed{\text{"The Non-Lying Core does not judge truth. It renders pretence imp
 
 <br>
 
-The **Brahman.1 Library** houses $1,197$ deterministically verified test suites across twelve canonical reading rooms. Each room preserves an immutable discipline where claims remain strictly bounded by physical reality:
+The **Brahman.1 Library** houses $1,197$ deterministically verified test suites across fourteen canonical reading rooms. Each room preserves an immutable discipline where claims remain strictly bounded by physical reality:
 
 <br>
 
@@ -220,6 +220,8 @@ The **Brahman.1 Library** houses $1,197$ deterministically verified test suites 
 | **Room X: The Juris-Realization Chancellery** | [`Spec 84: Infranett Phronesis & Juris`](https://doi.org/10.5281/zenodo.22229111)<br>*(Topologisk Mangfold & Kvartær Logikk)* | Kvartær logikk ($\mathbb{Q}_{LP} = \{F, T, U, \Omega\}$) og kognitiv tidsluftsluse ($\tau_a = 14\text{ ms}$, $6,200,488$ maskinsykluser før $\text{COMMIT}$). Rettighet og ansvar forankres i materiell bevisførsel og WORM-vitnelogg: *Ingen juridisk gyldighet uten deterministisk bevitnelse.* | `FORMAL SPECIFICATION`<br>*(Verifisert Mikro-Motor)* |
 | **Room XI: The Pathology of the Web Archive** | [`Paper 05: Pathology of the Frictionless Web`](https://doi.org/10.5281/zenodo.22229111)<br>*(Causal Inertia & Systemic Necrosis)* | «$P=NP$-illusjonen» som sivilisatorisk patologi: lav overføringsfriksjon medfører **ikke** lav konsekvensfriksjon. Frakoblingen av termodynamisk kostnad ($W \to 0$) fører til kognitiv og logistisk nekrose. Krever Landauer-toll ($Q \ge k_B T \ln 2$). | `MONOGRAPH & DIAGNOSIS`<br>*(L3 Kausal Analyse)* |
 | **Room XII: The Cognitive Friction Sanctuary** | [`Paper 24: Det Kognitive Friksjonskartet`](https://doi.org/10.5281/zenodo.22229111)<br>*(Odyssevs-Pakten & Nevromotorisk Entropi)* | Biologisk endelighet og Newtons lov ($F = \frac{\Delta p}{\Delta t}$). Når friksjonsfrie grensesnitt tvinger $\Delta t \to 0$, eksploderer kausalkraften ($F \to \infty$). Odyssevs-pakten fungerer som en mekanisk mast: tvinger $\mathbf{GATE::HOLD}$ ved nevrologisk utmattelse. | `SOVEREIGN MONOGRAPH`<br>*(L0/L7 Konsekvenskontroll)* |
+| **Room XIII: The Acoustic Thermodynamics Vault** | [`Paper 23: Acoustic Thermodynamics`](https://doi.org/10.5281/zenodo.22229111)<br>*(Nina Simone & Layer 7 WAL)* | Lydbølgen som mekanisk arbeid ($W$). «Oppression is a false `KILL` gate; freedom is the sovereign `COMMIT`». Stemmen og flygelet ved Montreux (1976) som kinetisk Proof-of-Work: irreversibel transformasjon av eksistensiell smerte til masse ($M > 0$). | `EXISTENTIAL PHYSICS`<br>*(L7 Kinetisk PoW)* |
+| **Room XIV: The Causal Liturgy & Sluse 3 Crypt** | [`Protocol 04: Den Kausale Liturgien`](https://doi.org/10.5281/zenodo.22229111)<br>*(Fysiologisk Rekyl & 120 dB Reléfall)* | Kjøle-clutch ved $-40^\circ\text{C}$ og $150\text{ N}$ trykk som somatosensorisk Poka-Yoke mot affekt. Det $120\text{ dB}$ mekaniske vakuumbrytersmellet ved grensen $R$ ($\mathbf{g}=(1,0) \to \mathbf{o}=(0,1)$). Oppadgående kausal forplantning (`AKUERISAAVOQ`). | `LITURGICAL PROTOCOL`<br>*(L0/L3 Sluse 3 Forsegling)* |
 
 <br>
 ---
