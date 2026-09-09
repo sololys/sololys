@@ -1,7 +1,7 @@
 # 🌌 Marius Egerhei Torjusen (@sololys)
 
 [![ORCID: 0009-0006-0431-6637](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0006-0431-6637)
-[![Zenodo DOI: 10.5281/zenodo.18436983](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.18436983-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.18436983)
+[![Zenodo DOI: 10.5281/zenodo.22229111](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.22229111-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22229111)
 [![LinkedIn: Marius Torjusen](https://img.shields.io/badge/LinkedIn-Marius_Torjusen-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
 [![Web: kreativ-systems.org](https://img.shields.io/badge/Web-kreativ--systems.org-0052CC)](https://kreativ-systems.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -46,7 +46,7 @@ All executable code in public repositories constitutes software-level (`L1`) dem
 
 ### 📄 Publikasjoner & Varig Arkiv
 
-* **CERN Zenodo Archive:** [10.5281/zenodo.18436983](https://doi.org/10.5281/zenodo.18436983)  
+* **CERN Zenodo Archive:** [10.5281/zenodo.22229111](https://doi.org/10.5281/zenodo.22229111)  
   *Varig DOI-arkiv for avhandlinger, preprints og matematiske spesifikasjoner (bl.a. The Law of Causal Inertia og Tractatus Causalis).*
 * **ORCID Record:** [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
   *Offisiell forskeridentifikator som knytter preprints, programvare og siteringer sammen.*
