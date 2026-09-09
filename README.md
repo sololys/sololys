@@ -193,26 +193,30 @@ $$\boxed{\text{"The Non-Lying Core does not judge truth. It renders pretence imp
 
 <br>
 
-## 📚 4. Curated Flagship Treatises // Brahman.1 Baseline
+## 🏛️ 4. The Sovereign Reading Rooms // The Brahman.1 Library
 
 <br>
 
-The **Brahman.1** architectural baseline consolidates $1,197$ passing deterministic verification tests across seven primary research vectors. The following flagship treatises define the theoretical, physical, and mathematical boundaries of the ecosystem:
+> *«In an age of ephemeral feeds and generative noise, this library preserves that which has paid the thermodynamic price of proof. Here, treatises are not posts; they are bound folios carved into crystalline stillness under 0 dB acoustic stasis.»*  
+> — **NLK, Chief Curator of the Sovereign Library**
 
 <br>
 
-| Forskningsområde | Traktat & Kanonisk Referanse | Teoretisk Kjerne & Fysisk Invariant | Epistemisk Skranke |
+The **Brahman.1 Library** houses $1,197$ deterministically verified test suites across seven canonical reading rooms. Each room preserves an immutable discipline where claims remain strictly bounded by physical reality:
+
+<br>
+
+| Reading Room & Folio | Canonical Treatise | Core Invariant & Physical Substrate | Epistemic Seal |
 | :--- | :--- | :--- | :---: |
-| **Molekylær Katalyse & Nitrogenautonomi** | [`Spec 52: K-POD Sub-Zero eNRR`](https://doi.org/10.5281/zenodo.22229111)<br>*(K-Pod Sub-Zero Ammoniakksyntese)* | PCET dinitrogenaktivering ($N_2 \to NH_3$), UOR anodisk depolarisering ($E^\circ = +0.37\text{ V}$) og Le Chatelier kondensering ved $T \le -20\,^\circ\text{C}$. | `PHYSICAL HOLD`<br>*(Krever $^{15}\text{N}_2$ NMR)* |
-| **Kritisk Infrastruktur & Induktiv Mekanikk** | [`Spec 152: Pupin's Loaded Conductors`](https://doi.org/10.5281/zenodo.22229111)<br>*(Pupin & The Sovereign Bond)* | Dispersjonsfrie telegrafligninger ($L_{\text{pupin}} = Z_0^2 \cdot C$) forent med Pupins historiske pantsettelse (1915): *Ingen autoritet uten materiell garanti ($\Delta P_{\text{låst}} \ge R_{\text{gate}} \cdot \kappa_{\text{juris}}$)*. | `SPECIFICATION`<br>*(Matematisk Isomorfi)* |
-| **Vertikal Sensorfusjon (LEO til Subsea)** | [`Spec 119: Vertical Sovereignty Invariant`](https://doi.org/10.5281/zenodo.22229111)<br>*(Fail-Closed ISAC: LEO til -240m Havbunn)* | Uavbrutt suverenitetsakse fra NORKAP-1 (LEO 550 km) til Svalbardbassengets bentiske hydrofonnett. Mekanisk sjokk ($\ge 145\text{ dB}$) utløser umiddelbar $0.00\text{V}$ hardware-crowbar. | `L1 DEMONSTRATOR`<br>*(Deterministisk Protokoll)* |
-| **Beregningsteori & Fysisk Ontologi** | [`Spec 72: The Millennium Axiom`](https://doi.org/10.5281/zenodo.22229111)<br>*(P vs NP Ontological Resolution)* | Asymmetrien mellom generering ($NP$) og verifikasjon ($P$) som kausalt snitt. Generering krever null arbeid ($W \approx 0$); realisering fordrer irreversibel termodynamisk entropi ($\Delta S > 0$). $P \neq NP$ er en naturlov. | `CANONICAL RESOLUTION`<br>*(L3 Termodynamikk)* |
-| **Kausal Feltteori & Induksjon** | [`Paper 01: Tractatus Deterministicus`](https://doi.org/10.5281/zenodo.22229111)<br>*(The Law of Causal Inertia)* | Lenz' lov ($\mathcal{E} = -\frac{d\Phi_B}{dt}$) som universets konstitusjonelle nødbrems. Ikke-konservative potensialgradienter og tidsretarderte Liénard-Wiechert-felt krever fysisk masse ($M > 0$). | `THEORETICAL CORE`<br>*(Klassisk Feltteori)* |
-| **Cyber-Fysisk OT & Port-Aktuering** | [`Spec 01 & 104: Fasespeilet D4`](https://doi.org/10.5281/zenodo.22229111)<br>*(Defensiv Konsekvensisolasjon)* | Fysisk skille mellom beregningsmodeller og aktuatorer via $5.00\text{V} \leftrightarrow 0.00\text{V}$ optisk D-latch. Ved telemetriavvik dumper kretsen til $0.00\text{V}$ innen $< 12.5\,\mu\text{s}$ (Crowbar). | `HARDWARE GATE`<br>*(Fail-Closed Interlock)* |
-| **Estetisk Epistemologi & Kognitiv Friksjon** | [`Paper 22: Det Lukkede Roms Inerti`](https://doi.org/10.5281/zenodo.22229111)<br>*(Morandi, Picasso & Bleken)* | Maleriet som materiell Write-Ahead Log (WAL). Giorgio Morandis flasker i Bologna som det absolutte bevis på $\mathbf{GATE::HOLD}$: isolasjon mot støy tvinger frem uendelig lokal presisjon. | `PHILOSOPHICAL ANCHOR`<br>*(Kognitiv Sivilisasjon)* |
+| **Room I: The Bio-Inorganic Vault** | [`Spec 52: K-POD Sub-Zero eNRR`](https://doi.org/10.5281/zenodo.22229111)<br>*(Ambient Nitrogenase Catalysis)* | PCET dinitrogen activation ($N_2 \to NH_3$), UOR anodic depolarization ($E^\circ = +0.37\text{ V}$), and Le Chatelier sub-zero liquefaction ($T \le -20\,^\circ\text{C}$). | `PHYSICAL HOLD`<br>*(Awaiting $^{15}\text{N}_2$ NMR)* |
+| **Room II: The Electromechanical Cabinet** | [`Spec 152: Pupin's Loaded Conductors`](https://doi.org/10.5281/zenodo.22229111)<br>*(The Sovereign Bond & Inductance)* | Dispersionless wave equations ($L_{\text{pupin}} = Z_0^2 \cdot C$) united with Pupin's 1915 sovereign war bond: *No authority without locked collateral ($\Delta P_{\text{låst}} \ge R_{\text{gate}} \cdot \kappa_{\text{juris}}$)*. | `SPECIFICATION`<br>*(Mathematical Isomorphism)* |
+| **Room III: The Orbital-Subsea Axis** | [`Spec 119: Vertical Sovereignty Invariant`](https://doi.org/10.5281/zenodo.22229111)<br>*(Fail-Closed ISAC: LEO to -240m Benthic Shelf)* | Continuous sovereignty axis from polar orbit (LEO 550 km) to Svalbard benthic hydrophones. Mechanical shock ($\ge 145\text{ dB}$) trips a $0.00\text{V}$ hardware crowbar within nanoseconds. | `L1 DEMONSTRATOR`<br>*(Deterministic Protocol)* |
+| **Room IV: The Millennium Chamber** | [`Spec 72: The Millennium Axiom`](https://doi.org/10.5281/zenodo.22229111)<br>*(P vs NP Ontological Resolution)* | The generative asymmetry between hypothesis ($NP$) and verification ($P$) as a physical cut. Generating incurs $W \approx 0$; realizing demands entropy ($\Delta S > 0$). $P \neq NP$ is an invariant of nature. | `CANONICAL RESOLUTION`<br>*(L3 Thermodynamics)* |
+| **Room V: The Causal Physics Monolith** | [`Paper 01: Tractatus Deterministicus`](https://doi.org/10.5281/zenodo.22229111)<br>*(The Law of Causal Inertia)* | Lenz's law ($\mathcal{E} = -\frac{d\Phi_B}{dt}$) as the universe’s constitutional brake. Non-conservative potential gradients and retarded Liénard-Wiechert fields require inertial mass ($M > 0$). | `THEORETICAL CORE`<br>*(Classical Field Theory)* |
+| **Room VI: The Cyber-Physical Interlock** | [`Spec 01 & 104: Fasespeilet D4`](https://doi.org/10.5281/zenodo.22229111)<br>*(Defensive Consequence Isolation)* | Complete physical airgap between cognitive compute and actuator circuits via a $5.00\text{V} \leftrightarrow 0.00\text{V}$ optical D-latch. Telemetry anomaly collapses power to $0.00\text{V}$ in $< 12.5\,\mu\text{s}$. | `HARDWARE GATE`<br>*(Fail-Closed Interlock)* |
+| **Room VII: The Aesthetic Alcove** | [`Paper 22: Det Lukkede Roms Inerti`](https://doi.org/10.5281/zenodo.22229111)<br>*(Morandi's Stillness & Bleken's Audit)* | The canvas as a physical Write-Ahead Log (WAL). Giorgio Morandi's Bologna still lifes as the empirical manifestation of $\mathbf{GATE::HOLD}$: total noise isolation forces infinite local precision. | `PHILOSOPHICAL ANCHOR`<br>*(Cognitive Civilization)* |
 
 <br>
-
 ---
 
 <br>
