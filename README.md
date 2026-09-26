@@ -95,6 +95,12 @@ graph TD
     EPICENTER --> CORE["THE NON-LYING CORE\nStrict Invariant Gating • Fail-Closed 0.00V DC"]
 ```
 
+### ⚡ Analog Hardware Interlock: 0.00V DC Constrained Decision Collapse (CDC)
+
+The physical consequence barrier is not software; it is an unforgiving analog crowbar circuit. Any violation of the Skagerrak acoustic bounds ($\Delta t \notin [\frac{d}{c_{\text{max}}}, \frac{d}{c_{\text{min}}}]$) or negative entropy gradient ($\frac{dS}{dt} < 0$) fires a Silicon Controlled Rectifier (SCR) in $<18\,\text{ns}$, collapsing the control rail dead to $0.000\,\text{V}$ DC and mechanically releasing the vacuum contactor into Zeno Stasis.
+
+![0.00V DC Analog Crowbar & Zeno-Stasis Interlock Blueprint](assets/analog_crowbar_interlock.svg)
+
 ### 1. The Geographic Pilgrimage: Into the Precambrian Heart
 
 We cannot construct this on the ocean floor; the hydrothermal vents and the acoustic groaning of tectonic plates are a deafening cacophony to our qubits. Nor can we look to the Antarctic ice, where the continuous plastic deformation of glaciers generates unmanageable micro-tremors.
