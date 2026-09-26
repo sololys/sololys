@@ -86,28 +86,13 @@ python3 run_demo.py
 **Grounding:** [`SPEC-365`](https://github.com/sololys/Gemini-Core/blob/main/00_KANONISK_KJERNE/365_FASILITETSDESIGN_ARKITEKTENS_NULLPUNKT_SPEC.md) // Hardangervidda (-3,400 m, The Fennoscandian Shield)
 
 ```mermaid
-flowchart TD
-    subgraph GEOLOGY["1. The Geographic Pilgrimage (-3,400 m Depth)"]
-        FJELL["Fennoscandian Shield (Hardangervidda)\n1.5 Billion Years of Precambrian Anorthosite & Granite\nContinental Seismic & Anthropocene Filter"]
-        BREELV["Subterranean Glacial River (Constant 3.8 °C)\nMonolithic Titanium Exchangers Vent Entropy for 80K QCS-EMS & mK Qubits"]
-        FJELL --- BREELV
-    end
-
-    subgraph SHELLS["2. Concentric Shells of Negation"]
-        SKALL1["Shell 1: The Seismic Damper (The Outer Crypt)\nPassive Acoustic Metamaterials\nMagnetic Levitation Grid (Magnitude 6.0 Earthquake => Displacement < 1 nm)"]
-        SKALL2["Shell 2: The Electromagnetic Vacuum (The Black Zone)\n7 Meters of Alternating Superconducting Lead & Mu-Metal\nPhoton Burial Vault: Stochastic Decoupling Noise = 0"]
-        SENTRUM["Epicenter: The Evanescent Spectral Chamber\nAsymmetric Sphere of Polished Iridium & Beryllium Mirrors\nOperando Raman 532 nm | < 0.01 ppm O2 & H2O | Fe-Mo-S Cluster Titration"]
-        SKALL1 --> SKALL2 --> SENTRUM
-    end
-
-    subgraph DESCENT["3. The Descent and Lustration (Iterative Hermetics)"]
-        HEIS["The Fall: 18-Minute Maglev Descent\nAbsolute Darkness, Ear-Drum Pressure Drop, Subsonic Vibration Atrophy"]
-        SLUSE1["Airlock 1: The Acoustic Lustration\nElectrostatic Grounding Tethers + Ultrasonic Micro-Particulate Scouring"]
-        SLUSE2["Airlock 2: Chemical Decoherence Airlock\nNear-Vacuum Evacuation + Backfilled Ultra-Pure Argon"]
-        SLUSE3["Airlock 3: The Cognitive Airlock (The Sync Chamber)\n2 Minutes Mandatory Silence (Biological Pulse & Respiration Floor)\nMilled Titanium Bulkhead: The Codex of the Non-Lying Core"]
-        KONTROLL["The Control Room: Cathedral Altar Behind 30 cm Leaded Glass\nCold 532 nm Emerald Flash Audits the Rupture of a Single N≡N Triple Bond"]
-        HEIS --> SLUSE1 --> SLUSE2 --> SLUSE3 --> KONTROLL
-    end
+graph TD
+    SURFACE["SURFACE: Hardangervidda (0 m)"] --> MAGLEV["18-Minute Maglev Freefall\n(-3,400 m Bedrock Descent)"]
+    MAGLEV --> CRYPT["SHELL 1: The Outer Crypt\nPassive Metamaterial Maglev Suspension (< 1 nm)"]
+    CRYPT --> BLACKZONE["SHELL 2: The Black Zone\n7 m Superconducting Lead & Mu-Metal (Photon Burial Vault)"]
+    BLACKZONE --> AIRLOCKS["LUSTRATION: The 3 Draconian Airlocks\nAcoustic • Chemical Argon • 2-Min Cognitive Sync"]
+    AIRLOCKS --> EPICENTER["EPICENTER: The Evanescent Spectral Chamber\nPolished Iridium Sphere • Operando Raman 532 nm"]
+    EPICENTER --> CORE["THE NON-LYING CORE\nStrict Invariant Gating • Fail-Closed 0.00V DC"]
 ```
 
 ### 1. The Geographic Pilgrimage: Into the Precambrian Heart
