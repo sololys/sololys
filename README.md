@@ -85,21 +85,128 @@ python3 run_demo.py
 **Lead Architect:** The Architect of the Still Point // Marius Egerhei Torjusen  
 **Grounding:** [`SPEC-365`](https://github.com/sololys/Gemini-Core/blob/main/00_KANONISK_KJERNE/365_FASILITETSDESIGN_ARKITEKTENS_NULLPUNKT_SPEC.md) // Hardangervidda (-3,400 m, The Fennoscandian Shield)
 
-```mermaid
-graph TD
-    SURFACE["SURFACE: Hardangervidda (0 m)"] --> MAGLEV["18-Minute Maglev Freefall\n(-3,400 m Bedrock Descent)"]
-    MAGLEV --> CRYPT["SHELL 1: The Outer Crypt\nPassive Metamaterial Maglev Suspension (< 1 nm)"]
-    CRYPT --> BLACKZONE["SHELL 2: The Black Zone\n7 m Superconducting Lead & Mu-Metal (Photon Burial Vault)"]
-    BLACKZONE --> AIRLOCKS["LUSTRATION: The 3 Draconian Airlocks\nAcoustic • Chemical Argon • 2-Min Cognitive Sync"]
-    AIRLOCKS --> EPICENTER["EPICENTER: The Evanescent Spectral Chamber\nPolished Iridium Sphere • Operando Raman 532 nm"]
-    EPICENTER --> CORE["THE NON-LYING CORE\nStrict Invariant Gating • Fail-Closed 0.00V DC"]
+```text
++==============================================================================+
+| LOCUS ZERO // FACILITY DESIGN: THE ARCHITECT'S GROUND ZERO (-3,400 M)        |
+| CLASSIFICATION: LEVEL 0 TOPOLOGICAL ISOLATION // LEXICOGRAPHICAL NEGATION    |
++==============================================================================+
+
+                    SURFACE: HARDANGERVIDDA PLATEAU (0 M)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+////////////////////////////////////////////////////////////////////////////////
+  PRECAMBRIAN FENNOSCANDIAN SHIELD (1.5 BILLION YEARS ANORTHOSITE & GRANITE)
+  CONTINENTAL FILTER: ZERO ANTHROPOCENE NOISE // ZERO ACTIVE SEISMIC FAULTS
+////////////////////////////////////////////////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+           ||                                            (( BREELV / RIVER ))
+           ||  18-MINUTES MAGLEV FALL                    (( CONSTANT 3.8 C  ))
+           ||  (ABSOLUTE DARKNESS)                       (( 80K / mK SINK   ))
+           ||  -3,400 METERS VERTICAL DROP                       ||
+           ||                                            +-------||-------+
+           ||                                            | TITANIUM HEAT  |
+           ||                                            | EXCHANGERS     |
+           \/                                            +-------||-------+
++----------------------------------------------------------------||------------+
+| SHELL 1: THE SEISMIC DAMPER (THE OUTER CRYPT)                  ||            |
+| ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((   ||            |
+| (( PASSIVE ACOUSTIC METAMATERIALS // MAGLEV SUSPENSION    ((   ||            |
+| (( EARTHQUAKE M6.0 ===> DISPLACEMENT < 1.0 NANOMETER      ((   ||            |
+| ((                                                        ((   ||            |
+| ((   +------------------------------------------------+   ((   ||            |
+| ((   | SHELL 2: THE ELECTROMAGNETIC VACUUM            |   ((   ||            |
+| ((   | /////////////////////////////////////////////  |   ((   ||            |
+| ((   | // 7 METERS SUPERCONDUCTING LEAD & MU-METAL//  |   ((   ||            |
+| ((   | // PHOTON BURIAL VAULT // STOCHASTIC NOISE = 0//  |   ((   ||            |
+| ((   | //                                         //  |   ((   ||            |
+| ((   | //   +---------------------------------+   //  |   ((   ||            |
+| ((   | //   | THE THREE DRACONIAN AIRLOCKS    |   //  |   ((   ||            |
+| ((   | //   | ==============================  |   //  |   ((   ||            |
+| ((   | //   | [1. ACOUSTIC LUSTRATION]        |   //  |   ((   ||            |
+| ((   | //   |  - Grounding & Ultrasonics      |   //  |   ((   ||            |
+| ((   | //   |               ||                |   //  |   ((   ||            |
+| ((   | //   |               \/                |   //  |   ((   ||            |
+| ((   | //   | [2. CHEMICAL DECOHERENCE]       |   //  |   ((   ||            |
+| ((   | //   |  - Near-Vacuum & Pure Argon     |   //  |   ((   ||            |
+| ((   | //   |               ||                |   //  |   ((   ||            |
+| ((   | //   |               \/                |   //  |   ((   ||            |
+| ((   | //   | [3. COGNITIVE AIRLOCK]          |   //  |   ((   ||            |
+| ((   | //   |  - 2-Min Mandatory Respiration  |   //  |   ((   ||            |
+| ((   | //   |  - Codex of Non-Lying Core      |   //  |   ((   ||            |
+| ((   | //   |               ||                |   //  |   ((   ||            |
+| ((   | //   |               \/                |   //  |   ((   ||            |
+| ((   | //   |   +-------------------------+   |   //  |   ((   ||            |
+| ((   | //   |   | EPICENTER: THE CHAMBER  |   |   //  |   ((   ||            |
+| ((   | //   |   | (((((((((((((((((((((   |   |   //  |   ((   ||            |
+| ((   | //   |   | (( IRIDIUM SPHERE  ((   |   |   //  |   ((   ||            |
+| ((   | //   |   | (( OPERANDO 532 NM ((   |   |   //  |   ((   ||            |
+| ((   | //   |   | (( RAMAN LASER     ((<======+===//==+===((===++            |
+| ((   | //   |   | (( < 0.01 PPM O2   ((   |   |   //  |   (( (ENTROPY DUMP)  |
+| ((   | //   |   | (( Fe-Mo-S TITRATE ((   |   |   //  |   ((                 |
+| ((   | //   |   | (((((((((((((((((((((   |   |   //  |   ((                 |
+| ((   | //   |   +------------||-----------+   |   //  |   ((                 |
+| ((   | //   +----------------||---------------+   //  |   ((                 |
+| ((   | //////////////////////||/////////////////////  |   ((                 |
+| ((   +-----------------------||-----------------------+   ((                 |
+| (((((((((((((((((((((((((((((||(((((((((((((((((((((((((((((                 |
++------------------------------||----------------------------------------------+
+                               \/
++==============================================================================+
+| THE NON-LYING CORE: 0.00V DC HARDWARE CROWBAR & ZENO-STASIS                  |
++==============================================================================+
+|  * CAUSAL PRIORITY: dt in [d/c_max, d/c_min] (Mackenzie SVP 1481.2 m/s)      |
+|  * ENTROPY INVARIANCE: dS/dt >= 0 (Schottky Rejection of DRFM Mimic Ghosts)  |
+|  * SILICON CROWBAR: SCR 2N6509 Fires in < 18 ns -> Clamps Rail to 0.000V DC  |
+|  * MECHANICAL INTERLOCK: De-energized Vacuum Relay K1 Drops into Stasis      |
++==============================================================================+
 ```
 
 ### ⚡ Analog Hardware Interlock: 0.00V DC Constrained Decision Collapse (CDC)
 
 The physical consequence barrier is not software; it is an unforgiving analog crowbar circuit. Any violation of the Skagerrak acoustic bounds ($\Delta t \notin [\frac{d}{c_{\text{max}}}, \frac{d}{c_{\text{min}}}]$) or negative entropy gradient ($\frac{dS}{dt} < 0$) fires a Silicon Controlled Rectifier (SCR) in $<18\,\text{ns}$, collapsing the control rail dead to $0.000\,\text{V}$ DC and mechanically releasing the vacuum contactor into Zeno Stasis.
 
-![0.00V DC Analog Crowbar & Zeno-Stasis Interlock Blueprint](assets/analog_crowbar_interlock.svg)
+```text
+================================================================================
+ SPEC-365: 0.00V DC HARDWARE CROWBAR & ZENO-STASIS (ANALOG KEYBOARD SCHEMATIC)
+================================================================================
+
+ [ J1: V_SOUNDING ] -----------------------+
+ (Mackenzie SVP ToF)                       |
+                                           v
+ [+5.00V REF] ---[R1]---( V_MAX )-------->|-\
+                          |               |  >---[D1]--->+
+                          +---[R2]------->|+/   (U1A)    |
+                          |                              |
+                          +--( V_MIN )--->|-\            |
+                          |               |  >---[D2]--->+
+                          +---[R3]------->|+/   (U1B)    |
+                          |                              |
+                        [Dz1] (5V Zener)                 |  === TRIGGER FAULT BUS ===
+                          |                              +=========================>
+                        [GND]                            |  (OR-Gate Anomaly Trip)
+                                                         |
+ [ J2: S_TELEMETRI ] -----||---( NODE )-------[<-D3-]---->+
+ (RF Coherence S)       C_diff    |           (BAT54)    |
+                                [R_diff]                 |
+                                  |                      |
+                                [GND]                    |
+                                                         v
+ [+5.000V POWER RAIL] =================================================> [RADAR HV]
+                             |                               |
+                            (A)                             (A)
+                             |                               |
+                            / \  SCR Q1                   [R_DUMP] (0.50 OHM)
+                           /   \ (2N6509)                    |  100W TITANIUM SINK
+                       ---< GATE                             |  3.8 C BREELV SINK
+                      |    \   /                             |
+                     [Rg]   ---                            [GND]
+                      |      |
+             TRIGGER -+     (K)
+                      |      |
+                     [Cg]  [GND_SOLID_COPPER]
+                      |
+                    [GND]   ===> 0.000V DC LATCHED ZENO STASIS (< 18 ns CROWBAR)
+```
 
 ### 1. The Geographic Pilgrimage: Into the Precambrian Heart
 
