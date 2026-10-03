@@ -4,7 +4,7 @@
 * **Versjon:** `v0.4 (The Sovereign Epistemic Quad & Apex Architecture)`
 * **Erstatter:** `GitHub City Map v0.3` (Master 2-Repo Portfolio Architecture)
 * **Forfatter:** Marius Egerhei Torjusen (ORCID: [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637))
-* **Tilhørighet:** ReismannPoint Systems AS // Kreativ Systems ([kreativ-systems.org](https://kreativ-systems.org/)) · Risør, Agder, Norge
+* **Tilhørighet:** ReismannPoint Systems // Kreativ Systems ([kreativ-systems.org](https://kreativ-systems.org/)) · Risør, Agder, Norge
 * **Dokument-ID:** `GITHUB-CITY-MAP-v0.4-SOVEREIGN-2026`
 * **Primære Zenodo-poster:**
   * [Zenodo DOI: 10.5281/zenodo.18436983](https://doi.org/10.5281/zenodo.18436983) (*Epistemic Architectures: Systems That Know They Know*)
@@ -81,7 +81,7 @@ $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZ
                                        ▼
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
 │                          SEKTOR 99: OFFENTLIG EKSPORT-SPEIL                             │
-│                           Repo: reismannpoint_as/01_open                                │
+│                           Repo: reismannpoint/01_open                                   │
 │                                      [PUBLIC]                                           │
 │                 Kildeverifisert speil av godkjente åpne artefakter                     │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
@@ -100,7 +100,7 @@ $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZ
 | **04** | [`sololys/loop-engineering`](https://github.com/sololys/loop-engineering) | 🌐 **PUBLIC** | **OPERATIONAL HARNESS:** Deterministisk agent-harness, kognitiv poka-yoke, RFC 8785 kanonisering, CLI-verktøy (`loop-audit`, `loop-init`, `loop-sync`, `loop-cost`, `loop-context`). | [Wiki: Loop Engineering](https://github.com/sololys/loop-engineering/wiki) |
 | **10** | [`sololys/Gemini-Core`](https://github.com/sololys/Gemini-Core) | 🔒 **PRIVATE** | **Sovereign Master Monorepo:** 10 sektorer (`01_OPEN` til `10_GOOGLELM`), L1 runtime, Godot Reality Forge, HIL-emulatorer, krypto-WORM witness og intern forskning. | `AI_REPOSITORY_MAP.md` (internt) |
 | **20** | [`sololys/femos-biomimetic-nitrogenase`](https://github.com/sololys/femos-biomimetic-nitrogenase) | 🔒 **PRIVATE** | **Proprietary IP Core:** Bio-inorganisk elektrokatalytisk nitrogenfiksering ($N_2 \to NH_3$), SystemVerilog/VHDL maskinvareporter, 40+ numeriske motorer og patentgrunnlag. | Beskyttet bak adgangskontroll |
-| **99** | [`reismannpoint_as/01_open`](https://github.com/reismannpoint_as/01_open) | 🌐 **PUBLIC** | **Eksport-speil:** Verifisert speil av godkjente offentlige artefakter fra `Gemini-Core/01_OPEN`. | Speil-manifest |
+| **99** | [`reismannpoint/01_open`](https://github.com/reismannpoint/01_open) | 🌐 **PUBLIC** | **Eksport-speil:** Verifisert speil av godkjente offentlige artefakter fra `Gemini-Core/01_OPEN`. | Speil-manifest |
 
 ---
 

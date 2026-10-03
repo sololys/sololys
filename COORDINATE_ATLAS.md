@@ -4,7 +4,7 @@
 * **Dokument-ID:** `CROSS-REPO-COORDINATE-ATLAS-2026-v1.1`
 * **Formål:** Samordner realiseringsgrammatikk, kontrollarkitektur, simulerte maskinvareparametere, molekylære forskningsmål og QSA-modeller i ett versjonert rammeverk.
 * **Forfatter:** Marius Egerhei Torjusen (ORCID: [0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637))
-* **System:** ReismannPoint Systems AS // Kreativ Systems ([kreativ-systems.org](https://kreativ-systems.org/))
+* **System:** ReismannPoint Systems // Kreativ Systems ([kreativ-systems.org](https://kreativ-systems.org/))
 
 ---
 
