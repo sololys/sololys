@@ -4,6 +4,7 @@
 [![Zenodo DOI: 10.5281/zenodo.22229111](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.22229111-blue?logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.22229111)
 [![LinkedIn: Marius Torjusen](https://img.shields.io/badge/LinkedIn-Marius_Torjusen-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
 [![Web: kreativ-systems.org](https://img.shields.io/badge/Web-kreativ--systems.org-0052CC)](https://kreativ-systems.org/)
+[![Wiki: Sovereign Portal](https://img.shields.io/badge/Wiki-Sovereign_Portal-blueviolet?logo=gitbook&logoColor=white)](https://github.com/sololys/sololys/wiki)
 
 > **Lead Systems Architect & Independent Researcher** · Risør, Norway  
 > *Designing deterministic, fail-closed architectures where generative candidates are mathematically and physically isolated from consequence.*
@@ -42,10 +43,10 @@ These constraints are computationally manifest across a unified public ledger of
   *Deterministic consequence gating, Ancestry Handshake, Merkle-LCA fork resolution, and 100% fail-closed manipulation rejection (`L1 SOFTWARE`).*
 * [**epistemic-architectures**](https://github.com/sololys/epistemic-architectures)  
   *Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution (`SPECIFICATION`).*
+* [**epistemic-architectures-notes**](https://github.com/sololys/epistemic-architectures-notes)  
+  *Exploratory path-fields, boundary sketches, and reviewed non-canonical abstractions (`NOTES / EXPLORATION`).*
 * [**loop-engineering**](https://github.com/sololys/loop-engineering)  
   *Deterministic tooling, cryptographic audit trails, RFC 8785 canonicalization, and cognitive poka-yoke (`TOOLING`).*
-* [**femos-biomimetic-nitrogenase**](https://github.com/sololys/femos-biomimetic-nitrogenase)  
-  *Biomimetic $\text{Fe–Mo–S}$ cluster modeling and Proton-Coupled Electron Transfer simulations (`HYPOTHESIS / PHYSICAL HOLD`).*
 
 ---
 
