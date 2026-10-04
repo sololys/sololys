@@ -70,10 +70,6 @@ python3 run_demo.py
 
 The physical consequence barrier is not software; it is an unforgiving analog crowbar circuit. Any violation of acoustic bounds ($\Delta t \notin [\frac{d}{c_{\text{max}}}, \frac{d}{c_{\text{min}}}]$) or negative entropy gradient ($\frac{dS}{dt} < 0$) fires a Silicon Controlled Rectifier (SCR) in $<18\,\text{ns}$, collapsing the control rail dead to $0.000\,\text{V}$ DC and mechanically releasing the vacuum contactor into Zeno Stasis.
 
-<p align="center">
-  <img src="assets/analog_crowbar_interlock.svg" alt="SPEC-365: 0.00V DC Hardware Crowbar & Zeno-Stasis Schematic" width="100%">
-</p>
-
 ```text
 ================================================================================
  SPEC-365: 0.00V DC HARDWARE CROWBAR & ZENO-STASIS (ANALOG SCHEMATIC)
