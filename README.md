@@ -70,49 +70,6 @@ python3 run_demo.py
 
 The physical consequence barrier is not software; it is an unforgiving analog crowbar circuit. Any violation of acoustic bounds ($\Delta t \notin [\frac{d}{c_{\text{max}}}, \frac{d}{c_{\text{min}}}]$) or negative entropy gradient ($\frac{dS}{dt} < 0$) fires a Silicon Controlled Rectifier (SCR) in $<18\,\text{ns}$, collapsing the control rail dead to $0.000\,\text{V}$ DC and mechanically releasing the vacuum contactor into Zeno Stasis.
 
-```text
-================================================================================
- SPEC-365: 0.00V DC HARDWARE CROWBAR & ZENO-STASIS (ANALOG SCHEMATIC)
-================================================================================
-
- [ J1: V_SOUNDING ] -----------------------+
- (Mackenzie SVP ToF)                       |
-                                           v
- [+5.00V REF] ---[R1]---( V_MAX )-------->|-\
-                          |               |  >---[D1]--->+
-                          +---[R2]------->|+/   (U1A)    |
-                          |                              |
-                          +--( V_MIN )--->|-\            |
-                          |               |  >---[D2]--->+
-                          +---[R3]------->|+/   (U1B)    |
-                          |                              |
-                        [Dz1] (5V Zener)                 |  === TRIGGER FAULT BUS ===
-                          |                              +=========================>
-                        [GND]                            |  (OR-Gate Anomaly Trip)
-                                                         |
- [ J2: S_TELEMETRI ] -----||---( NODE )-------[<-D3-]---->+
- (RF Coherence S)       C_diff    |           (BAT54)    |
-                                [R_diff]                 |
-                                  |                      |
-                                [GND]                    |
-                                                         v
- [+5.000V POWER RAIL] =================================================> [ACTUATOR / LOAD]
-                             |                               |
-                            (A)                             (A)
-                             |                               |
-                            / \  SCR Q1                   [R_DUMP] (0.50 OHM)
-                           /   \ (2N6509)                    |  HEATSINK
-                       ---< GATE                             |
-                      |    \   /                             |
-                     [Rg]   ---                            [GND]
-                      |      |
-             TRIGGER -+     (K)
-                      |      |
-                     [Cg]  [GND_SOLID_COPPER]
-                      |
-                    [GND]   ===> 0.000V DC LATCHED ZENO STASIS (< 18 ns CROWBAR)
-```
-
 ---
 
 <p align="center">
