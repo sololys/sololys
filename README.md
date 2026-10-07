@@ -13,9 +13,16 @@
 
 ### 🏛️ Epistemic Architecture: The Severance of Generation from Consequence
 
-To design at the absolute limit of architecture is to abandon the discipline of construction in favor of the rigorous discipline of isolation. We inhabit an era defined by cognitive inflation, a systemic vulnerability where the rapid generation of probabilistic candidates from deep optimization loops is routinely and dangerously mistaken for operational authority. When the velocity of thought is permitted to bypass structural governance, the collapse of hypothesis into reality becomes inevitable. To arrest this drift, the sovereign research portal enforces a fundamental epistemic invariant: the act of generation is permanently severed from authorization, realization, and proof.
+**Restriction is the invisible architecture of clarity.** To design at the absolute limit of architecture is to abandon the discipline of construction in favor of the rigorous discipline of isolation. We inhabit an era defined by cognitive inflation, a systemic vulnerability where the rapid generation of probabilistic candidates from deep optimization loops is routinely and dangerously mistaken for operational authority. When the velocity of thought is permitted to bypass structural governance, the collapse of hypothesis into reality becomes inevitable. To arrest this drift, the sovereign research portal enforces a fundamental epistemic invariant: the act of generation is permanently severed from authorization, realization, and proof.
 
 $$\boxed{\mathbf{GENERATES} \;\neq\; \mathbf{AUTHORIZES} \;\neq\; \mathbf{REALIZES} \;\neq\; \mathbf{PROVES}}$$
+
+The real is not just what is; the real is that which has passed. Before possibility can acquire the status of history, it must endure discrete, typed transition domains:
+
+```text
+[0] ──▶ (○) ──▶ (◇) ──▶ [□] ──▶ (△) ──▶ (O) ──▶ [●] ──▶ [1]
+Null    Raw   Estimate Struct  Threshold Viability Commit Consequence
+```
 
 This severance is not maintained through administrative guidelines, but through physical and mathematical absolutes. While software may achieve deterministic compilation and internal state consistency, it remains structurally paralyzed, explicitly denied the mandate to cross the boundary into physical or chemical consequence. The threshold between simulation and reality is guarded by a fail-closed paradigm, anchored in a 0.00V direct current galvanic interlock. Within this constrained decision collapse, no generative agent or language model possesses autonomous authority to actuate hardware. Any anomaly, temporal deviation, or logical ambiguity triggers an instantaneous crowbar circuit, collapsing the system into a mechanical stasis where safety is guaranteed by the immediate and irrevocable withdrawal of power.
 
@@ -37,14 +44,24 @@ Ultimately, this framework functions as a sovereign topological isolation chambe
 
 ### 🔬 Public Codebases & Research Tracks
 
+* [**epistemic-architectures**](https://github.com/sololys/epistemic-architectures)  
+  *Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution (`SPECIFICATION`). Features the foundational [OMNI-KY Canon](https://github.com/sololys/epistemic-architectures/blob/main/OMNI_KY_REALIZATION_GRAMMAR.md) on transition domains and [The Non-Expansive Gate](https://github.com/sololys/epistemic-architectures/blob/main/THE_NON_EXPANSIVE_GATE.md) on computational complexity as the physical boundary of spacetime.*
 * [**ky-rox-public-demonstrators**](https://github.com/sololys/ky-rox-public-demonstrators)  
   *Deterministic consequence gating, Ancestry Handshake, Merkle-LCA fork resolution, and 100% fail-closed manipulation rejection (`L1 SOFTWARE`).*
-* [**epistemic-architectures**](https://github.com/sololys/epistemic-architectures)  
-  *Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution (`SPECIFICATION`).*
-* [**epistemic-architectures-notes**](https://github.com/sololys/epistemic-architectures-notes)  
-  *Exploratory path-fields, boundary sketches, and reviewed non-canonical abstractions (`NOTES / EXPLORATION`).*
 * [**loop-engineering**](https://github.com/sololys/loop-engineering)  
   *Deterministic tooling, cryptographic audit trails, RFC 8785 canonicalization, and cognitive poka-yoke (`TOOLING`).*
+* [**epistemic-architectures-notes**](https://github.com/sololys/epistemic-architectures-notes)  
+  *Exploratory path-fields, boundary sketches, and reviewed non-canonical abstractions (`NOTES / EXPLORATION`).*
+
+---
+
+### ⚖️ The Anthropology of the Gate: Anti-Passage & The Invariant
+
+> *"Athens won the event. Socrates won the invariant."*
+
+The greatest threat to realization hygiene is **anti-passage**—the catastrophic drift where a candidate assumes the authority of consequence without bearing the work of the gate: when a feeling becomes a demand, an unvalidated model is mistaken for the physical terrain, or an optimization loop claims a Ghost Win by destroying the future viability of the game.
+
+The gate is not hostile to life; it is the condition under which closeness, thought, and physical agency remain admissible. As captured in the *OMNI-KY Canon*, the human brings the pressure—intuition, vulnerability, and rhythm—while the architecture provides the unyielding counter-surface of type control and physical boundaries. Between them stands the Porter with the feather in his hat: the living reminder that precision can have rhythm, and that an unyielding boundary is what allows reality to breathe.
 
 ---
 
