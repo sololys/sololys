@@ -45,7 +45,7 @@ Ultimately, this framework functions as a sovereign topological isolation chambe
 ### 🔬 Public Codebases & Research Tracks
 
 * [**epistemic-architectures**](https://github.com/sololys/epistemic-architectures)  
-  *Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution (`SPECIFICATION`). Features the foundational [OMNI-KY Canon](https://github.com/sololys/epistemic-architectures/blob/main/OMNI_KY_REALIZATION_GRAMMAR.md) on transition domains and [The Non-Expansive Gate](https://github.com/sololys/epistemic-architectures/blob/main/THE_NON_EXPANSIVE_GATE.md) on computational complexity as the physical boundary of spacetime.*
+  *Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution (`SPECIFICATION`). Features [Quantum Grammar](https://github.com/sololys/epistemic-architectures/blob/main/QUANTUM_GRAMMAR.md) on withheld consequence, the foundational [OMNI-KY Canon](https://github.com/sololys/epistemic-architectures/blob/main/OMNI_KY_REALIZATION_GRAMMAR.md) on transition domains, and [The Non-Expansive Gate](https://github.com/sololys/epistemic-architectures/blob/main/THE_NON_EXPANSIVE_GATE.md) on computational complexity as the physical boundary of spacetime.*
 * [**ky-rox-public-demonstrators**](https://github.com/sololys/ky-rox-public-demonstrators)  
   *Deterministic consequence gating, Ancestry Handshake, Merkle-LCA fork resolution, and 100% fail-closed manipulation rejection (`L1 SOFTWARE`).*
 * [**loop-engineering**](https://github.com/sololys/loop-engineering)  
