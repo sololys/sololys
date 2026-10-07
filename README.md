@@ -44,23 +44,14 @@ Ultimately, this framework functions as a sovereign topological isolation chambe
 
 ### 🔬 Public Codebases & Research Tracks
 
-#### 1. [epistemic-architectures](https://github.com/sololys/epistemic-architectures) `[SPECIFICATION]`
-*Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution.*
-* **[Document 173: Authorized Realizations](https://github.com/sololys/epistemic-architectures/blob/main/DOCUMENT_173_AUTHORIZED_REALIZATIONS.md)** — Wave interference ($s^+ \rightleftarrows s^-$), approximate fixed points ($\|\Delta_K\| < \varepsilon_{\mathrm{tol}}$), projection stress ($\Sigma_{\mu\nu}^{\mathrm{irr}}$), and Infranett as the physical fixed point.
-* **[KY–Nash Admissible Games](https://github.com/sololys/epistemic-architectures/blob/main/KY_NASH_ADMISSIBLE_GAMES.md)** — Game theory formulated as authorized transitions and integrity-adjusted payoffs.
-* **[Nash Invariants & Admissibility Geometry](https://github.com/sololys/epistemic-architectures/blob/main/NASH_MATHEMATICAL_INVARIANTS_AND_STRUCTURES.md)** — Analytical synthesis of Kakutani fixed points ($C^0$) vs. Nash-Moser PDE embedding ($C^\infty$).
-* **[Thermodynamic Constraints & Dissipation](https://github.com/sololys/epistemic-architectures/blob/main/THERMODYNAMIC_CONSTRAINTS_AND_DISSIPATION.md)** — Decoupling zero-work passive constraints ($\dot{W}_c = 0$) from independent Landauer dissipation ($\dot{S}_{\mathrm{irr}} \ge 0$).
-* **[The Unified Field & Nash Duality](https://github.com/sololys/epistemic-architectures/blob/main/THE_UNIFIED_FIELD_NASH_DUALITY.md)** — The K-filter tensor and Nash fourth-order vacuum equations ($\Delta R = 0$).
-* **[The Non-Expansive Gate](https://github.com/sololys/epistemic-architectures/blob/main/THE_NON_EXPANSIVE_GATE.md)** — Metric contraction and $P \text{ vs. } NP$ as spacetime boundary conditions.
-
-#### 2. [ky-rox-public-demonstrators](https://github.com/sololys/ky-rox-public-demonstrators) `[L1 SOFTWARE]`
-*Deterministic consequence gating, Ancestry Handshake, Merkle-LCA fork resolution, and 100% fail-closed manipulation rejection.*
-
-#### 3. [loop-engineering](https://github.com/sololys/loop-engineering) `[TOOLING]`
-*Deterministic tooling, cryptographic audit trails, RFC 8785 canonicalization, and cognitive poka-yoke.*
-
-#### 4. [epistemic-architectures-notes](https://github.com/sololys/epistemic-architectures-notes) `[NOTES / EXPLORATION]`
-*Exploratory path-fields, boundary sketches, and reviewed non-canonical abstractions (including the [Zampino–Nash Princeton Lecture Notes](https://github.com/sololys/epistemic-architectures-notes/blob/main/notes/ZAMPINO_NASH_AN_INTERESTING_EQUATION.md)).*
+* [**epistemic-architectures**](https://github.com/sololys/epistemic-architectures) `[SPECIFICATION]`  
+  Formal specifications, realization grammars, and mathematical boundaries separating proposal from execution.
+* [**ky-rox-public-demonstrators**](https://github.com/sololys/ky-rox-public-demonstrators) `[L1 SOFTWARE]`  
+  Deterministic consequence gating, Ancestry Handshake, Merkle-LCA fork resolution, and 100% fail-closed manipulation rejection.
+* [**loop-engineering**](https://github.com/sololys/loop-engineering) `[TOOLING]`  
+  Deterministic tooling, cryptographic audit trails, RFC 8785 canonicalization, and cognitive poka-yoke.
+* [**epistemic-architectures-notes**](https://github.com/sololys/epistemic-architectures-notes) `[NOTES / EXPLORATION]`  
+  Exploratory path-fields, boundary sketches, and reviewed non-canonical abstractions.
 
 ---
 
