@@ -6,6 +6,8 @@ I study the distinction between what a system can propose and what it is authori
 
 The question guiding the work is how much consequence a system may derive from what it believes it has perceived.
 
+I investigate how this distinction can be built into the structure of a system. The dynamics that generate a candidate and the criteria that determine whether it is admissible are treated separately. The aim is to make the boundary between calculation and authorized action an explicit property of the architecture.
+
 ## Selected work
 
 | Reference | Content |
