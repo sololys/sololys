@@ -15,6 +15,7 @@ I investigate how this distinction can be built into the structure of a system. 
 | [Epistemic Architectures](https://github.com/sololys/epistemic-architectures) | Public research and architectural references |
 | [KY-ROX Public Demonstrators](https://github.com/sololys/ky-rox-public-demonstrators) | Bounded software examples with reproduction instructions |
 | [Loop Engineering](https://github.com/sololys/loop-engineering) | Engineering tools and documentation |
+| [KreativSystems.1](https://github.com/sololys/KreativSystems.1) | Reality Forge simulation technology and real-time hardware interfaces |
 
 Current research includes **Infranett**, concerning local infrastructure and resilience, and **Sosionomos**, concerning integrity in collaborative digital environments.
 
@@ -28,4 +29,4 @@ Claims should be read alongside their assumptions, methods, and limitations. The
 
 ---
 
-[ORCID](https://orcid.org/0009-0006-0431-6637) · [Publications](https://doi.org/10.5281/zenodo.22229111) · [LinkedIn](https://www.linkedin.com/in/marius-torjusen-9aa392392/) · [Website](https://kreativ-systems.org/)
+[ORCID](https://orcid.org/0009-0006-0431-6637) · [Publications](https://doi.org/10.5281/zenodo.22229111) · [Zenodo Community](https://zenodo.org/communities/reismannpoint-systems) · [LinkedIn](https://www.linkedin.com/in/marius-torjusen-9aa392392/) · [Website](https://kreativ-systems.org/)
