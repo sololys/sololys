@@ -15,7 +15,7 @@ I investigate how this distinction can be built into the structure of a system. 
 | [Epistemic Architectures](https://github.com/sololys/epistemic-architectures) | Public research and architectural references |
 | [KY-ROX Public Demonstrators](https://github.com/sololys/ky-rox-public-demonstrators) | Bounded software examples with reproduction instructions |
 | [Loop Engineering](https://github.com/sololys/loop-engineering) | Engineering tools and documentation |
-| [KreativSystems.1](https://github.com/sololys/KreativSystems.1) | Reality Forge simulation technology and real-time hardware interfaces |
+| [Reality Forge](https://kreativ-systems.org/) | Simulation technology and real-time hardware interfaces |
 
 Current research includes **Infranett**, concerning local infrastructure and resilience, and **Sosionomos**, concerning integrity in collaborative digital environments.
 
