@@ -1,7 +1,6 @@
 # Marius Egerhei Torjusen
 ### *Independent Researcher & Systems Architect · Risør, Norway*
 [![ORCID: 0009-0006-0431-6637](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39.svg)](https://orcid.org/0009-0006-0431-6637)
-[![Zenodo Community](https://img.shields.io/badge/Zenodo-OpenAIRE-blue.svg)](https://zenodo.org/communities/reismannpoint-systems)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2.svg)](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
 
 ---
@@ -53,6 +52,5 @@ Arbeidet mitt spenner over formelle spesifikasjoner, kjørbare programvaredemons
 
 * **E-post:** `marius0.of.1@gmail.com` // `sololyset@gmail.com`  
 * **Lokus:** ReismannPoint Systems // Brahman Ventures · Risør, Norge  
-* **Akademisk profil:** [ORCID: 0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
-* **Vitenskapelige publikasjoner:** [Zenodo Community: ReismannPoint Systems](https://zenodo.org/communities/reismannpoint-systems)  
+* **Akademisk profil & publikasjoner:** [ORCID: 0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
 * **Nettsted:** [kreativ-systems.org](https://kreativ-systems.org/) · [LinkedIn](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
