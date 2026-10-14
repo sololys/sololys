@@ -7,6 +7,8 @@
 
 # Før Porten Åpner: Hvorfor alt som ikke tåler loven, dør som restvarme
 
+![Terminal Field Theory Lattice](./07_terminal_field_theory_lattice_2026-09-17.png)
+
 Vi lever i en tid som tilber forslaget.
 
 Aldri før har menneskeheten bygget maskiner som kan generere flere setninger, flere prediksjoner, flere syntetiske baner og flere mulige fremtider per sekund. Men midt i denne flommen av beregningskraft har vi glemt en gammel, nådeløs sannhet:
