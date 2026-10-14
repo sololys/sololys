@@ -1,0 +1,10 @@
+# GitHub Sponsors & Direct Tipping / Funding Configuration
+# Enables the "Sponsor" button on https://github.com/sololys/sololys
+
+github: [sololys]
+ko_fi: sololys
+buy_me_a_coffee: sololys
+custom: [
+  'https://github.com/sponsors/sololys',
+  'https://kreativ-systems.org.no'
+]

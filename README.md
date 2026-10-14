@@ -2,6 +2,7 @@
 ### *Independent Researcher & Systems Architect · Risør, Norway*
 [![ORCID: 0009-0006-0431-6637](https://img.shields.io/badge/ORCID-0009--0006--0431--6637-A6CE39.svg)](https://orcid.org/0009-0006-0431-6637)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2.svg)](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/sololys)
 
 ---
 
@@ -55,4 +56,5 @@ Arbeidet mitt spenner over formelle spesifikasjoner, kjørbare programvaredemons
 * **E-post:** `marius0.of.1@gmail.com` // `sololyset@gmail.com`  
 * **Lokus:** ReismannPoint Systems // Brahman Ventures · Risør, Norge  
 * **Akademisk profil & publikasjoner:** [ORCID: 0009-0006-0431-6637](https://orcid.org/0009-0006-0431-6637)  
-* **Nettsted:** [kreativ-systems.org](https://kreativ-systems.org/) · [LinkedIn](https://www.linkedin.com/in/marius-torjusen-9aa392392/)
+* **Nettsted:** [kreativ-systems.org](https://kreativ-systems.org/) · [LinkedIn](https://www.linkedin.com/in/marius-torjusen-9aa392392/)  
+* **Støtt uavhengig forskning (GitHub Sponsors):** [github.com/sponsors/sololys](https://github.com/sponsors/sololys)
