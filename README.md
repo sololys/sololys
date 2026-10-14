@@ -62,7 +62,7 @@ I virkeligheten er det nøyaktig samme likning som løses i fire ulike materiale
 * **I matematikken (*Epistemic Architectures & Realiseringsgrammatikk*):** Vi beskriver hvordan et åpent faserom skjæres ned mot et lukket gyldighetsrom slik at kun gyldige overganger står igjen.
 * **I sambandet (*Infranett*):** Vi erstatter blind tillit til skyen med lokal-først suverenitet og fysisk nærhetsvalidering. Er kuréren utenfor rekkevidde, eller svikter nøkkelvalget, forblir noden taus.
 * **I kontrollsløyfen (*Reality Forge*):** Vi tvinger simuleringer og grensesnitt til å respektere fysisk treghet og falsifiserbare testløp. En test som gir «PASS» fordi den hoppet over et mål, er en løgn. Systemet renses til kun verifiserte tilstander står igjen.
-* **I kjemien og prosesskontrollen (*PODS & Fe-Mo-S*):** Selv i biomimetisk katalyse og desentraliserte bioreaktorer gjelder samme lov. Termodynamiske grenser og støkiometri er ikke veiledende forslag; reaktoren åpner kun når massebalansen og vitneloggen er lukket.
+* **I kjemien og prosesskontrollen (*PODS*):** Selv i biokjemisk prosesskontroll og desentraliserte bioreaktorer gjelder samme lov. Termodynamiske grenser og støkiometri er ikke veiledende forslag; reaktoren åpner kun når massebalansen og vitneloggen er lukket.
 
 Dette er den andre aha-opplevelsen: **Sikkerhet, fysikk, kommunikasjon og beregning er ikke separate disipliner.** De er bare ulike navn på møtet mellom en åpen impuls og en lukket skranke.
 
@@ -93,7 +93,7 @@ Et ustabilt system slipper støyen inn i handlingen, slik at feilen vokser til e
 | :--- | :--- | :--- |
 | **[Epistemic Architectures](https://github.com/sololys/epistemic-architectures)** | Formell separasjon mellom kandidatgenerering, restriksjonsprojeksjon, konsekvensport og uforanderlig vitnebok. | [GitHub: epistemic-architectures](https://github.com/sololys/epistemic-architectures) · [Notes](https://github.com/sololys/epistemic-architectures-notes) |
 | **[Infranett](https://github.com/sololys/infranett)** | Deterministisk lokal-først infrastruktur for driftskontinuitet, nærhetsvalidering, asynkrone kurerkapsler over luftgap og fail-closed stase. | [GitHub: infranett](https://github.com/sololys/infranett) |
-| **[PODS: Sovereign Bioreactors](https://github.com/sololys/pods-sovereign-bioreactors)** | Lukket cyber-agrarisk næringstriade (nitrogen, fosfor og enzymatisk lignin-dekryptering) styrt av streng masse- og energibalansering. | [GitHub: pods-sovereign-bioreactors](https://github.com/sololys/pods-sovereign-bioreactors) · [Fe-Mo-S](https://github.com/sololys/femos-biomimetic-nitrogenase) |
+| **[PODS: Sovereign Bioreactors](https://github.com/sololys/pods-sovereign-bioreactors)** | Lukket cyber-agrarisk næringstriade styrt av streng masse- og energibalansering. | [GitHub: pods-sovereign-bioreactors](https://github.com/sololys/pods-sovereign-bioreactors) |
 | **[KY-ROX Public Demonstrators](https://github.com/sololys/ky-rox-public-demonstrators)** | Isolerte og reproduserbare demonstratorer for deterministisk konsekvenskontroll og feillukket systemsikkerhet. | [GitHub: ky-rox-public-demonstrators](https://github.com/sololys/ky-rox-public-demonstrators) |
 | **[Reality Forge](https://kreativ-systems.org/)** | Simuleringsteknologi, sanntids kontrollsløyfer og falsifiserbare testmiljøer. | [Kreativ Systems](https://kreativ-systems.org/) |
 
