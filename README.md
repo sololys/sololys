@@ -7,6 +7,10 @@
 
 ---
 
+<p align="center">
+  <img src="assets/eksistensens-grammatikk-pipeline.svg" alt="Eksistensens Grammatikk — Φ → Πₖ → D(E₁,E₂) → Ω → W" width="100%" />
+</p>
+
 > ### Eksistensens Grammatikk
 > 
 > *Det finnes en avgrunn mellom det som kan tenkes, og det som får lov til å eksistere.*
@@ -34,6 +38,36 @@
 > 
 > *Dynamikken foreslår. Strukturen filtrerer. Maskinvaren tillater. Historien forsegler.*  
 > ***Alt annet dør som restvarme.***
+
+<details>
+<summary><strong>🇬🇧 English Edition — The Grammar of Existence (Click to expand)</strong></summary>
+
+<br />
+
+> *There is an abyss between what can be conceived and what is permitted to exist.*
+>
+> Mathematics grants us the freedom to simulate anything, yet physical reality is a narrow gate. Between a generated proposition ($\Phi$) and its physical manifestation stands an unforgiving structural filter—**the grammar of existence**—governed by five deterministic invariants:
+>
+> * **1. The Proposal Owns No Rights (`CANDIDATE ≠ CONSEQUENCE`):**  
+>   A model may generate infinite trajectories, and an optimizer may propose a thousand futures. Yet regardless of statistical confidence or mathematical elegance, a generated state carries zero direct authority over the physical world. It remains a hypothesis awaiting judgment.
+>
+> * **2. The Monopoly of Orthogonal Projection ($\Pi_K$, $P = P^\dagger$):**  
+>   For code to become consequence, it must survive contact with metric and causal boundaries. Any skewness in the structural projection ($P \neq P^\dagger$) generates a spectral illusion of instability ($\rho(DP_\Sigma) > 1$). No heuristic negotiation is permitted: either the transition is orthogonally admissible within tolerance ($\Delta_K \le \varepsilon_{\text{tol}}$), or the gate freezes immediately in a fail-closed state (`HOLD` / `KILL`).
+>
+> * **3. The Requirement of Invariance ($U^{-1}U(s) = s$, $ds^2 \le 0$):**  
+>   Looking valid in a single static frame is insufficient. A real physical trajectory must survive round-trip involution, Noether conservation ($\Delta J = 0$), and confinement within the relativistic causal diamond ($ds^2 = -c^2\Delta t^2 + \Delta r^2 \le 0$). The representation must carry the weight of its own passage.
+>
+> * **4. The Galvanic Truth ($\Omega$: $0.00\text{ V DC} \leftrightarrow 5.00\text{ V DC}$):**  
+>   Logic without current is a fiction. Mathematical authorization acquires physical meaning only when verified across a hardware interlock—an explicit $5.00\text{ V DC}$ consequence gate anchored against a $0.00\text{ V DC}$ fail-closed guillotine clamp.
+>
+> * **5. The Incorruptible Witness ($W$ & Landauer’s Tax $Q = N k_B T \ln 2$):**  
+>   Once a transition crosses from a reversible boundary into an irreversible core, it belongs to history. Every outcome—whether admitted (`OPEN`), suspended (`HOLD`), or terminated (`KILL`)—is sealed in an append-only cryptographic witness chain (`WAL`) and bound by Landauer’s thermodynamic floor.
+>
+> ---
+> *Dynamics proposes ($\Phi$). Structure projects ($\Pi_K$). Hardware permits ($\Omega$). History seals ($W$).*  
+> ***Everything else dies as waste heat.***
+
+</details>
 
 ---
 
