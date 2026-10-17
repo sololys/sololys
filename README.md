@@ -11,7 +11,7 @@ OPERATIONAL_AUTHORITY = NONE
 
 ## I. GRUNNLOVEN
 
-En bit fødes ikke som $1$. Den autoriseres til $1$.
+En bit oppstår ikke som $1$. Den autoriseres til $1$.
 
 Virkelighet genereres ikke lokalt; den slippes inn lokalt. Mellom et generert forslag og en fysisk konsekvens står en ufravikelig port. Det som mangler bevis, hviler. Det som bryter geometrien, kuttes.
 
