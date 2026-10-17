@@ -27,7 +27,9 @@ Tid alene åpner ingen port ($\partial_t \text{HOLD} = 0$). Historikk slettes al
 
 ## II. DE FIRE MONOLITTENE
 
-Det offentlige utstillingsvinduet ([`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)) inneholder fire lukkede, deterministiske mikrotester. De utgjør til sammen et fullstendig koordinatsystem for autorisert realisering: **Konsekvens**, **Rom**, **Bane** og **Relasjon**.
+Det offentlige utstillingsvinduet ([`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)) inneholder fire lukkede, deterministiske mikrotester. De utgjør til sammen et fullstendig, sammenvevd koordinatsystem for autorisert realisering — **Konsekvens**, **Rom**, **Bane** og **Relasjon** — forent i én sekvensiell produkt-operator:
+
+$$\Omega_{\text{total}}(x_t, \gamma, e) = \Omega_{\text{bridge}}(e, \text{Zone}) \;\wedge\; \Pi_{\mathbb{S}^1}(\Delta\phi) \;\wedge\; \text{Verify}_{\mathcal{P}}(\gamma, W_{\text{PRE}}, W_{\text{POST}}) \;\wedge\; \Omega_{\text{kernel}}(\Delta_G \le \tau_G)$$
 
 ### 1. KONSEKVENS: Lysbrua — LightBridge Consequence Gate v0.1
 Et forslag har ingen bærehjelp i seg selv. Bæreevne er en tilstand som må innvilges og opprettholdes mot et aktivt vitne.
@@ -41,12 +43,12 @@ Det fysiske rommet har en skarp rand. Bølger som stammer fra virkeligheten adly
 
 ### 3. BANE: PUNKT // BANE — P–NP Yin–Yang Bin Packing v0.1
 Å gjette et sluttpunkt er ikke å bygge en vei. Et uregulert postulat og en verifisert konstruksjon tilhører to ulike ontologiske klasser.
-* **Loven:** Skiller et isolert kandidatpunkt (NP-sertifikat $C$) fra en sekvensielt bevist konstruksjonsbane ($\gamma : x_0 \xrightarrow{W_{\text{PRE}}, W_{\text{POST}}} x_n$). Ingen tilstand godtas uten at kjeden av forutgående og etterfølgende vitner er lukket. Teoretiske utvidelser holdes strengt i `p_equals_np_claim_status = HOLD`.
+* **Loven:** Skiller et isolert kandidatpunkt (NP-sertifikat $C$) fra en sekvensielt bevist konstruksjonsbane ($\gamma : x_0 \xrightarrow{W_{\text{PRE}}, W_{\text{POST}}} x_n$). Porten utfører aldri eksponentielt søk ($\text{FIND}(I) \in \mathcal{NP}$) på kritisk sti; kandidaten må levere banen ferdig konstruert, slik at porten kun utfører deterministisk baneverifikasjon i lineær tid ($\text{VERIFY}(I, \gamma) \in \mathcal{P}, \; O(\lvert\gamma\rvert)$). Teoretiske utvidelser holdes strengt i `p_equals_np_claim_status = HOLD`.
 * **Artefakt:** `yinyang_binpacking.py` (**6/6 PASS**).
 
 ### 4. RELASJON: Kernel Drift Observable v0.1
 Koordinater kan bedra; indre proporsjoner lyver aldri. Et system endrer ikke sin natur fordi rommet dreies rundt det, men det dør i det øyeblikket vinklene mellom dets egne deler brister.
-* **Loven:** Punktvis tilstandsdrift $\Delta_{\text{state}} = \Vert{}X(t) - X(0)\Vert{}_F$ er blind for forskjellen mellom stiv rotasjon ($U \in O(d)$) og indre kollaps. Gram-kjernen $G(t) = X(t)^\top X(t)$ isolerer systemets sanne geometri: under ren rotasjon er $\Delta_G = \Vert{}G(t) - G(0)\Vert{}_F = 0$ (`OPEN`), mens indre skjær- og spektralbrudd gir $\Delta_G > \tau_G$ (`KILL`).
+* **Loven:** Punktvis tilstandsdrift $\Delta_{\text{state}} = \Vert{}X(t) - X(0)\Vert{}_F$ er blind for forskjellen mellom stiv rotasjon ($U \in O(d)$) og indre kollaps. Gram-kjernen $G(t) = X(t)^\top X(t)$ isolerer systemets sanne geometri: under ren rotasjon holdes kjernedriften innenfor maskinens numeriske støygulv $\Delta_G = \Vert{}G(t) - G(0)\Vert{}_F \le \tau_G$ ($\epsilon_{\text{mach}} = 10^{-12} \le \tau_G = 10^{-9} \implies \text{OPEN}$), mens indre skjærbrudd ($\Delta_G > \tau_G$) eller ikke-positiv semidefinitt injeksjon ($\lambda_{\min}(G_t) < -\epsilon_{\text{mach}}$) utløser momentan `KILL`.
 * **Artefakt:** `kernel_drift.py` (**6/6 PASS**).
 
 ---
@@ -57,12 +59,36 @@ Koordinater kan bedra; indre proporsjoner lyver aldri. Et system endrer ikke sin
 | :--- | :--- | :--- | :--- | :--- |
 | **1. Lysbrua** | Tid & Konsekvens | $\Omega_{\text{bridge}}(e, \text{Zone})$ | Eksplisitt avbrudd / ulovlig overgang | `6/6 PASS` |
 | **2. Fase-Kjeglen** | Euklidsk Rom | $\sin(\theta) = \Delta\phi / \pi$ | $\lvert\Delta\phi / \pi\rvert > 1 \implies \cos\theta \in i\mathbb{R}$ | `6/6 PASS` |
-| **3. Punkt // Bane** | Konstruksjon | $\gamma(W_{\text{PRE}}, W_{\text{POST}})$ | Brutt vitnekjede / uverifisert hopp | `6/6 PASS` |
-| **4. Kernel Drift** | Indre Geometri | $\Delta_G = \Vert{}X_t^\top X_t - X_0^\top X_0\Vert{}_F$ | $\Delta_G > \tau_G \lor \lambda_{\min}(G_t) < 0$ | `6/6 PASS` |
+| **3. Punkt // Bane** | Konstruksjon ($O(\lvert\gamma\rvert)$) | $\text{Verify}_{\mathcal{P}}(\gamma, W_{\text{PRE}}, W_{\text{POST}})$ | Brutt vitnekjede / kapasitetsbrudd | `6/6 PASS` |
+| **4. Kernel Drift** | Indre Geometri | $\Delta_G = \Vert{}X_t^\top X_t - X_0^\top X_0\Vert{}_F$ | $\Delta_G > \tau_G \lor \lambda_{\min}(G_t) < -\epsilon_{\text{mach}}$ | `6/6 PASS` |
 
 ---
 
-## IV. EPISTEMISK GRENSEMURS-ERKLÆRING
+## IV. DEN TERMODYNAMISKE SILISIUM-BROEN
+
+En matematisk lov som ignorerer maskinvarens endelige minne, termiske støy og Landauer-skatt ($Q_{\text{erase}} \ge k_B T \ln 2$), kollapser ved første møte med fysisk entropi. Overgangen fra platonsk aksiom til endelig silisium styres av tre mekanismer:
+
+1. **Termodynamisk Epoke-Foldning ($\rho(\text{DP}) \ge 1$ i $O(1)$ Minne):**  
+   Fysisk lagring $M_{\max} < \infty$ er endelig, mens beviskjeden er strengt monoton. Når en lokal Write-Ahead Log-epoke $E_k$ når sin kapasitetsgrense $\lvert E_k\rvert = M_{\text{epoch}}$, foldes epoken inn i en uforanderlig kryptografisk akkumulator-rot før råbufferen rulleres:
+   $$R_k = \text{SHA256}\!\left(R_{k-1} \;\parallel\; \text{MerkleRoot}(E_k) \;\parallel\; \Delta_G(t_k)\right), \qquad k \mapsto k + 1$$
+   Frigjøring av rå arbeidstilstander betaler Landauer-skatten uten å røre den historiske beviskraften: kjeden av epokerøtter $R_0 \to R_1 \to \dots \to R_k$ forblir strengt *append-only* i $O(1)$ aktivt minne. Ved asymmetrisk strømbrudd (*torn write*) isoleres kun uforseglet hale til `HOLD`, mens $R_{k-1}$ står intakt.
+2. **Numerisk og Termisk Dødbånd ($\epsilon_{\text{mach}} \le \tau_G \ll \tau_{\text{rupture}}$):**  
+   Porten krever aldri platonsk flyttalls-null i et støybegrenset medium. Tersklene $\tau_K$ og $\tau_G$ definerer et eksplisitt admisjonsbånd over IEEE-754 avrundingsdrift ($\epsilon_{\text{mach}} = 10^{-12}$) og under strukturelt brudd ($\tau_G = 10^{-9}$).
+3. **Fravær av «Optimistic UI» og Stille Interpolering:**  
+   Arkitekturen tillater ingen spekulativ tilstandsforskuttering, ingen *soft-error* maskering og ingen maskinlært interpolering over manglende vitner:
+
+```python
+if not witness_chain.is_continuous(R_k) or delta_K > tau_K or delta_G > tau_G:
+    gate.authorize("KILL")  # Ingen rollback. Ingen interpolering. Kollisjonsgeometri kuttet.
+elif evidence_id is None or zone == "OCCUPIED":
+    gate.authorize("HOLD")  # Tid alene åpner ingen port (d/dt HOLD = 0).
+else:
+    gate.authorize("OPEN")
+```
+
+---
+
+## V. EPISTEMISK GRENSEMURS-ERKLÆRING
 
 $$\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$$
 
