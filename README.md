@@ -76,11 +76,11 @@
 | Prosjekt / Arkitektur | Beskrivelse | Ressurser |
 | :--- | :--- | :--- |
 | **[Epistemic Architectures](https://github.com/sololys/epistemic-architectures)** | Formell separasjon mellom kandidatgenerering, restriksjonsprojeksjon, konsekvensport og uforanderlig vitnebok. | [GitHub: epistemic-architectures](https://github.com/sololys/epistemic-architectures) · [Notes](https://github.com/sololys/epistemic-architectures-notes) |
-| **[KY-ROX Public Demonstrators](https://github.com/sololys/ky-rox-public-demonstrators)** | Isolerte og reproduserbare demonstratorer for deterministisk konsekvenskontroll og feillukket systemsikkerhet. | [GitHub: ky-rox-public-demonstrators](https://github.com/sololys/ky-rox-public-demonstrators) |
+| **[KY-ROX Public Demonstrators](https://github.com/sololys/ky-rox-public-demonstrators)** | 4 isolerte og SHA-256-verifiserte offentlige mikrotester (`24/24 PASS`): **1.** *Kernel Drift Observable*, **2.** *LightBridge Consequence Gate (`light_bridge.gd`)*, **3.** *Euclidean Wavefront Phase-Cone Gate (ISAC Geometry)*, og **4.** *P–NP Yin–Yang Bin Packing (`PUNKT // BANE`)*. | [GitHub: ky-rox-public-demonstrators](https://github.com/sololys/ky-rox-public-demonstrators) |
 | **[Loop Engineering](https://github.com/sololys/loop-engineering)** | Deterministiske utviklingsverktøy, revisjonsspor og grensesnitt for feillukkede arbeidsflyter. | [GitHub: loop-engineering](https://github.com/sololys/loop-engineering) |
-| **[Reality Forge](https://kreativ-systems.org/)** | Simuleringsteknologi, sanntids kontrollsløyfer og falsifiserbare testmiljøer. | [Kreativ Systems](https://kreativ-systems.org/) |
+| **[Reality Forge](https://kreativ-systems.org/)** | Simuleringsteknologi, sanntids kontrollsløyfer (`LightBridgeActor`) og falsifiserbare testmiljøer. | [Kreativ Systems](https://kreativ-systems.org/) · [LightBridge Microtest](https://github.com/sololys/ky-rox-public-demonstrators/tree/main/artifacts/microtests/light_bridge_consequence_gate_v0_1) |
 | **Infranett** | Deterministisk lokal-først infrastruktur for driftskontinuitet, nærhetsvalidering, asynkrone kurerkapsler over luftgap og fail-closed stase. | Privat repo · Tilgang ved henvendelse |
-| **PODS: Sovereign Bioreactors** | Lukket cyber-agrarisk næringstriade styrt av streng masse- og energibalansering. | Privat repo · Tilgang ved henvendelse |
+| **PODS & OrgelKraft** | Lukket cyber-agrarisk og termodynamisk kaskade styrt av streng masse- og energibalansering. | Privat repo · Tilgang ved henvendelse |
 
 ---
 
