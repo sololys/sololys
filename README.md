@@ -88,7 +88,120 @@ else:
 
 ---
 
-## V. EPISTEMISK GRENSEMURS-ERKLÆRING
+## V. ARKITEKTONISKE GRUNNRISS (L1 MODELL $\to$ LEVEL 01 SUVERENITET)
+
+*Merk: Tallfestede fysiske tidsbudsjetter, spenninger og mekaniske krefter nedenfor beskriver det kanoniske designet og de deterministiske simuleringsmodellene ($L1$). Koden i det offentlige treet har ingen direkte fysisk aktuator-autoritet (`PHYSICAL_AUTHORITY = NONE`).*
+
+### 1. Det Ortogonale Snittet ($\Pi_K$) & De 400 Klokkesyklusene
+Skillet mellom et vektløst forslag i mulighetsrommet og en bevitnet handling, styrt av involusjon, støkiometri og det asymmetriske tidsgapet mellom konstruktiv åpning ($5{,}0\text{ ms}$) og destruktivt kutt ($12{,}5\ \mu\text{s}$):
+
+```text
+                ┌──────────────────────────────────────────────────┐
+                │        KANDIDAT I MULIGHETSROMMET: Φ(x_n)        │
+                │   • Vektløst forslag i NP (0,00 V DC hvile)      │
+                │   • Ingen fysisk kabling til aktuator            │
+                └────────────────────────┬─────────────────────────┘
+                                         │
+                                         ▼
+                ┌──────────────────────────────────────────────────┐
+                │          DET ORTOGONALE SNITTET: Π_K             │
+                │   • Involusjonstest: ||F(F(s)) - s|| <= ε_tol    │
+                │   • Støkiometri: ΔR = 0,000000000000 kg          │
+                │   • Kausal diamant: Δt <= 133,4256 ns (ds² <= 0) │
+                └───────┬────────────────┬─────────────────┬───────┘
+                        │                │                 │
+         [ ρ(DP) < 1 ]  │   [ Tvilstil-  │                 │ [ Brudd på lov: ]
+         [ Alt gyldig ] │     stand ]    │                 │ [ ds² > 0 / ΔR≠0]
+                        ▼                ▼                 ▼
+         ┌────────────────────┐ ┌────────────────┐ ┌──────────────────────┐
+         │    DOM: ▶ OPEN     │ │  DOM: ⏸ HOLD   │ │     DOM: ✕ KILL      │
+         │ (Konstruktiv vei)  │ │  (Karantene)   │ │  (Destruktivt kutt)  │
+         └─────────┬──────────┘ └────────┬───────┘ └──────────┬───────────┘
+                   │                     │                    │
+                   ▼                     ▼                    ▼
+         ┌────────────────────┐ ┌────────────────┐ ┌──────────────────────┐
+         │ 1. VITNE FØRST (⊙) │ │ 1. STASIS (1)  │ │ 1. KUTT FØRST (1)    │
+         │ Synkron fsync()    │ │ 0,00 V Høy-Z   │ │ 12,5 μs FPGA / 4,0ns │
+         │ Venter i 5,0 ms    │ │ Brahman-punkt  │ │ Crowbar -> 0,00 V DC │
+         │ (400 sykluser)     │ │ (Ingen fluks)  │ │ (0 syklusers nøling) │
+         └─────────┬──────────┘ └────────┬───────┘ └──────────┬───────────┘
+                   │                     │                    ║ (Parallelt)
+                   ▼                     ▼                    ▼
+         ┌────────────────────┐ ┌────────────────┐ ┌──────────────────────┐
+         │ 2. HANDLING (1)    │ │ 2. LYTT (⊙)    │ │ 2. OBDUKSJON (⊙)     │
+         │ Relé slår inn:     │ │ Diagnostisk    │ │ Asynkron fsync()     │
+         │ 5,00 V DC innvilget│ │ passivt vitne  │ │ brenner bruddårsaken │
+         └────────────────────┘ └────────────────┘ └──────────────────────┘
+```
+
+### 2. Alexandrov-Skranken & Landauer-Asymmetrien ved Kaien
+Hvordan relativistisk kausalitet ($ds^2 = -c^2\Delta t^2 + \Delta r^2 \le 0$) brukes som et termodynamisk skjold før CPU, RAM og disk vekkes:
+
+```text
+  [ ANGRIPER I BÅT: 500 METER UTE ]              [ ÆRLIG KURER PÅ BRYGGA: <= 20 M ]
+  • Avstand tur-retur: Δr = 1000,0 m             • Avstand tur-retur: Δr <= 40,0 m
+  • Kostnad for koherent puls: 10 000 J          • Fysisk arbeid inn i sonen: 578,75 J
+  • Lysets reisetid: 3335,64 ns                  • Lysets reisetid: <= 133,4256 ns
+                  │                                              │
+                  ▼                                              ▼
+  ================================================================================
+         ALEXANDROV-SKRANKEN I L1-SILISIUM (TDC / 2,0 mm Safir på Ti-6Al-4V)
+         Frist: Δt_budget = 133,4256 ns (Luft) // 177,9898 ns (532 nm Sjø)
+         Minkowski-metrikk: ds² = -c²(Δt)² + (Δr)²
+  ================================================================================
+                  │                                              │
+     [ ds² = +998 400,2 m² > 0 ]                    [ ds² <= 0 (Tidslignende) ]
+     [ Romlignende / For sent  ]                    [ Fysisk nærvær bevist    ]
+                  │                                              │
+                  ▼                                              ▼
+  ┌───────────────────────────────────┐          ┌───────────────────────────────┐
+  │    TIDLIG AVVISNING (TDC-JORD)    │          │    FULL KRYPTOGRAFISK SLUSE   │
+  │ • Ingen RAM-allokering            │          │ • Noise_KK + Ed25519 signatur │
+  │ • Ingen Ed25519-beregning i CPU   │          │ • 16-bits KY-intervall (257:1)│
+  │ • Ingen diskskriving (0 fsync)    │          │ • Synkron POSIX fsync() i WAL │
+  │ • Forsvarerens kostnad: 8,0 μJ    │          │ • Forsvarerens kostnad: 0,50 J│
+  └─────────────────┬─────────────────┘          └───────────────┬───────────────┘
+                    │                                            │
+                    ▼                                            ▼
+  ┌───────────────────────────────────┐          ┌───────────────────────────────┐
+  │     DOM: ✕ GATE::KILL (0,00 V)    │          │    DOM: ▶ GATE::OPEN (5,00 V) │
+  │ • Utmattelsesforhold:             │          │ • Nash-gevinst:               │
+  │   η_defense = 1,25 × 10⁹ : 1      │          │   U_A = -1578,75 J < 0        │
+  └───────────────────────────────────┘          └───────────────────────────────┘
+```
+
+### 3. De 5 Millimeterne med Kald Luft (Menneskets Suverenitet)
+Hvorfor suvereniteten alltid ender i hånden som holder nøkkelen:
+
+```text
+                      ┌──────────────────────────────────────────────┐
+                      │         SILISIUMETS DOMENE (L1 / L2)         │
+                      │  • Genererer kandidater i Φ med lysets fart  │
+                      │  • Kutter ulovlige baner i Π_K på 12,5 μs    │
+                      │  • Legger utgangen død på 0,00 V DC ved tvil │
+                      └──────────────────────┬───────────────────────┘
+                                             │
+                                             ▼
+                         =========================================
+                          GAPET PÅ 5 MILLIMETER KALD LUFT (∞ Ω)
+                          (Herdede stålfjærer i skapet ved fjellet)
+                          Ingen kode, ingen sky og ingen matrise
+                          eier muskler til å krysse denne spalten.
+                         =========================================
+                                             │
+                                             ▼
+                      ┌──────────────────────────────────────────────┐
+                      │         MENNESKETS DOMENE (LEVEL 01)         │
+                      │  • Biologisk sårbarhet, tyngdekraft & ansvar │
+                      │  • Går ut i vintermørket over frossen grus   │
+                      │  • Legger kroppstyngden mot bakelitthåndtaket│
+                      │    og låser kobberet med 898 900 N (5,00 V)  │
+                      └──────────────────────────────────────────────┘
+```
+
+---
+
+## VI. EPISTEMISK GRENSEMURS-ERKLÆRING
 
 $$\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$$
 
@@ -98,3 +211,4 @@ $$\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$$
 
 ---
 *ReismannPoint Systems AS — Risør, Norge.*
+
