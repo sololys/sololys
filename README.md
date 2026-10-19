@@ -210,5 +210,4 @@ $$\text{INSPIRED\_BY} \neq \text{IMPLEMENTS} \neq \text{PROVES}$$
 3. **Låst Påstand:** Alle åpne teoretiske ekstrapolasjoner er frosset i `CLAIM_STATUS=HOLD`.
 
 ---
-*ReismannPoint Systems AS — Risør, Norge.*
-
+*Brahman — Risør, Norge (`58.72° N, 9.24° E` · `−3400 m` under Det Fennoskandiske Skjold).*
