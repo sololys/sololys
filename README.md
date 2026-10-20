@@ -16,7 +16,7 @@ All public `L1` verifiers require **zero third-party packages** (`pip install` i
 
 ### 1. IT-OT Consequence Gate, Digital Twin & $W^2$ Five Proof Chains (SFI NORCICS Reference)
 * **Specifications:**
-  - [`IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md`](https://github.com/sololys/epistemic-architectures/blob/main/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md) (Domains I–IV)
+  - [`IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md`](https://github.com/sololys/epistemic-architectures/blob/main/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md) · [**PDF Brief**](https://github.com/sololys/epistemic-architectures/blob/main/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf) (Domains I–IV)
   - [`specifications/W2_FIVE_PROOF_CHAINS_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/specifications/W2_FIVE_PROOF_CHAINS_SPEC.md) ($W^2$ Pre-Commit Contract)
   - [`notes/W2_BOUNDARY_COUNTEREXAMPLES.md`](https://github.com/sololys/epistemic-architectures/blob/main/notes/W2_BOUNDARY_COUNTEREXAMPLES.md) (Boundary Counterexamples)
 * **Executable `L1` Verifiers (`5/5` + `4/4 PASS`):**
