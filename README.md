@@ -2,8 +2,8 @@
 
 $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQUENCE}}$$
 
-**EN:** Surface index for **Locus Zero (Risør, Norway · Brahman AS)**. Five public repositories with segregated responsibilities: **The Law** (`epistemic-architectures`), **The Gate** (`ky-rox-public-demonstrators`), **The Notes** (`epistemic-architectures-notes`), **The Tooling** (`loop-engineering`), and **The Manuscripts** (`skrivevaerelset`).  
-**NO:** Overflateindeks for **Locus Zero (Risør · Brahman AS)**. Fem offentlige repositorier med adskilte ansvarsområder: **Loven** (`epistemic-architectures`), **Porten** (`ky-rox-public-demonstrators`), **Notatene** (`epistemic-architectures-notes`), **Verktøyet** (`loop-engineering`) og **Ordet** (`skrivevaerelset`).
+**EN:** Surface index for **Locus Zero (Risør, Norway · Brahman)**. Five public repositories with segregated responsibilities: **The Law** (`epistemic-architectures`), **The Gate** (`ky-rox-public-demonstrators`), **The Notes** (`epistemic-architectures-notes`), **The Tooling** (`loop-engineering`), and **The Manuscripts** (`skrivevaerelset`).  
+**NO:** Overflateindeks for **Locus Zero (Risør · Brahman)**. Fem offentlige repositorier med adskilte ansvarsområder: **Loven** (`epistemic-architectures`), **Porten** (`ky-rox-public-demonstrators`), **Notatene** (`epistemic-architectures-notes`), **Verktøyet** (`loop-engineering`) og **Ordet** (`skrivevaerelset`).
 
 * **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOI: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983))
 * **Epistemic Boundary:** `INSPIRED_BY != IMPLEMENTS != PROVES` · `PHYSICAL_AUTHORITY = NONE` (`L1` deterministic software only)
@@ -137,4 +137,4 @@ if deployment_mode == "CLOUD_UNMEDIATED_ACTUATION" or not hardware_interlock_pre
 ```
 
 ---
-*Brahman AS — Risør, Norway (`ORCID: 0009-0006-0431-6637`).*
+*Brahman — Risør, Norway (`ORCID: 0009-0006-0431-6637`).*
