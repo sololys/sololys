@@ -98,6 +98,15 @@ cd ky-rox-public-demonstrators
 python3 run_demo.py
 ```
 
+### 3. Morandi-Core Execution Contract (`L1_LAW` $\to$ `L2_GATE` $\to$ `L3_WITNESS`)
+This repository implements the subtractive **Morandi-Core** topology (`README.md` + `Makefile` in `/`, segregated into [`L1_LAW/`](L1_LAW/invariants_pure.py), [`L2_GATE/`](L2_GATE/evaluate_boundaries.py), and [`L3_WITNESS/`](L3_WITNESS/audit_log.jsonl)):
+
+```bash
+make verify    # Runs L1_LAW (*_pure.py, zero I/O) -> L2_GATE (evaluate_boundaries.py) -> HOLD (0.00 V DC)
+make witness   # Appends SHA-256 W^2 receipt to L3_WITNESS/audit_log.jsonl
+make clean     # Restores passive state
+```
+
 ---
 
 ## II. REPOSITORY DIRECTORY // KART OVER DE ÅPNE REPOSITORIENE
