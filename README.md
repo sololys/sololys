@@ -15,11 +15,11 @@ $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQ
 All public `L1` verifiers require **zero third-party packages** (`pip install` is not required; uses only Python $\ge 3.8$ standard library modules: `hashlib`, `json`, `math`, `sys`, `unittest`).
 
 ### 1. IT-OT Consequence Gate, Digital Twin & $W^2$ Five Proof Chains (SFI NORCICS Reference)
-* **Specifications:**
-  - [`IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md`](https://github.com/sololys/epistemic-architectures/blob/main/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md) · [**PDF Brief**](https://github.com/sololys/epistemic-architectures/blob/main/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf) (Domains I–IV)
-  - [`specifications/W2_FIVE_PROOF_CHAINS_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/specifications/W2_FIVE_PROOF_CHAINS_SPEC.md) ($W^2$ Pre-Commit Contract)
-  - [`notes/W2_BOUNDARY_COUNTEREXAMPLES.md`](https://github.com/sololys/epistemic-architectures/blob/main/notes/W2_BOUNDARY_COUNTEREXAMPLES.md) (Boundary Counterexamples)
-* **Executable `L1` Verifiers (`5/5` + `4/4 PASS`):**
+* **Specifications (`L1_LAW/`):**
+  - [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md) · [**PDF Brief**](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf) (Domains I–IV)
+  - [`L1_LAW/W2_FIVE_PROOF_CHAINS_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/W2_FIVE_PROOF_CHAINS_SPEC.md) ($W^2$ Pre-Commit Contract)
+  - [`L3_NOTES/W2_BOUNDARY_COUNTEREXAMPLES.md`](https://github.com/sololys/epistemic-architectures/blob/main/L3_NOTES/W2_BOUNDARY_COUNTEREXAMPLES.md) (Boundary Counterexamples)
+* **Executable `L1` Verifiers (`L2_GATE/`, `5/5` + `4/4 PASS`):**
   1. **Domain I / Chain 1 (`Door 25` Digital Twin):** Involutive pre-execution collision test ($S_0 \xrightarrow{a} S_f \xrightarrow{a^{-1}} S_r$, $\|S_0 - S_r\| \le \varepsilon_{\mathrm{iso}}$) & envelope check.
   2. **Domain II (Constrained Local LLMs / HMIs):** Forward-invariant Nagumo barrier ($\langle \nabla h(x), f(x, u_{\mathrm{cand}})\rangle + \alpha(h(x)) \ge 0$) & dual receipt $W^2$.
   3. **Domain III / Chain 4 (Maritime GNSS Denial):** Relativistic UWB Time-of-Flight light-cone bound ($d_{\mathrm{ToF}} \le c\Delta t/2$) & Euclidean AoA ($|\sin\theta| \le 1$).
@@ -29,14 +29,15 @@ All public `L1` verifiers require **zero third-party packages** (`pip install` i
 ```bash
 git clone https://github.com/sololys/epistemic-architectures.git
 cd epistemic-architectures
-python3 demonstrators/verify_w2_five_proof_chains.py
-python3 tools/verify_norcics_digital_twin_llm_gate.py
+make verify
+python3 L2_GATE/verify_w2_five_proof_chains.py
+python3 L2_GATE/verify_norcics_digital_twin_llm_gate.py
 ```
 
 <details>
 <summary><strong>Zero-Trust Static Verification Trace (No Local Execution Required — SHA-256: <code>a30d7c93...ba785</code>)</strong></summary>
 
-For reviewers operating under Zero-Trust policies that prohibit executing external scripts, [`tools/verify_norcics_digital_twin_llm_gate.py`](https://github.com/sololys/epistemic-architectures/blob/main/tools/verify_norcics_digital_twin_llm_gate.py) can be audited statically in the browser. Deterministic execution produces the following canonical JSON and SHA-256 witness chain:
+For reviewers operating under Zero-Trust policies that prohibit executing external scripts, [`L2_GATE/verify_norcics_digital_twin_llm_gate.py`](https://github.com/sololys/epistemic-architectures/blob/main/L2_GATE/verify_norcics_digital_twin_llm_gate.py) can be audited statically in the browser. Deterministic execution produces the following canonical JSON and SHA-256 witness chain:
 
 ```json
 {
@@ -113,7 +114,7 @@ make clean     # Restores passive state
 
 | Surface | Repository | Technical Scope & Artifacts | Entry |
 | :--- | :--- | :--- | :--- |
-| **⚖️ I. THE LAW** | [**`sololys/epistemic-architectures`**](https://github.com/sololys/epistemic-architectures) | Formal specifications (`/specifications`), `L1` proof-chain verifiers (`/demonstrators`), and boundary derivations (`/notes`) for fail-closed projection ($\Phi \to \Pi_K \to \Omega \to W^2$) and [`IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md`](https://github.com/sololys/epistemic-architectures/blob/main/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures) |
+| **⚖️ I. THE LAW** | [**`sololys/epistemic-architectures`**](https://github.com/sololys/epistemic-architectures) | Morandi-Core segregated architecture (`L1_LAW/`, `L2_GATE/`, `L3_WITNESS/`, `L3_NOTES/`) for fail-closed projection ($\Phi \to \Pi_K \to \Omega \to W^2$) and [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures) |
 | **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Four deterministic `L1` microtests (`24/24 PASS`): **Consequence** (`light_bridge_gate.py`), **Space** (`euclidean_phase_cone.py`), **Path** (`yinyang_binpacking.py`), and **Relation** (`kernel_drift.py`). | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
 | **📓 III. THE NOTES** | [**`sololys/epistemic-architectures-notes`**](https://github.com/sololys/epistemic-architectures-notes) | Working mathematical derivations, boundary counterexamples, and non-canonical extensions accompanying `epistemic-architectures`. | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures-notes) |
 | **🛠️ IV. THE TOOLING** | [**`sololys/loop-engineering`**](https://github.com/sololys/loop-engineering) | Local-first CLI evaluation harnesses and deterministic verification loops for autonomous coding agents. | [Open Repo $\to$](https://github.com/sololys/loop-engineering) |
