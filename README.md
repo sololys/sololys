@@ -5,7 +5,7 @@ $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQ
 **EN:** Surface index for **Locus Zero (Risør, Norway · Brahman)**. Five public repositories with segregated responsibilities: **The Law** (`epistemic-architectures`), **The Gate** (`ky-rox-public-demonstrators`), **The Notes** (`epistemic-architectures-notes`), **The Tooling** (`loop-engineering`), and **The Manuscripts** (`skrivevaerelset`).  
 **NO:** Overflateindeks for **Locus Zero (Risør · Brahman)**. Fem offentlige repositorier med adskilte ansvarsområder: **Loven** (`epistemic-architectures`), **Porten** (`ky-rox-public-demonstrators`), **Notatene** (`epistemic-architectures-notes`), **Verktøyet** (`loop-engineering`) og **Ordet** (`skrivevaerelset`).
 
-* **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOI: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983))
+* **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOIs: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983) · [`10.5281/zenodo.18515422`](https://doi.org/10.5281/zenodo.18515422) · [`10.5281/zenodo.22229111`](https://doi.org/10.5281/zenodo.22229111))
 * **Epistemic Boundary:** `INSPIRED_BY != IMPLEMENTS != PROVES` · `PHYSICAL_AUTHORITY = NONE` (`L1` deterministic software only)
 
 ---
