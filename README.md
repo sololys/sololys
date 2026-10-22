@@ -19,14 +19,16 @@ All public `L1` verifiers require **zero third-party packages** (`pip install` i
   - [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.md) · [**PDF Brief**](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf) (Domains I–IV)
   - [`L1_LAW/W2_FIVE_PROOF_CHAINS_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/W2_FIVE_PROOF_CHAINS_SPEC.md) ($W^2$ Pre-Commit Contract)
   - [`L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md) (M-Polynomial & 1-WL Molecular Consequence Gate $\Pi_K$)
+  - [`L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md) (PWR2 & Power-Law Spin Scrambling vs. Collective Consequence Gate $\Pi_K$)
   - [`L3_NOTES/W2_BOUNDARY_COUNTEREXAMPLES.md`](https://github.com/sololys/epistemic-architectures/blob/main/L3_NOTES/W2_BOUNDARY_COUNTEREXAMPLES.md) (Boundary Counterexamples)
-* **Executable `L1` Verifiers (`L2_GATE/`, `5/5` + `4/4` + `6/6 PASS`):**
+* **Executable `L1` Verifiers (`L2_GATE/`, `5/5` + `4/4` + `6/6` + `6/6 PASS`):**
   1. **Domain I / Chain 1 (`Door 25` Digital Twin):** Involutive pre-execution collision test ($S_0 \xrightarrow{a} S_f \xrightarrow{a^{-1}} S_r$, $\|S_0 - S_r\| \le \varepsilon_{\mathrm{iso}}$) & envelope check.
   2. **Domain II (Constrained Local LLMs / HMIs):** Forward-invariant Nagumo barrier ($\langle \nabla h(x), f(x, u_{\mathrm{cand}})\rangle + \alpha(h(x)) \ge 0$) & dual receipt $W^2$.
   3. **Domain III / Chain 4 (Maritime GNSS Denial):** Relativistic UWB Time-of-Flight light-cone bound ($d_{\mathrm{ToF}} \le c\Delta t/2$) & Euclidean AoA ($|\sin\theta| \le 1$).
   4. **Domain IV (VSG Microgrid BFT):** Screened dispersion gap ($\omega^2 = \mu_{\mathrm{eff}}^2 + c_s^2 k^2$) & multiplicative $(2f+1)$ quorum warrant.
   5. **Chains 2, 3 & 5 ($W^2$ Gate):** Relational Gram invariance ($\Delta_G = \|G(t) - G(0)\|_F \le \tau_G$), exact rational balance ($\Delta R \equiv \frac{0}{1} \in \mathbb{Q}$), and Cook–Levin monotone fuse $(F_n \mathbin{\&} F_{n+1}) == F_n$.
   6. **M-Polynomial & 1-WL Molecular Gate ($\Pi_K$):** Exact $M(G; x, y) = \sum_{i \le j} m_{ij}(G)x^i y^j$ operators ($M_1, M_2, R, H, SDD$), 1-WL Decalin/Bicyclopentyl bottleneck (`HOLD`), `[Fe7MoS9C]` $\mu_6\text{-C}$ cluster (`OPEN`), and organic Texas Carbon rejection (`KILL`).
+  7. **PWR2 & Power-Law Spin Scrambling vs. Collective Gate ($\Pi_K$):** Exact circulant Fourier spectra $\lambda_K$, state-dependent Laplacian $L_{ij}(\mathbf{z}) = z_i z_j \chi_{ij}$ gap $\Delta$, semiclassical Lyapunov instability $\Gamma_q^2(K)$, and critical spin-flip scaling $k^* \sim \sqrt{N}$ (`OPEN` / `HOLD` / `KILL`).
 
 ```bash
 git clone https://github.com/sololys/epistemic-architectures.git
@@ -35,6 +37,7 @@ make verify
 python3 L2_GATE/verify_w2_five_proof_chains.py
 python3 L2_GATE/verify_norcics_digital_twin_llm_gate.py
 python3 L2_GATE/verify_mpolynomial_1wl_molecular_gate.py
+python3 L2_GATE/verify_pwr2_scrambling_collective_gate.py
 ```
 
 <details>
@@ -95,7 +98,7 @@ For reviewers operating under Zero-Trust policies that prohibit executing extern
 ```
 </details>
 
-### 2. The Five Monoliths Microtest Suite (`30/30 PASS`)
+### 2. The Six Monoliths Microtest Suite (`36/36 PASS`)
 ```bash
 git clone https://github.com/sololys/ky-rox-public-demonstrators.git
 cd ky-rox-public-demonstrators
@@ -117,8 +120,8 @@ make clean     # Restores passive state
 
 | Surface | Repository | Technical Scope & Artifacts | Entry |
 | :--- | :--- | :--- | :--- |
-| **⚖️ I. THE LAW** | [**`sololys/epistemic-architectures`**](https://github.com/sololys/epistemic-architectures) | Morandi-Core segregated architecture (`L1_LAW/`, `L2_GATE/`, `L3_WITNESS/`, `L3_NOTES/`) for fail-closed projection ($\Phi \to \Pi_K \to \Omega \to W^2$), [`L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md), and [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures) |
-| **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Five deterministic `L1` microtests (`30/30 PASS`): **Consequence** (`light_bridge_gate.py`), **Space** (`euclidean_phase_cone.py`), **Path** (`yinyang_binpacking.py`), **Relation** (`kernel_drift.py`), and **Molecule** (`mpolynomial_1wl_molecular_gate.py`). | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
+| **⚖️ I. THE LAW** | [**`sololys/epistemic-architectures`**](https://github.com/sololys/epistemic-architectures) | Morandi-Core segregated architecture (`L1_LAW/`, `L2_GATE/`, `L3_WITNESS/`, `L3_NOTES/`) for fail-closed projection ($\Phi \to \Pi_K \to \Omega \to W^2$), [`L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md), [`L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md), and [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures) |
+| **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Six deterministic `L1` microtests (`36/36 PASS`): **Consequence** (`light_bridge_gate.py`), **Space** (`euclidean_phase_cone.py`), **Path** (`yinyang_binpacking.py`), **Relation** (`kernel_drift.py`), **Molecule** (`mpolynomial_1wl_molecular_gate.py`), and **Spin** (`pwr2_scrambling_collective_gate.py`). | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
 | **📓 III. THE NOTES** | [**`sololys/epistemic-architectures-notes`**](https://github.com/sololys/epistemic-architectures-notes) | Working mathematical derivations, boundary counterexamples, and non-canonical extensions accompanying `epistemic-architectures`. | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures-notes) |
 | **🛠️ IV. THE TOOLING** | [**`sololys/loop-engineering`**](https://github.com/sololys/loop-engineering) | Local-first CLI evaluation harnesses and deterministic verification loops for autonomous coding agents. | [Open Repo $\to$](https://github.com/sololys/loop-engineering) |
 | **📖 V. MANUSCRIPTS** | [**`sololys/skrivevaerelset`**](https://github.com/sololys/skrivevaerelset) | Long-form monographs and essays from Risør (*Konseptuell Granitt*, *Kutt Flaten: Et Notis*). Separated from engineering specifications to prevent scope conflation. | [Open Repo $\to$](https://github.com/sololys/skrivevaerelset) |
@@ -128,9 +131,9 @@ make clean     # Restores passive state
 | Domain | Repository | Verification & Primary `L1` Artifacts | Entry |
 | :--- | :--- | :--- | :--- |
 | **🌐 INFRANETT** | [**`sololys/infranett`**](https://github.com/sololys/infranett) | Infranett Sovereign Browser v1.0 (`n = 1..6` GUI/TUI Workbench, KY v1.0 Interpreter, KY–Nash Ghost-Win Detector & 1882 Sierpiński/Vandiver Gate, `28/28 PASS`). | [Open Repo $\to$](https://github.com/sololys/infranett) |
-| **⚙️ ORGELKRAFT** | [**`sololys/OrgelKraft`**](https://github.com/sololys/OrgelKraft) | Fail-Closed Consequence Gate (`make verify`: `220/220` unit tests + `45/45` exact rational reference balances + M-Polynomial & 1-WL Molecular Gate). | [Open Repo $\to$](https://github.com/sololys/OrgelKraft) |
+| **⚙️ ORGELKRAFT** | [**`sololys/OrgelKraft`**](https://github.com/sololys/OrgelKraft) | Fail-Closed Consequence Gate (`make verify`: `226/226` unit tests + `45/45` exact rational reference balances + M-Polynomial/1-WL & PWR2 Scrambling Gates). | [Open Repo $\to$](https://github.com/sololys/OrgelKraft) |
 | **🧬 FEMOS** | [**`sololys/femos-biomimetic-nitrogenase`**](https://github.com/sololys/femos-biomimetic-nitrogenase) | `[Fe7MoS9C]` Interstitial $\mu_6\text{-C}$ Carbide M-Polynomial ($6x^2y^4 + 6x^3y^3 + 12x^3y^4 + 6x^4y^6$, $M_1=216, M_2=390$), P-POD & 11 Test Suites (`50/50` SHA-256). | [Open Repo $\to$](https://github.com/sololys/femos-biomimetic-nitrogenase) |
-| **🪞 FASE-SPEIL** | [**`sololys/FASE_SPEIL_v0_1`**](https://github.com/sololys/FASE_SPEIL_v0_1) | Quantum Lindblad Decoherence, Diophantine Guard, M-Polynomial & 1-WL Molecular Consequence Gate (`114/114` unit tests PASS). | [Open Repo $\to$](https://github.com/sololys/FASE_SPEIL_v0_1) |
+| **🪞 FASE-SPEIL** | [**`sololys/FASE_SPEIL_v0_1`**](https://github.com/sololys/FASE_SPEIL_v0_1) | Quantum Lindblad Decoherence, Diophantine Guard, M-Polynomial/1-WL & PWR2 Scrambling vs. Collective Gates (`120/120` unit tests PASS). | [Open Repo $\to$](https://github.com/sololys/FASE_SPEIL_v0_1) |
 | **🔋 GSCX** | [**`sololys/gscx-battery-energy-network`**](https://github.com/sololys/gscx-battery-energy-network) | $\text{Al–N}_2$ NitroCell Reversible Battery, 4-Stage NRR Omni-Engine & M-Polynomial/1-WL Molecular Consequence Gate (`14/14` unit tests PASS). | [Open Repo $\to$](https://github.com/sololys/gscx-battery-energy-network) |
 
 ---
