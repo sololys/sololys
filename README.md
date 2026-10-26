@@ -5,7 +5,7 @@ $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQ
 **EN:** Surface index for **Locus Zero (Risør, Norway · Brahman)**. Five public repositories with segregated responsibilities: **The Law** (`epistemic-architectures`), **The Gate** (`ky-rox-public-demonstrators`), **The Notes** (`epistemic-architectures-notes`), **The Tooling** (`loop-engineering`), and **The Manuscripts** (`skrivevaerelset`).  
 **NO:** Overflateindeks for **Locus Zero (Risør · Brahman)**. Fem offentlige repositorier med adskilte ansvarsområder: **Loven** (`epistemic-architectures`), **Porten** (`ky-rox-public-demonstrators`), **Notatene** (`epistemic-architectures-notes`), **Verktøyet** (`loop-engineering`) og **Ordet** (`skrivevaerelset`).
 
-* **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOIs: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983) · [`10.5281/zenodo.18515422`](https://doi.org/10.5281/zenodo.18515422) · [`10.5281/zenodo.22229111`](https://doi.org/10.5281/zenodo.22229111))
+* **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOIs: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983) · [`10.5281/zenodo.18515422`](https://doi.org/10.5281/zenodo.18515422) · [`10.5281/zenodo.22229111`](https://doi.org/10.5281/zenodo.22229111) · [`10.5281/zenodo.23642822`](https://doi.org/10.5281/zenodo.23642822) · [`10.5281/zenodo.23642893`](https://doi.org/10.5281/zenodo.23642893) · [`10.5281/zenodo.23642895`](https://doi.org/10.5281/zenodo.23642895) · [`10.5281/zenodo.23642906`](https://doi.org/10.5281/zenodo.23642906))
 * **Epistemic Boundary:** `INSPIRED_BY != IMPLEMENTS != PROVES` · `PHYSICAL_AUTHORITY = NONE` (`L1` deterministic software only)
 
 ---
@@ -36,7 +36,7 @@ All public `L1` verifiers require **zero third-party packages** (`pip install` i
   2. **Domain II (Constrained Local LLMs / HMIs):** Forward-invariant Nagumo barrier ($\langle \nabla h(x), f(x, u_{\mathrm{cand}})\rangle + \alpha(h(x)) \ge 0$) & dual receipt $W^2$.
   3. **Domain III / Chain 4 (Maritime GNSS Denial):** Relativistic UWB Time-of-Flight light-cone bound ($d_{\mathrm{ToF}} \le c\Delta t/2$) & Euclidean AoA ($|\sin\theta| \le 1$).
   4. **Domain IV (VSG Microgrid BFT):** Screened dispersion gap ($\omega^2 = \mu_{\mathrm{eff}}^2 + c_s^2 k^2$) & multiplicative $(2f+1)$ quorum warrant.
-  5. **Chains 2, 3 & 5 ($W^2$ Gate):** Relational Gram invariance ($\Delta_G = \|G(t) - G(0)\|_F \le \tau_G$), exact rational balance ($\Delta R \equiv \frac{0}{1} \in \mathbb{Q}$), and Cook–Levin monotone fuse $(F_n \mathbin{\&} F_{n+1}) == F_n$.
+  5. **Chains 2, 3 & 5 ($W^2$ Gate):** Relational Gram invariance $\Delta_G = \lVert G(t) - G(0)\rVert_F \le \tau_G$, exact rational balance $\Delta R \equiv \frac{0}{1} \in \mathbb{Q}$, and Cook–Levin monotone fuse $(F_n \land F_{n+1}) = F_n$.
   6. **M-Polynomial & 1-WL Molecular Gate ($\Pi_K$):** Exact $M(G; x, y) = \sum_{i \le j} m_{ij}(G)x^i y^j$ operators ($M_1, M_2, R, H, SDD$), 1-WL Decalin/Bicyclopentyl bottleneck (`HOLD`), `[Fe7MoS9C]` $\mu_6\text{-C}$ cluster (`OPEN`), and organic Texas Carbon rejection (`KILL`).
   7. **PWR2 & Power-Law Spin Scrambling vs. Collective Gate ($\Pi_K$):** Exact circulant Fourier spectra $\lambda_K$, state-dependent Laplacian $L_{ij}(\mathbf{z}) = z_i z_j \chi_{ij}$ gap $\Delta$, semiclassical Lyapunov instability $\Gamma_q^2(K)$, and critical spin-flip scaling $k^* \sim \sqrt{N}$ (`OPEN` / `HOLD` / `KILL`).
 
@@ -108,7 +108,7 @@ For reviewers operating under Zero-Trust policies that prohibit executing extern
 ```
 </details>
 
-### 2. The Six Monoliths Microtest Suite (`36/36 PASS`)
+### 2. The Seven Monoliths Microtest Suite (`42/42 PASS`)
 ```bash
 git clone https://github.com/sololys/ky-rox-public-demonstrators.git
 cd ky-rox-public-demonstrators
@@ -131,7 +131,7 @@ make clean     # Restores passive state
 | Surface | Repository | Technical Scope & Artifacts | Entry |
 | :--- | :--- | :--- | :--- |
 | **⚖️ I. THE LAW** | [**`sololys/epistemic-architectures`**](https://github.com/sololys/epistemic-architectures) | Morandi-Core segregated architecture (`L1_LAW/`, `L2_GATE/`, `L3_WITNESS/`, `L3_NOTES/`) for fail-closed projection ($\Phi \to \Pi_K \to \Omega \to W^2$), [`L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md), [`L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md), and [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures) |
-| **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Six deterministic `L1` microtests (`36/36 PASS`): **Consequence** (`light_bridge_gate.py`), **Space** (`euclidean_phase_cone.py`), **Path** (`yinyang_binpacking.py`), **Relation** (`kernel_drift.py`), **Molecule** (`mpolynomial_1wl_molecular_gate.py`), and **Spin** (`pwr2_scrambling_collective_gate.py`). | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
+| **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Seven deterministic `L1` microtests (`42/42 PASS`): **Consequence** (`light_bridge_gate.py`), **Space** (`euclidean_phase_cone.py`), **Path** (`yinyang_binpacking.py`), **Relation** (`kernel_drift.py`), **Molecule** (`mpolynomial_1wl_molecular_gate.py`), **Spin** (`pwr2_scrambling_collective_gate.py`), and **Horizon I** (`staggered_prf_fine_wilf_gate.py`). | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
 | **📓 III. THE NOTES** | [**`sololys/epistemic-architectures-notes`**](https://github.com/sololys/epistemic-architectures-notes) | Working mathematical derivations, boundary counterexamples, and non-canonical extensions accompanying `epistemic-architectures`. | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures-notes) |
 | **🛠️ IV. THE TOOLING** | [**`sololys/loop-engineering`**](https://github.com/sololys/loop-engineering) | Local-first CLI evaluation harnesses and deterministic verification loops for autonomous coding agents. | [Open Repo $\to$](https://github.com/sololys/loop-engineering) |
 | **📖 V. MANUSCRIPTS** | [**`sololys/skrivevaerelset`**](https://github.com/sololys/skrivevaerelset) | Long-form monographs and essays from Risør (*Konseptuell Granitt*, *Kutt Flaten: Et Notis*). Separated from engineering specifications to prevent scope conflation. | [Open Repo $\to$](https://github.com/sololys/skrivevaerelset) |
@@ -160,7 +160,7 @@ Candidate Phi(x_t)  --->  Projection Pi_K  --->  Verdict Omega in {KILL, HOLD, O
 
 ### 2. Explicit Threat-Model Boundaries (DevSecOps & HIL Constraints)
 1. **Bounded Physical Isolation (No Unbounded "Air-Gap Invulnerability" Claim):**  
-   Physical air-gaps and dielectric barriers are bounded by Paschen breakdown ($V_B = f(p \cdot d)$), parasitic capacitance ($I_{\mathrm{disp}} = C\,\mathrm{d}V/\mathrm{d}t$), and radiative coupling. Hardware implementations (`L2/L3`) require explicit dielectric rating specification (e.g., $\text{Al}_2\text{O}_3$ optical isolation $\ge 25\text{ kV}$ and cylindrical $\text{TE}_{11}$ evanescent waveguide attenuation below cutoff $f_c$).
+   Physical air-gaps and dielectric barriers are bounded by Paschen breakdown $V_B = f(p \cdot d)$, parasitic capacitance $I_{\mathrm{disp}} = C\,\mathrm{d}V/\mathrm{d}t$, and radiative coupling. Hardware implementations (`L2/L3`) require explicit dielectric rating specification (e.g., $\mathrm{Al_2O_3}$ optical isolation $\ge 25\text{ kV}$ and cylindrical $\mathrm{TE_{11}}$ evanescent waveguide attenuation below cutoff $f_c$).
 2. **Insider Threat & Coerced Operator Mitigation ($W^2 = W_{\mathrm{machine}} \land W_{\mathrm{human}}$):**  
    Human authority (`Level 01`) is **necessary for admission (`OPEN`) but never sufficient to override $\Pi_K$**. The actuation product is conjunctive:
    $$\mathrm{Actuate} = \mathbb{I}(\Omega(\Pi_K) == \mathrm{OPEN}) \cdot W_{\mathrm{machine}} \cdot W_{\mathrm{human}}.$$
@@ -194,5 +194,5 @@ This repository is part of a 6-layer deterministic engineering constellation (`L
 | **L3 — Phase & Horizon** | [`sololys/FASE_SPEIL_v0_1`](https://github.com/sololys/FASE_SPEIL_v0_1) | Davisson Bragg coherence ($54\text{ V}/50^\circ$), Fine–Wilf ghost-word detector ($L^* = p+q-\gcd(p,q) = 12$) & Staggered-PRF SDR filter | `26/26 PASS` |
 | **L4 — Local-First Net** | [`sololys/Infranett`](https://github.com/sololys/Infranett) | Infranett v0.4: $S_0 = \text{GATE::HOLD}$, Time-of-Flight $d \le 20\text{ m}$, `Noise_KK` 0-RTT & causal persistence (`fsync < RAM < ACK`) | `26/26 PASS` |
 | **L5 — Continuous Path** | [`sololys/OrgelKraft`](https://github.com/sololys/OrgelKraft) | Continuous mechanical & acoustic work integration ($\Delta E_k = \int F\,dx$) & multi-period harmonic horizon | `26/26 PASS` |
-| **L6 — Cognitive Shield** | [`sololys/TonderSheeld`](https://github.com/sololys/TonderSheeld) | Synthetic psychosomatics, Schaerbeek ceiling ($2^{12}$), Landauer erasure floor ($E_{\min} = k_B T \ln 2$) & Diurnal Gearbox ($S_1$–$S_5$) | `26/26 PASS` |
+| **L6 — Cognitive Shield** | [`sololys/TonderSheeld`](https://github.com/sololys/TonderSheeld) | Synthetic psychosomatics, Schaerbeek ceiling ($2^{12}$), Landauer erasure floor ($E_{\min} = k_B T \ln 2$) & Diurnal Gearbox ($S_1\text{--}S_5$) | `26/26 PASS` |
 <!-- SOVEREIGN_CONSTELLATION_MAP_END -->
