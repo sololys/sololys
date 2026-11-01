@@ -224,7 +224,8 @@ def lyapunov_prediction_horizon(lam: float, d_crit: float, d_0: float) -> float:
         return 0.0
     if lam <= 0.0 or d_0 <= 0.0 or d_crit <= d_0:
         return 0.0
-    return (1.0 / lam) * math.log(d_crit / d_0)
+    # Kvantiser til 5 desimaler (10^-5 s) for å eliminere libm ULP-drift i L2 SHA-256
+    return round((1.0 / lam) * math.log(d_crit / d_0), 5)
 
 
 def preimage_viability_audit(
