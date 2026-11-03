@@ -1,4 +1,61 @@
-# SOLOLYS // SURFACE INDEX & VERIFICATION ENTRYPOINT
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  REISMANNPOINT SYSTEMS // KREATIV-CORE v3.0 // KY REALIZATION GRAMMAR v1.5   ║
+║  STATE ANCHOR: 0xABCDEF00  │  PARADIGM: FAIL-CLOSED DETERMINISTIC ADMISSION  ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+# `SOLOLYS // SURFACE INDEX & VERIFICATION ENTRYPOINT`
+**Deterministic Fail-Closed State Projection & Epistemic Gate Architecture**
+
+[![Release](https://img.shields.io/badge/RELEASE-v1.5.0--MASTER-0d1117?style=flat-square&labelColor=161b22&color=2ea043)](https://github.com/sololys/ky-rox-public-demonstrators/releases/tag/v1.5.0-MASTER)
+[![State Anchor](https://img.shields.io/badge/STATE_ANCHOR-0xABCDEF00-0d1117?style=flat-square&labelColor=161b22&color=58a6ff)](https://github.com/sololys/epistemic-architectures/blob/main/STACK_MAP_v0.1.md)
+[![D1.2 Codec](https://img.shields.io/badge/D1.2_BIJECTION-36%2F36_PASS-0d1117?style=flat-square&labelColor=161b22&color=2ea043)](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L1_LAW/ky_parser.py)
+[![Registry A](https://img.shields.io/badge/REGISTRY_A_(D3)-FAIL--CLOSED_(KILL)-0d1117?style=flat-square&labelColor=161b22&color=f85149)](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L1_LAW/STACK_MAP_v0.1.md)
+[![Registry B](https://img.shields.io/badge/REGISTRY_B_(L3_HIL)-HOLD_(SOFTWARE_DEMO)-0d1117?style=flat-square&labelColor=161b22&color=d29922)](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/README.md)
+
+</div>
+
+---
+
+### `0x01 // OPERATIONAL AXIOMS`
+
+```text
+AXIOM I   (ADMISSION)   :: Reality is admitted, not generated.
+AXIOM II  (BOUNDARY)    :: INSPIRED_BY != IMPLEMENTS != PROVES
+AXIOM III (BIJECTION)   :: ∀x ∈ L_KY : from_ascii(to_ascii(x)) ≡ x
+AXIOM IV  (ORTHOGONAL)  :: Σ_state (●) ∩ Σ_suffix (!) = ∅
+CANONICAL GLYPH         :: ✓(○ → ∅ → □ → ◇ → ●)#! ▸
+CANONICAL ASCII         :: validate(raw -> estimate -> struct -> viability -> committed)#! OPEN
+```
+
+---
+
+### `0x02 // CANONICAL STATE VECTOR (D0 -> D3)`
+
+| Layer | Domain | Canonical Representation / Gate Condition | Status |
+| :--- | :--- | :--- | :--- |
+| **`D1.2`** | **Unicode Glyph** | `✓(○ → ∅ → □ → ◇ → ●)#! ▸` | `LOCKED` |
+| **`D1.2`** | **ASCII Operational** | `validate(raw -> estimate -> struct -> viability -> committed)#! OPEN` | `LOCKED` |
+| **`D3.A`** | **Registry A (WORM)** | `Rosetta v1.5 (208B)` + `Ed25519` / External Anchor Required | `FAIL-CLOSED (KILL)` |
+| **`D3.B`** | **Registry B (Silicon)** | `OPEN_AS_SOFTWARE_DEMONSTRATION` — GPIO/FPGA D-Latch Unwitnessed | `HOLD` |
+
+---
+
+### `0x03 // SYNCHRONIZED REPOSITORY MATRIX [v1.5.0-MASTER]`
+
+| Node / Repository | Architectural Role | Release Tag | Verification Telemetry |
+| :--- | :--- | :--- | :--- |
+| **[`sololys/Gemini-Core`](https://github.com/sololys/Gemini-Core)** | **Primary SSOT** (`ky_parser.py`, `rosetta_d3_gate.py`, `STACK_MAP`) | `v1.5.0-MASTER` | `36/36 PASS` (KY) + `6/6 PASS` (Rosetta D3) + `7/7 PASS` (Reg B) |
+| **[`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | **Public Room VI** (`L1_LAW` & `L2_GATE` Export Tree) | `v1.5.0-MASTER` | `PUBLIC_TREE_GATE=PASS` (Monoliths + Rosetta D3 + 205B RTL Co-Sim) |
+| **[`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | **Public Room X** (Epistemic Topology & `STACK_MAP_v0.1.md`) | `v1.5.0-MASTER` | `D0 -> D3` + Registry A/B Architecture Map Synced |
+| **[`sololys/RTDRA`](https://github.com/sololys/RTDRA)** | **Public Cathedral** (Bind XV `0xFFFA` + Bind XVII Door 27) | `v1.5.0-MASTER` | `[SSOT_OPEN] 74/74` · `[L1_VERIFIED] 162/162 PASS` |
+| **[`sololys/KreativSystems.1`](https://github.com/sololys/KreativSystems.1)** | **KREATIV-CORE v3.0** (Execution Engine) | `v1.5.0-MASTER` | `engines/ky_parser.py` Locked |
+| **[`sololys/Brahman.1`](https://github.com/sololys/Brahman.1)** | **Reismann Core** (`02_ALGEBRA` & `01_HARDWARE_RTL`) | `v1.5.0-MASTER` | Algebraic Parser, 205B RTL Decoder & Scripts Synced |
+
+---
 
 $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQUENCE}}$$
 
