@@ -46,14 +46,23 @@ CANONICAL ASCII         :: validate(raw -> estimate -> struct -> viability -> co
 
 ### `0x03 // SYNCHRONIZED REPOSITORY MATRIX [v1.5.0-MASTER]`
 
-| Node / Repository | Architectural Role | Release Tag | Verification Telemetry |
-| :--- | :--- | :--- | :--- |
-| **[`sololys/Gemini-Core`](https://github.com/sololys/Gemini-Core)** | **Primary SSOT** (`ky_parser.py`, `rosetta_d3_gate.py`, `STACK_MAP`) | `v1.5.0-MASTER` | `36/36 PASS` (KY) + `6/6 PASS` (Rosetta D3) + `7/7 PASS` (Reg B) |
-| **[`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | **Public Room VI** (`L1_LAW` & `L2_GATE` Export Tree) | `v1.5.0-MASTER` | `PUBLIC_TREE_GATE=PASS` (Monoliths + Rosetta D3 + 205B RTL Co-Sim) |
-| **[`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | **Public Room X** (Epistemic Topology & `STACK_MAP_v0.1.md`) | `v1.5.0-MASTER` | `D0 -> D3` + Registry A/B Architecture Map Synced |
-| **[`sololys/RTDRA`](https://github.com/sololys/RTDRA)** | **Public Cathedral** (Bind XV `0xFFFA` + Bind XVII Door 27) | `v1.5.0-MASTER` | `[SSOT_OPEN] 74/74` · `[L1_VERIFIED] 162/162 PASS` |
-| **[`sololys/KreativSystems.1`](https://github.com/sololys/KreativSystems.1)** | **KREATIV-CORE v3.0** (Execution Engine) | `v1.5.0-MASTER` | `engines/ky_parser.py` Locked |
-| **[`sololys/Brahman.1`](https://github.com/sololys/Brahman.1)** | **Reismann Core** (`02_ALGEBRA` & `01_HARDWARE_RTL`) | `v1.5.0-MASTER` | Algebraic Parser, 205B RTL Decoder & Scripts Synced |
+| Node # | Repository (`github.com/sololys`) | Synchronized Commit | Role in Star Topology | Gate & Hash Verification |
+| :--- | :--- | :--- | :--- | :--- |
+| **`[1]`** | **[`sololys/Gemini-Core`](https://github.com/sololys/Gemini-Core)** | `9ccafeb75` | **Private Primary SSOT** ($L_1$ + $L_{1.5}$ RTL + `verify_v1_5_constellation.sh`) | `[8/8 RTL CO-SIM PASS]` |
+| **`[2]`** | **[`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | `8436236` | **Public Room VI (Porten)** — Public Verification Surface (`make verify`) | `[PUBLIC_TREE_GATE=PASS 80/80]` |
+| **`[3]`** | **[`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | `c4263e9` | **Public Room X (Loven)** — Formal Stack Topology ($D_0 \to D_3$) | `STACK_MAP` (`aa72ef91...`) |
+| **`[4]`** | **[`sololys/KreativSystems.1`](https://github.com/sololys/KreativSystems.1)** | `f56b008` | **Private Operational Core** — KREATIV-CORE v3.0 Execution Engine | `STACK_MAP` (`aa72ef91...`) |
+| **`[5]`** | **[`sololys/Brahman.1`](https://github.com/sololys/Brahman.1)** | `d8ce32d` | **Private Algebraic/RTL Core** — Reismann Silicon & Wave Core | `RTL_TOP` (`3c7f3a31...`) |
+| **`[6]`** | **[`sololys/RTDRA`](https://github.com/sololys/RTDRA)** | `v1.5.0-MASTER` | **Public Cathedral** — Bind XV (`0xFFFA` / `65530 B`) + Bind XVII (Door 27) | `[SSOT_OPEN 74/74]` · `[162/162 PASS]` |
+
+#### `0x03.1` // Cryptographic Byte-Identity (`verify_v1_5_constellation.sh`)
+
+| Canonical Artifact | Layer / Contract | SHA-256 Prefix (64-bit) | Coverage | Verified Nodes |
+| :--- | :--- | :--- | :--- | :--- |
+| **`ky_parser.py`** | $D_0 \to D_2$ Orthogonal Grammar & $D_{1.2}$ Bijection | `e761ce15254987e2...` | `VERIFIED 4/4` | `Gemini-Core`, `ky-rox`, `KreativSystems.1`, `Brahman.1` |
+| **`rosetta_d3_gate.py`** | $D_3$ `208B` (`1664-bit`) Envelope & RFC 8032 Ed25519 | `bc14349843f8fcda...` | `VERIFIED 5/5` | `Gemini-Core`, `ky-rox`, `epistemic-arch`, `KreativSystems.1`, `Brahman.1` |
+| **`STACK_MAP_v0.1.md`** | Canonical Architecture Map ($D_0 \to D_3 \leftrightarrow L_3$) | `aa72ef91e9ccfad6...` | `VERIFIED 4/4` | `Gemini-Core`, `ky-rox`, `epistemic-arch`, `KreativSystems.1` |
+| **`gothenburg_corridor_rosetta_top.sv`** | $L_{1.5}/L_2$ Master RTL Bridge (`1664b` $\leftrightarrow$ `1640b`) | `3c7f3a31bc59955d...` | `VERIFIED 3/3` | `Gemini-Core`, `ky-rox`, `Brahman.1` |
 
 ---
 
