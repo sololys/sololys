@@ -57,6 +57,35 @@ CANONICAL ASCII         :: validate(raw -> estimate -> struct -> viability -> co
 
 ---
 
+### `0x04 // THE GOTHENBURG CORRIDOR: ISAC · K-POD · INFRANETT`
+
+```text
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  LOCUS: GOTHENBURG (57°42′N 11°58′E) // LINDHOLMEN · MÖLNDAL · CHALMERS      ║
+║  DOMAINS: ISAC (77 GHz / PHASE-CONE) · K-POD (5 CDC LOCKS) · INFRANETT       ║
+║  AXIOM: REALITY DOES NOT NEGOTIATE WITH WISHFUL THINKING                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+```
+
+**EN — To the Engineers of Gothenburg (Masters of Load, Friction, Phase, and Safety):**  
+Where the Göta älv meets the Kattegat, Gothenburg built a century of mechanical trust on self-aligning bearings (**SKF**, 1907) and deterministic three-point restraint (**Volvo**, 1959). Today, that exact same West Coast engineering ethos—*refusing to confuse a hopeful estimate with a witnessed physical state*—drives three frontier architectures verified in this constellation:
+
+1. **`ISAC` (Integrated Sensing & Communications — Mölndal / Lindholmen / Chalmers RF Lineage):** Treating electromagnetic phase as a strict geometric boundary rather than a statistical guess—enforcing the **Euclidean Phase-Cone** ([`euclidean_phase_cone.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/artifacts/microtests/euclidean_phase_cone_isac_v0_1/euclidean_phase_cone.py)), resolving blind velocities via **Staggered-PRF Fine–Wilf coprime gates** ([`staggered_prf_fine_wilf_gate.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/monoliths/staggered_prf_fine_wilf_gate.py)), and tracking **77 GHz kinematics** with Joseph-form EKF covariance ([`spec412_415_domain_gates.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/monoliths/spec412_415_domain_gates.py)).
+2. **`K-POD` (Autonomous Capsules & `-240 m` Benthic Interlocks):** Governed by **5 asynchronous Clock-Domain Crossing (CDC) locks**, acoustic sabotage bounds (`145.0 dB SPL`), and strict `532 nm` optical / UWB time-of-flight gates ([`spec412_415_domain_gates.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/monoliths/spec412_415_domain_gates.py))—upholding Hisingen’s oldest shipyard law: *a hatch never opens on software optimism alone.*
+3. **`Infranett` (Deterministic Critical Infrastructure Grids):** Across fiber, power, subsea nodes, and municipal backbones, every packet carrying physical consequence demands a causal witness ($W_{\text{pre}} \to W_{\text{post}}$), defaulting fail-closed to `0.00 V DC`.
+
+**NO — Til ingeniørene i Göteborg (Fra kulelager til ISAC, K-POD og Infranett):**  
+Fra verftene på Hisingen og lærestolene ved Chalmers til RF-kamrene i Mölndal og testbanene på Lindholmen har Göteborgs ingeniører gitt verden en ufravikelig standard: *Bygg for stormen i Skagerrak og Kattegat, aldri for brosjyren.* Enten mediet er stål, **77 GHz ISAC-fasekjegler**, en bentisk **K-POD** med 5 asynkrone CDC-låser på `-240 m`, eller kritisk **Infranett**-infrastruktur, er sikkerhet aldri et vedheng—den er selve arkitekturen.
+
+```text
+validate(Gothenburg -> ISAC -> KPOD -> Infranett -> Safety)#! OPEN // 0xABCDEF00
+#GothenburgEngineering #Göteborg #Lindholmen #Mölndal #Chalmers #Hisingen
+#ISAC #77GHz #PhaseCone #StaggeredPRF #KPOD #SubseaEngineering #CDCLock
+#Infranett #CriticalInfrastructure #FailClosed #SKF #Volvo #0xABCDEF00
+```
+
+---
+
 $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQUENCE}}$$
 
 **EN:** Surface index for **Locus Zero (Risør, Norway · Brahman)**. Seven public repositories with segregated responsibilities: **The Law** (`epistemic-architectures`), **The Gate** (`ky-rox-public-demonstrators`), **The Artifact Family** (`realiseringsgrammatikk-artifact-family`), **The Sovereign Engine** (`aic-coaching-sovereign-engine`), **The Notes** (`epistemic-architectures-notes`), **The Tooling** (`loop-engineering`), and **The Manuscripts** (`skrivevaerelset`).  
