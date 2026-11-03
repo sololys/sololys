@@ -57,22 +57,88 @@ CANONICAL ASCII         :: validate(raw -> estimate -> struct -> viability -> co
 
 ---
 
-### `0x04 // THE GOTHENBURG CORRIDOR: ISAC · K-POD · INFRANETT`
+### `0x04 // THE GOTHENBURG CORRIDOR (SPEC-414 · SPEC-415 · SPEC-416)`
 
 ```text
-╔══════════════════════════════════════════════════════════════════════════════╗
-║  LOCUS: GOTHENBURG (57°42′N 11°58′E) // LINDHOLMEN · MÖLNDAL · CHALMERS      ║
-║  DOMAINS: ISAC (77 GHz / PHASE-CONE) · K-POD (5 CDC LOCKS) · INFRANETT       ║
-║  AXIOM: REALITY DOES NOT NEGOTIATE WITH WISHFUL THINKING                     ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════════════════════════════╗
+║  GOTHENBURG CORRIDOR // APPLIED CONSEQUENCE GATES (ISAC · K-POD · INFRANETT)             ║
+║  STATE ANCHOR : 0xABCDEF00 (v1.5.0-MASTER)                                               ║
+║  SSOT COMMITS : Gemini-Core [372dc8326] · ky-rox-public-demonstrators [b025e55]          ║
+║  VERIFICATION : [L1_VERIFIED: 7/7 PASS] · [L1.5_RTL_COSIM: PASS] · [HOLD // 0.00V_DC]    ║
+╚══════════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-**EN — To the Engineers of Gothenburg (Masters of Load, Friction, Phase, and Safety):**  
-Where the Göta älv meets the Kattegat, Gothenburg built a century of mechanical trust on self-aligning bearings (**SKF**, 1907) and deterministic three-point restraint (**Volvo**, 1959). Today, that exact same West Coast engineering ethos—*refusing to confuse a hopeful estimate with a witnessed physical state*—drives three frontier architectures verified in this constellation:
+The Gothenburg Corridor ([`spec414_415_416_gothenburg_corridor_gate.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L2_GATE/spec414_415_416_gothenburg_corridor_gate.py), [`spec415_kpod_cdc_gate.sv`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L2_GATE/spec415_kpod_cdc_gate.sv), [`spec416_infranett_witness_gate.sv`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L2_GATE/spec416_infranett_witness_gate.sv)) binds three physical engineering domains into a unified **205-byte hardware capsule** (`119B WitnessPreCommit` + `86B WitnessPostCommit`) wrapped inside the **208-byte Rosetta $D_3$ envelope**. No packet, radar track, benthic valve command, or microgrid breaker strobe can cross from $L_1$ software into $L_3$ physical actuation without satisfying domain invariants and **Registry B** ($t_{\text{ADC}} \ge t_{\text{clk}} \land I_{\text{shunt}} \ge 500\text{ }\mu\text{A}$).
 
-1. **`ISAC` (Integrated Sensing & Communications — Mölndal / Lindholmen / Chalmers RF Lineage):** Treating electromagnetic phase as a strict geometric boundary rather than a statistical guess—enforcing the **Euclidean Phase-Cone** ([`euclidean_phase_cone.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/artifacts/microtests/euclidean_phase_cone_isac_v0_1/euclidean_phase_cone.py)), resolving blind velocities via **Staggered-PRF Fine–Wilf coprime gates** ([`staggered_prf_fine_wilf_gate.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/monoliths/staggered_prf_fine_wilf_gate.py)), and tracking **77 GHz kinematics** with Joseph-form EKF covariance ([`spec412_415_domain_gates.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/monoliths/spec412_415_domain_gates.py)).
-2. **`K-POD` (Autonomous Capsules & `-240 m` Benthic Interlocks):** Governed by **5 asynchronous Clock-Domain Crossing (CDC) locks**, acoustic sabotage bounds (`145.0 dB SPL`), and strict `532 nm` optical / UWB time-of-flight gates ([`spec412_415_domain_gates.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/monoliths/spec412_415_domain_gates.py))—upholding Hisingen’s oldest shipyard law: *a hatch never opens on software optimism alone.*
-3. **`Infranett` (Deterministic Critical Infrastructure Grids):** Across fiber, power, subsea nodes, and municipal backbones, every packet carrying physical consequence demands a causal witness ($W_{\text{pre}} \to W_{\text{post}}$), defaulting fail-closed to `0.00 V DC`.
+```text
++------------------------------------------------------------------------------------------+
+|                       THE GOTHENBURG TRIAD // 205B -> 208B PIPELINE                      |
++------------------------------------------------------------------------------------------+
+       |                                     |                                     |
+       v                                     v                                     v
++--------------+                      +--------------+                      +--------------+
+|   SPEC-414   |                      |   SPEC-415   |                      |   SPEC-416   |
+| 77 GHz ISAC  |                      | -240m K-POD  |                      |  INFRANETT   |
++--------------+                      +--------------+                      +--------------+
+| * Phase Cone |                      | * 5x Async   |                      | * Kirchhoff  |
+|   Pi_K (PSD) |                      |   CDC 2-FF   |                      |   dR = 0/1 Q |
+| * Fine-Wilf  |                      | * < 145.0 dB |                      | * 1550nm OTDR|
+|   gcd(n_i)=1 |                      |   SPL Clamp  |                      |   <= 0.05 dB |
+| * Joseph-EKF |                      | * 532nm/UWB  |                      | * PTP <=100ns|
+|   Sylvester  |                      |   <= 15 mm   |                      | * W_pre->post|
++--------------+                      +--------------+                      +--------------+
+       |                                     |                                     |
+       +-------------------------------------+-------------------------------------+
+                                             |
+                                             v
++------------------------------------------------------------------------------------------+
+| L1.5 / L2 CAPSULE FRAME (205 BYTES)                                                      |
+| ├── W_pre  [0..118   | 119B] : >4sQI3BqqIiQ32s36s (State Anchor, C, dR_p/q, OTDR, PTP)   |
+| └── W_post [119..204 |  86B] : >Q32s32sIIHI       (H(W_pre), D_exec, dt_ADC, I_shunt,CRC)|
++------------------------------------------------------------------------------------------+
+                                             |
+                                             v
++------------------------------------------------------------------------------------------+
+| REGISTRY B // PHYSICAL CONSEQUENCE LATCH (0.00 V DC REST STATE)                          |
+| Condition : (W_post.w_pre_sha256 == H(W_pre)) AND (t_ADC >= t_clk) AND (I_shunt >= 500uA)|
+| ├── FALSE : [HOLD // 0.00V_DC] -> OPEN_AS_SOFTWARE_DEMONSTRATION                         |
+| └── TRUE  : [OPEN // ACTUATE]  -> Witnessed L3 Hardware Release                          |
++------------------------------------------------------------------------------------------+
+```
+
+#### `0x04.1` // Domain Specification Matrix (`SPEC-414..416`)
+
+| Spec ID | Engineering Domain | Mathematical & Physical Invariants | L1 / L1.5 Gate Status | Unwitnessed L3 Output |
+| :--- | :--- | :--- | :--- | :--- |
+| **`SPEC-414`** | **77 GHz ISAC Radar** | Euclidean Phase Cone $\Pi_K$, Staggered-PRF Fine–Wilf $\gcd(n_1..n_k)=1$, Joseph-Form EKF PSD ($\det(P_{1:m}) > 0$) | `[L1_VERIFIED]` · `[RTL_PASS]` | `[HOLD // 0.00V_DC]` |
+| **`SPEC-415`** | **-240 m Benthic K-POD** | $5\times$ Async 2-FF CDC Locks, Acoustic Sabotage $< 145.0\text{ dB SPL}$, Dual ToF $\|d_{532\text{nm}} - d_{\text{UWB}}\| \le 15\text{ mm}$ | `[L1_VERIFIED]` · `[RTL_PASS]` | `[HOLD // 0.00V_DC]` |
+| **`SPEC-416`** | **Infranett Grid & Fiber** | Causal Witness $W_{\text{pre}} \to W_{\text{post}}$ (`205B`), Kirchhoff $\Delta R \equiv 0/1 \in \mathbb{Q}$, 1550 nm OTDR $\Delta\alpha \le 0.050\text{ dB}$, IEEE 1588v2 PTP $\|\Delta t\| \le 100\text{ ns}$, VSG $50\text{ Hz} \pm 0.5\text{ Hz}$ ($2f+1$ BFT) | `[L1_VERIFIED]` · `[RTL_PASS]` | `[HOLD // 0.00V_DC]` |
+
+#### `0x04.2` // Binary Capsule Layout (`205B`: `119B W_pre` + `86B W_post`)
+
+| Segment | Byte Offset | Field Name | Struct | Width | Invariant / Verification Rule |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`W_pre`** | `0..3` | `magic` | `4s` | `4 B` | `0xABCDEF00` (`STATE_ANCHOR_MAGIC`) |
+| **`W_pre`** | `4..11` | `seq_c` | `Q` | `8 B` | Strictly monotonic sequence $C > C_{\text{hw}}$ |
+| **`W_pre`** | `12..15` | `node_id` | `I` | `4 B` | Substation / Node ID (e.g., `0x00000416`) |
+| **`W_pre`** | `16..18` | `flags_bft` | `3B` | `3 B` | `(gate_code, valid_sigs, fault_f)` where $\text{sigs} \ge 2f+1$ |
+| **`W_pre`** | `19..26` | `delta_r_num` | `q` | `8 B` | Kirchhoff rational numerator $\Delta R_{\text{num}} \equiv 0$ ($\neq 0 \implies \text{KILL}$) |
+| **`W_pre`** | `27..34` | `delta_r_den` | `q` | `8 B` | Kirchhoff rational denominator $\Delta R_{\text{den}} \equiv 1$ ($\neq 1 \implies \text{KILL}$) |
+| **`W_pre`** | `35..38` | `atten_mdb` | `I` | `4 B` | 1550 nm OTDR attenuation in $\text{mdB/km}$ ($\le 250$) |
+| **`W_pre`** | `39..42` | `freq_mhz` | `i` | `4 B` | VSG Synchronous Frequency in $\text{mHz}$ ($[49500, 50500]$) |
+| **`W_pre`** | `43..50` | `ptp_offset_ns` | `Q` | `8 B` | IEEE 1588v2 PTP phase offset in $\text{ns}$ ($\le 100\text{ ns}$) |
+| **`W_pre`** | `51..82` | `prev_w_post` | `32s` | `32 B` | SHA-256 of previous sealed $W_{\text{post}}$ frame |
+| **`W_pre`** | `83..118` | `w_pre_tail` | `36s` | `36 B` | $\mathcal{H}(\text{Matrix} \parallel \text{Logic} \parallel \text{Exec}) + \text{Anchor}$ |
+| **`W_post`** | `119..126` | `seq_c` | `Q` | `8 B` | Must equal `W_pre.seq_c` (TOCTOU sequence lock) |
+| **`W_post`** | `127..158` | `w_pre_sha256` | `32s` | `32 B` | Exact $\text{SHA-256}(W_{\text{pre}}[0..118])$ |
+| **`W_post`** | `159..190` | `post_exec_dig` | `32s` | `32 B` | $\text{SHA-256}(\mathcal{H}(W_{\text{pre}}) \parallel M \parallel L \parallel E)$ |
+| **`W_post`** | `191..194` | `adc_delta_ns` | `I` | `4 B` | $\max(0, t_{\text{ADC}} - t_{\text{clk}})$ ($> 0$ required for $L_3$) |
+| **`W_post`** | `195..198` | `shunt_ua` | `I` | `4 B` | Physical loop current $I_{\text{shunt}}$ in $\mu\text{A}$ ($\ge 500\text{ }\mu\text{A}$) |
+| **`W_post`** | `199..200` | `gate_code` | `H` | `2 B` | `0x0001` (`OPEN`), `0x0002` (`HOLD`), `0x00FF` (`KILL`) |
+| **`W_post`** | `201..204` | `crc32` | `I` | `4 B` | IEEE 802.3 CRC-32 across bytes `0..200` |
+
+**EN — To the Engineers of Gothenburg (Masters of Load, Friction, Phase, and Safety):**  
+Where the Göta älv meets the Kattegat, Gothenburg built a century of mechanical trust on self-aligning bearings (**SKF**, 1907) and deterministic three-point restraint (**Volvo**, 1959). Today, that exact same West Coast engineering ethos—*refusing to confuse a hopeful estimate with a witnessed physical state*—drives `SPEC-414` (**ISAC**), `SPEC-415` (**K-POD**), and `SPEC-416` (**Infranett**).
 
 **NO — Til ingeniørene i Göteborg (Fra kulelager til ISAC, K-POD og Infranett):**  
 Fra verftene på Hisingen og lærestolene ved Chalmers til RF-kamrene i Mölndal og testbanene på Lindholmen har Göteborgs ingeniører gitt verden en ufravikelig standard: *Bygg for stormen i Skagerrak og Kattegat, aldri for brosjyren.* Enten mediet er stål, **77 GHz ISAC-fasekjegler**, en bentisk **K-POD** med 5 asynkrone CDC-låser på `-240 m`, eller kritisk **Infranett**-infrastruktur, er sikkerhet aldri et vedheng—den er selve arkitekturen.
