@@ -20,6 +20,20 @@
 
 ---
 
+
+### Official CERN/Zenodo Software & Specification DOIs (`v1.5.1`)
+
+| Public Repository | Permanent Zenodo DOI | Verification Surface |
+| :--- | :--- | :--- |
+| **[`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032490.svg)](https://doi.org/10.5281/zenodo.24032490) | 205-Byte (`119B + 86B`) SystemVerilog RTL Decoder, `RS(208,205)` over `GF(2^8)` & 80/80 L1/L2 Microtests |
+| **[`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032510.svg)](https://doi.org/10.5281/zenodo.24032510) | KY–Nash Mechanism Design ($\Omega_{\text{ind}}$), Thom $A_5$ Catastrophe Bounds & SFI NORCICS IT/OT Briefs |
+| **[`sololys/epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032512.svg)](https://doi.org/10.5281/zenodo.24032512) | Kac–Murdock–Szegő (KMS) $\cos(45^\circ)=1/\sqrt{2}$ Spectral Proofs & Staggered-PRF Fine–Wilf Radar Gates |
+| **[`sololys/monolitt`](https://github.com/sololys/monolitt)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032518.svg)](https://doi.org/10.5281/zenodo.24032518) | Cryptographic Provenance Index & Merkle Audit Harness Across 11 Cyber-Physical Architectures |
+| **[`sololys/skrivevaerelset`](https://github.com/sololys/skrivevaerelset)** | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24032522.svg)](https://doi.org/10.5281/zenodo.24032522) | *Konseptuell Granitt* (183 pp.): Philosophy of Law, Epistemic Accountability & Consequence Monographs |
+| **🏛️ Research Salon (LinkedIn)** | **[Granitum Physics — Topology, Thermodynamics & Consequence Engineering](https://www.linkedin.com/groups/40622443/)** | Founding Notes on Henri Poincaré, John Forbes Nash Jr., Kurt Gödel (1956) & Fail-Closed Control |
+
+---
+
 ### `0x01 // OPERATIONAL AXIOMS`
 
 ```text
