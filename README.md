@@ -58,16 +58,17 @@ CANONICAL ASCII         :: validate(raw -> estimate -> struct -> viability -> co
 
 ---
 
-### `0x03 // SYNCHRONIZED REPOSITORY MATRIX [v1.5.0-MASTER]`
+### `0x03 // SYNCHRONIZED REPOSITORY MATRIX [v1.5.1]`
 
-| Node # | Repository (`github.com/sololys`) | Synchronized Commit | Role in Star Topology | Gate & Hash Verification |
+| Node # | Repository (`github.com/sololys`) | Synchronized State | Role in Star Topology | Gate & Hash Verification |
 | :--- | :--- | :--- | :--- | :--- |
-| **`[1]`** | **[`sololys/Gemini-Core`](https://github.com/sololys/Gemini-Core)** | `9ccafeb75` | **Private Primary SSOT** ($L_1$ + $L_{1.5}$ RTL + `verify_v1_5_constellation.sh`) | `[8/8 RTL CO-SIM PASS]` |
-| **`[2]`** | **[`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | `8436236` | **Public Room VI (Porten)** — Public Verification Surface (`make verify`) | `[PUBLIC_TREE_GATE=PASS 80/80]` |
-| **`[3]`** | **[`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | `c4263e9` | **Public Room X (Loven)** — Formal Stack Topology ($D_0 \to D_3$) | `STACK_MAP` (`aa72ef91...`) |
-| **`[4]`** | **[`sololys/KreativSystems.1`](https://github.com/sololys/KreativSystems.1)** | `f56b008` | **Private Operational Core** — KREATIV-CORE v3.0 Execution Engine | `STACK_MAP` (`aa72ef91...`) |
-| **`[5]`** | **[`sololys/Brahman.1`](https://github.com/sololys/Brahman.1)** | `d8ce32d` | **Private Algebraic/RTL Core** — Reismann Silicon & Wave Core | `RTL_TOP` (`3c7f3a31...`) |
-| **`[6]`** | **[`sololys/RTDRA`](https://github.com/sololys/RTDRA)** | `v1.5.0-MASTER` | **Public Cathedral** — Bind XV (`0xFFFA` / `65530 B`) + Bind XVII (Door 27) | `[SSOT_OPEN 74/74]` · `[162/162 PASS]` |
+| **`[1]`** | **`sololys/Gemini-Core`** *(Private SSOT)* | `00438609b` | **Primary Research & Prototyping SSOT** ($L_1$ + $L_{1.5}$ iCE40 STA + Canonical Schemas) | `[4440 FILES SEALED · 4x iCE40 STA PASS]` |
+| **`[2]`** | **[`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | `8436236` · [DOI](https://doi.org/10.5281/zenodo.24032490) | **Public Gate Surface (Porten)** — 205B RTL Decoder, `RS(208,205)` & `make verify` | `[PUBLIC_TREE_GATE=PASS 80/80]` |
+| **`[3]`** | **[`sololys/epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | `c4263e9` · [DOI](https://doi.org/10.5281/zenodo.24032510) | **Public Formal Law (Loven)** — KY–Nash ($\Omega_{\text{ind}}$), Thom $A_5$ & IT/OT Briefs | `STACK_MAP` (`aa72ef91...`) |
+| **`[4]`** | **[`sololys/epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)** | `v1.5.1` · [DOI](https://doi.org/10.5281/zenodo.24032512) | **Public Spectral & Number-Theoretic Notes** — KMS $\cos(45^\circ)$ & Fine–Wilf Radar Gates | `[26/26 PASS · PUBLIC_IP_GATE]` |
+| **`[5]`** | **[`sololys/monolitt`](https://github.com/sololys/monolitt)** | `main` · [DOI](https://doi.org/10.5281/zenodo.24032518) | **Public Provenance Monolith** — Merkle Audit Harness across 11 Cyber-Physical Domains | `[MERKLE_INDEX=PASS · 11 DOMAINS]` |
+| **`[6]`** | **[`sololys/skrivevaerelset`](https://github.com/sololys/skrivevaerelset)** | `main` · [DOI](https://doi.org/10.5281/zenodo.24032522) | **Public Monographs (Ordet)** — *Konseptuell Granitt*, Philosophy of Law & Accountability | `[LOCKED · ZENODO ARCHIVED]` |
+| **`[7]`** | **`sololys/KreativSystems.1`** · **`sololys/Brahman.1`** *(Private Mirrors)* | `f56b008` · `d8ce32d` | **Private Operational & RTL Export Mirrors** (Godot 4.3 Runtime / Reismann Silicon Bundle) | `STACK_MAP` (`aa72ef91...`) · `RTL_TOP` (`3c7f3a31...`) |
 
 #### `0x03.1` // Cryptographic Byte-Identity (`verify_v1_5_constellation.sh`)
 
@@ -175,13 +176,32 @@ validate(Gothenburg -> ISAC -> KPOD -> Infranett -> Safety)#! OPEN // 0xABCDEF00
 
 ---
 
+### `0x05 // L1.5 GATE-LEVEL SILICON SYNTHESIS & STA (iCE40UP5K-SG48 · YOSYS / NEXTPNR / ICETIME)`
+
+> **Epistemic Boundary (`L1.5` Gate-Level STA $\neq$ `L3` Physical Board Witness):** The RTL tops below are synthesized to gate-level netlists (`Yosys`), placed-and-routed onto physical Lattice `iCE40UP5K-SG48` pinouts (`nextpnr-ice40`, $24.00\text{ MHz}$ crystal target), packed (`icepack`), and verified via topological static timing analysis (`icetime`) against the $12.500\,\mu\text{s}$ ($80\text{ kHz}$) consequence budget. Because physical oscilloscope/shunt-current attestation on bench hardware is not yet attached, **Registry B remains strictly `HOLD` (`0.00 V DC`)**.
+
+| Silicon Top Module (`IEEE 1800-2012`) | Spec / Domain | `iCE40UP5K-SG48` Area & Pin Budget | `icetime` / `nextpnr` $f_{\max}$ (`UP5K` · `HX8K`) | Worst-Case Latency ($\le 12.500\,\mu\text{s}$) | L3 Output |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`rosetta_d3_circ_ice40_sg48_top.sv`** | Rosetta $D_3$ `RS(208,205)` over $\operatorname{GF}(2^8)$ (`0x11D`), Pre-EOF $\Delta_{01}/\Delta_{12}$ Horner Cancel + Dual EBR $\log_\alpha$ | `343 / 5 280 LC` (`6 %`) · `3 / 30 EBR` · `32 / 39` pins | **`28.06` / `28.47 MHz`** (`74.80 MHz` HX8K) | `0.0356 µs` (1-cycle EOF) · `7.413 µs` (208B frame) | `HOLD (0.00 V)` |
+| **`gothenburg_corridor_ice40_sg48_top.sv`** | Gothenburg Triad (`SPEC-414..416` + `SPEC-213`), $5\times$ `2FF-CDC` (`ASYNC_REG`) | `2 119 / 5 280 LC` (`40 %`) · `16 / 30 EBR` · `32 / 39` pins | **`25.37` / `25.43 MHz`** (`63.76 MHz` HX8K) | `0.250 µs` (6-cycle evaluation) | `HOLD (0.00 V)` |
+| **`fpga_capsule_frame_205b_serial_top.sv`** | AXI-Stream Serialized `205B` Capsule Decoder (`SPEC-213` / `SPEC-419`), 2-stage pipeline + `2FF-CDC` | `2 709 / 5 280 LC` (`51 %`) · `0 / 30 EBR` · `23 / 39` pins | **`34.55` / `36.65 MHz`** (`93.05 MHz` HX8K) | `5.648 µs` (full `205B` stream) | `HOLD (0.00 V)` |
+| **`reversiblus_dok78_ice40_sg48_top.sv`** | Reversiblus $\mathbb{Z}_2^{1000}$ Involutive LIFO Airlock (`Dok. 78` / `SPEC-416`), $\eta\big|_{\Sigma^0} = 0$ | `1 591 / 5 280 LC` (`30 %`) · `24 / 30 EBR` · `31 / 39` pins | **`31.43 MHz`** `icetime` (`UP5K-SG48`) | `0.636 µs` (reversible roundtrip) | `HOLD (0.00 V)` |
+
+#### `0x05.1` // Exact-Rational Consequence Chambers (`SPEC-418..423`, Bit-Identical Python 3.11 · C++17 · Godot 4.3 `L1`)
+* **`SPEC-418` (COS45 Hankel–Grassmann Blindspot):** Second-order incompatibility certificate ($w^\top b = 5\,710\,250\,669 / 6\,006$, $\operatorname{rank} L = 24 \to \operatorname{rank}[L\mid b] = 25$) & threshold gate (`__int128` / `Fraction`).
+* **`SPEC-419` (ASTRA Mean-Field AoI & Silence Gate):** Age-of-Information threshold ($\tau^* = 15/2$), two-stage asynchronous Capture-SIC ($\Gamma_1 = 150/7$, $\Gamma_2 = 12/1$), and deliberate radio silence in `HOLD` ($a_0 = (0,0)$).
+* **`SPEC-420` (Wingquist Spherical Tolerance & Landauer Weld Seam):** Self-aligning angular tolerance ($|\Delta\theta| \le \theta_{\text{SKF}} \implies \tau_{\text{bend}} = 0$), brittle-fracture guillotine ($T \le T_{\text{DBTT}} \land K_t > K_{\text{crit}} \implies \text{KILL}$), and Landauer dissipation bound ($\Lambda_{\uparrow}(\ln 2) = 173\,287 / 250\,000$) coupled with explicit `fsync()` witness durability.
+* **`SPEC-421` & `SPEC-423` (Lagrange–Routh $L_4/L_5$ Pocket & Tetrad Cascade Bridge):** Radical-free Routh stability ($27(m_1 m_2 + m_2 m_3 + m_3 m_1) < (m_1 + m_2 + m_3)^2$), Roche tidal bound, $6k \pm 1$ prime-sign sieve, and cross-chamber first-order cut invariance ($\Delta_K^{\text{L1}} = 0$) across Chambers 28–31.
+
+---
+
 $$\boxed{\text{GENERATION} \neq \text{AUTHORIZATION} \neq \text{WITNESSED CONSEQUENCE}}$$
 
-**EN:** Surface index for **Locus Zero (Risør, Norway · Brahman)**. Seven public repositories with segregated responsibilities: **The Law** (`epistemic-architectures`), **The Gate** (`ky-rox-public-demonstrators`), **The Artifact Family** (`realiseringsgrammatikk-artifact-family`), **The Sovereign Engine** (`aic-coaching-sovereign-engine`), **The Notes** (`epistemic-architectures-notes`), **The Tooling** (`loop-engineering`), and **The Manuscripts** (`skrivevaerelset`).  
-**NO:** Overflateindeks for **Locus Zero (Risør · Brahman)**. Syv offentlige repositorier med adskilte ansvarsområder: **Loven** (`epistemic-architectures`), **Porten** (`ky-rox-public-demonstrators`), **Artefaktfamilien** (`realiseringsgrammatikk-artifact-family`), **Handlingsmotoren** (`aic-coaching-sovereign-engine`), **Notatene** (`epistemic-architectures-notes`), **Verktøyet** (`loop-engineering`) og **Ordet** (`skrivevaerelset`).
+**EN:** Surface index for **Locus Zero (Risør, Norway · Brahman)**. Six active public repositories with segregated responsibilities: **The Law** ([`epistemic-architectures`](https://github.com/sololys/epistemic-architectures)), **The Gate** ([`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)), **The Provenance Monolith** ([`monolitt`](https://github.com/sololys/monolitt)), **The Notes** ([`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)), **The Manuscripts** ([`skrivevaerelset`](https://github.com/sololys/skrivevaerelset)), and **The Surface Index** ([`sololys`](https://github.com/sololys/sololys)), alongside the sealed historical archive [`loop-engineering`](https://github.com/sololys/loop-engineering).  
+**NO:** Overflateindeks for **Locus Zero (Risør · Brahman)**. Seks aktive offentlige repositorier med adskilte ansvarsområder: **Loven** ([`epistemic-architectures`](https://github.com/sololys/epistemic-architectures)), **Porten** ([`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)), **Proveniens-Monolitten** ([`monolitt`](https://github.com/sololys/monolitt)), **Notatene** ([`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)), **Ordet** ([`skrivevaerelset`](https://github.com/sololys/skrivevaerelset)) og **Overflateindeksen** ([`sololys`](https://github.com/sololys/sololys)), samt det forseglede arkivet [`loop-engineering`](https://github.com/sololys/loop-engineering).
 
-* **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOIs: `10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983) · [`10.5281/zenodo.18515422`](https://doi.org/10.5281/zenodo.18515422) · [`10.5281/zenodo.22229111`](https://doi.org/10.5281/zenodo.22229111) · [`10.5281/zenodo.23642822`](https://doi.org/10.5281/zenodo.23642822) · [`10.5281/zenodo.23642893`](https://doi.org/10.5281/zenodo.23642893) · [`10.5281/zenodo.23642895`](https://doi.org/10.5281/zenodo.23642895) · [`10.5281/zenodo.23642906`](https://doi.org/10.5281/zenodo.23642906))
-* **Epistemic Boundary:** `INSPIRED_BY != IMPLEMENTS != PROVES` · `PHYSICAL_AUTHORITY = NONE` (`L1` deterministic software only)
+* **Author:** Marius Egerhei Torjusen ([ORCID: `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [Zenodo DOIs: `10.5281/zenodo.24032490`](https://doi.org/10.5281/zenodo.24032490) · [`10.5281/zenodo.24032510`](https://doi.org/10.5281/zenodo.24032510) · [`10.5281/zenodo.24032512`](https://doi.org/10.5281/zenodo.24032512) · [`10.5281/zenodo.24032518`](https://doi.org/10.5281/zenodo.24032518) · [`10.5281/zenodo.24032522`](https://doi.org/10.5281/zenodo.24032522) · [`10.5281/zenodo.18436983`](https://doi.org/10.5281/zenodo.18436983))
+* **Epistemic Boundary:** `INSPIRED_BY != IMPLEMENTS != PROVES` · `PHYSICAL_AUTHORITY = NONE` (`L1` deterministic software & `L1.5` gate-level STA; physical `L3` hardware held in `HOLD`)
 
 ---
 
@@ -306,22 +326,21 @@ make clean     # Restores passive state
 | Surface | Repository | Technical Scope & Artifacts | Entry |
 | :--- | :--- | :--- | :--- |
 | **⚖️ I. THE LAW** | [**`sololys/epistemic-architectures`**](https://github.com/sololys/epistemic-architectures) | Morandi-Core segregated architecture (`L1_LAW/`, `L2_GATE/`, `L3_WITNESS/`, `L3_NOTES/`) for fail-closed projection ($\Phi \to \Pi_K \to \Omega \to W^2$), [`L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/MPOLYNOMIAL_1WL_MOLECULAR_GATE_SPEC.md), [`L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/PWR2_SCRAMBLING_COLLECTIVE_GATE_SPEC.md), and [`L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf`](https://github.com/sololys/epistemic-architectures/blob/main/L1_LAW/IT_OT_CONSEQUENCE_GATE_NORCICS_BRIEF.pdf). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures) |
-| **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Eight deterministic `L1` microtests (`48/48 PASS`) & executable domain gates (`SPEC-001..415`): **Consequence** (`light_bridge_gate.py`), **Space** (`euclidean_phase_cone.py`), **Path** (`yinyang_binpacking.py`), **Relation** (`kernel_drift.py`), **Molecule** (`mpolynomial_1wl_molecular_gate.py`), **Spin** (`pwr2_scrambling_collective_gate.py`), **Horizon I** (`staggered_prf_fine_wilf_gate.py`), and **Domain Gates** (`spec412_415_domain_gates.py`). | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
-| **🏛️ III. ARTIFACT FAMILY** | **`sololys/realiseringsgrammatikk-artifact-family`** | GitHub City Map v0.2, Morandi Observatorium & KY-ROX DET-CPS v1.1 (`ky_rox_audit.py` / `KY_ROX_SCOPE_GATE_V0_2`, `216/216 PASS`, `L2_SHA256=1ccc2c69...`). | `[PRIVATE VAULT / SEALED v1.1]` |
-| **🧭 IV. SOVEREIGN ENGINE** | **`sololys/aic-coaching-sovereign-engine`** | Sovereign decision and action engine (Typed Consequence Law): Preimage audit $\Psi(y)$, contractive re-admission $R := \Pi_A \circ F \circ \Phi$, and $\mathcal{G}_{\mathrm{shadow}}$-trap (`ACTIVE_0V00`). | `[PRIVATE VAULT / ACTIVE v1.0]` |
-| **📓 V. THE NOTES** | [**`sololys/epistemic-architectures-notes`**](https://github.com/sololys/epistemic-architectures-notes) | Working mathematical derivations, $G_2$-holonomy, Cook–Levin notes, boundary counterexamples, and non-canonical extensions accompanying `epistemic-architectures` (`SYNCED`). | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures-notes) |
-| **🛠️ VI. THE TOOLING** | [**`sololys/loop-engineering`**](https://github.com/sololys/loop-engineering) | Local-first CLI evaluation harnesses, closed control loops, CBF safety filters, and continuous residual verification ($\Delta_K$, `PASS`). | [Open Repo $\to$](https://github.com/sololys/loop-engineering) |
-| **📖 VII. MANUSCRIPTS** | [**`sololys/skrivevaerelset`**](https://github.com/sololys/skrivevaerelset) | Long-form monographs and essays from Risør (*Konseptuell Granitt*, *Kutt Flaten: Et Notis*). Separated from engineering specifications to prevent scope conflation (`LOCKED`). | [Open Repo $\to$](https://github.com/sololys/skrivevaerelset) |
+| **⚡ II. THE GATE** | [**`sololys/ky-rox-public-demonstrators`**](https://github.com/sololys/ky-rox-public-demonstrators) | Deterministic `L1`/`L1.5` microtests (`80/80 PASS`), 205-Byte SystemVerilog RTL Decoder, `RS(208,205)` over $\operatorname{GF}(2^8)$, and executable domain gates (`SPEC-001..416`): **Consequence**, **Space**, **Path**, **Relation**, **Molecule**, **Spin**, **Horizon I**, and **Gothenburg Corridor**. | [Open Repo $\to$](https://github.com/sololys/ky-rox-public-demonstrators) |
+| **🏛️ III. PROVENANCE MONOLITH** | [**`sololys/monolitt`**](https://github.com/sololys/monolitt) | Cryptographic Provenance Index, Merkle Audit Harness & Domain Gate Specifications across 11 cyber-physical, thermodynamic, and control-theoretic architectures (`RTDRA`, `Infranett`, `OrgelKraft`, `FASE-SPEIL`, `FeMoS`, `GSCX`, `TønderSheeld`). | [Open Repo $\to$](https://github.com/sololys/monolitt) |
+| **📓 IV. THE NOTES** | [**`sololys/epistemic-architectures-notes`**](https://github.com/sololys/epistemic-architectures-notes) | Kac–Murdock–Szegő (KMS) $\cos(45^\circ)=1/\sqrt{2}$ spectral proofs, Staggered-PRF Fine–Wilf radar gates, Cook–Levin notes, and boundary counterexamples accompanying `epistemic-architectures`. | [Open Repo $\to$](https://github.com/sololys/epistemic-architectures-notes) |
+| **📖 V. MANUSCRIPTS** | [**`sololys/skrivevaerelset`**](https://github.com/sololys/skrivevaerelset) | Long-form monographs and legal-philosophical essays from Risør (*Konseptuell Granitt*, Thom $A_5$ Catastrophe Jurisprudence, Epistemic Accountability). Separated from engineering specifications to prevent scope conflation. | [Open Repo $\to$](https://github.com/sololys/skrivevaerelset) |
+| **🗄️ VI. SEALED ARCHIVE** | [**`sololys/loop-engineering`**](https://github.com/sololys/loop-engineering) | Historical `O(n)` closed-loop CLI evaluation harnesses and CBF safety filters (consolidated into `ky-rox-public-demonstrators` `v1.5.0-MASTER`). | [Open Archive $\to$](https://github.com/sololys/loop-engineering) |
 
-### Sovereign Pentad (`L1` Domain Engines & Interactive Workbenches)
+### Consolidated Domain Vaults (Public Provenance & Gate Specs Indexed in [`monolitt`](https://github.com/sololys/monolitt))
 
-| Domain | Repository | Verification & Primary `L1` Artifacts | Entry |
+| Domain | Private Source Vault | Publicly Indexed Verification Scope (`monolitt` · DOI: [`10.5281/zenodo.24032518`](https://doi.org/10.5281/zenodo.24032518)) | Public Index |
 | :--- | :--- | :--- | :--- |
-| **🌐 INFRANETT** | [**`sololys/infranett`**](https://github.com/sololys/infranett) | Infranett Sovereign Browser v1.0 (`n = 1..6` GUI/TUI Workbench, KY v1.0 Interpreter, KY–Nash Ghost-Win Detector, 1882 Sierpiński/Vandiver Gate, M-Polynomial/1-WL & PWR2 Scrambling Gates, `440/440` Python + `30/30` Rust `PASS`). | [Open Repo $\to$](https://github.com/sololys/infranett) |
-| **⚙️ ORGELKRAFT** | [**`sololys/OrgelKraft`**](https://github.com/sololys/OrgelKraft) | Fail-Closed Consequence Gate (`make verify`: `226/226` unit tests + `45/45` exact rational reference balances + M-Polynomial/1-WL & PWR2 Scrambling Gates). | [Open Repo $\to$](https://github.com/sololys/OrgelKraft) |
-| **🧬 FEMOS** | [**`sololys/femos-biomimetic-nitrogenase`**](https://github.com/sololys/femos-biomimetic-nitrogenase) | `[Fe7MoS9C]` Interstitial $\mu_6\text{-C}$ Carbide M-Polynomial ($6x^2y^4 + 6x^3y^3 + 12x^3y^4 + 6x^4y^6$, $M_1=216, M_2=390$), P-POD & 11 Test Suites (`50/50` SHA-256). | [Open Repo $\to$](https://github.com/sololys/femos-biomimetic-nitrogenase) |
-| **🪞 FASE-SPEIL** | [**`sololys/FASE_SPEIL_v0_1`**](https://github.com/sololys/FASE_SPEIL_v0_1) | Quantum Lindblad Decoherence, Diophantine Guard, M-Polynomial/1-WL & PWR2 Scrambling vs. Collective Gates (`120/120` unit tests PASS). | [Open Repo $\to$](https://github.com/sololys/FASE_SPEIL_v0_1) |
-| **🔋 GSCX** | [**`sololys/gscx-battery-energy-network`**](https://github.com/sololys/gscx-battery-energy-network) | $\text{Al–N}_2$ NitroCell Reversible Battery, 4-Stage NRR Omni-Engine & M-Polynomial/1-WL Molecular Consequence Gate (`14/14` unit tests PASS). | [Open Repo $\to$](https://github.com/sololys/gscx-battery-energy-network) |
+| **🌐 INFRANETT** | `sololys/infranett` *(Private Vault)* | Infranett Sovereign Browser v1.0 (`n = 1..6` GUI/TUI Workbench, KY v1.0 Interpreter, KY–Nash Ghost-Win Detector, UWB ToF & `SPEC-416` Witness Gate). | [Index in `monolitt` $\to$](https://github.com/sololys/monolitt) |
+| **⚙️ ORGELKRAFT** | `sololys/OrgelKraft` *(Private Vault)* | Passive Port-Hamiltonian Work Integration, Cascade-Coupled Thermodynamic/Electrochemical Organs & Exact Rational Reference Balances (`226/226` unit tests). | [Index in `monolitt` $\to$](https://github.com/sololys/monolitt) |
+| **🧬 FEMOS** | `sololys/femos-biomimetic-nitrogenase` *(Private Vault)* | `[Fe7MoS9C]` Interstitial $\mu_6\text{-C}$ Carbide M-Polynomial ($6x^2y^4 + 6x^3y^3 + 12x^3y^4 + 6x^4y^6$, $M_1=216, M_2=390$) & P-POD Struvite Crystallizer (`PHYSICAL HOLD`). | [Index in `monolitt` $\to$](https://github.com/sololys/monolitt) |
+| **🪞 FASE-SPEIL** | `sololys/FASE_SPEIL_v0_1` *(Private Vault)* | Davisson Bragg Coherence, Fine–Wilf Ghost-Word Detector ($L^* = p+q-\gcd(p,q)$), Lindblad Decoherence & Diophantine Guard (`120/120` unit tests). | [Index in `monolitt` $\to$](https://github.com/sololys/monolitt) |
+| **🔋 GSCX & RTDRA** | `sololys/gscx-battery-energy-network` · `sololys/RTDRA` *(Private Vaults)* | Passive Port-Hamiltonian Battery Network Bounds, Bind XV (`0xFFFA` / `65,530 B`) & Bind XVII (`Door 27` / The 30-Second Gate). | [Index in `monolitt` $\to$](https://github.com/sololys/monolitt) |
 
 ---
 
@@ -357,23 +376,5 @@ if deployment_mode == "CLOUD_UNMEDIATED_ACTUATION" or not hardware_interlock_pre
 ---
 *Brahman — Risør, Norway (`ORCID: 0009-0006-0431-6637`).*
 
-<!-- SOVEREIGN_CONSTELLATION_MAP_START -->
----
-
-## 🧭 Sovereign Architecture Constellation (Cross-Repository Matrix)
-
-This repository is part of a 6-layer deterministic engineering constellation (`L1` software & hardware verification, `INSPIRED_BY != IMPLEMENTS != PROVES`):
-
-| Layer | Repository | Core Engineering Scope | Deterministic Verification |
-| :--- | :--- | :--- | :--- |
-| **L1 — Law & Domain Gates** | [`sololys/ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators) | `invariants_pure.py`, The 7 Public Monoliths & Domain Gates `SPEC-412` (Forlik), `SPEC-413` (Orbital), `SPEC-414` (Radar), `SPEC-415` (Benthic K-POD) | $\Pi_A \circ F \circ \Phi$, Preimage $\Psi(y)$ & $\mathcal{G}_{\mathrm{shadow}}$ (`42/42 PASS` + `9/9 L1_LAW`) |
-| **L2 — RTL & Subspace** | [`sololys/epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes) | COS45 Hankel-SVD Grassmann subspace projection, clocked SystemVerilog RTL (`0.00 V` quench) & Davisson–Fine–Newton Gate | `26/26 PASS` (`PUBLIC_IP_GATE=PASS`) |
-| **L3 — Phase & Horizon** | [`sololys/FASE_SPEIL_v0_1`](https://github.com/sololys/FASE_SPEIL_v0_1) | Davisson Bragg coherence ($54\text{ V}/50^\circ$), Fine–Wilf ghost-word detector ($L^* = p+q-\gcd(p,q) = 12$) & Staggered-PRF SDR filter | `26/26 PASS` |
-| **L4 — Local-First Net & RTL Interlock** | [`sololys/Infranett`](https://github.com/sololys/Infranett) | Infranett v0.4 ($S_0 = \text{GATE::HOLD}$, Time-of-Flight $d \le 20\text{ m}$, `Noise_KK` 0-RTT, `fsync < RAM < ACK`) & Hardware/RTL Interlock (`03_ENGINES/ky_iks_dk_lab_v0_4/`, `dk_dff.sv`, `tb_dk_dff_etor_gate.sv`) | Fysisk klokke- og port-gating (`0.00 V DC` hvile, `26/26 PASS`) |
-| **L5 — Continuous Path** | [`sololys/OrgelKraft`](https://github.com/sololys/OrgelKraft) | Continuous mechanical & acoustic work integration ($\Delta E_k = \int F\,dx$) & multi-period harmonic horizon | `26/26 PASS` |
-| **L6 — Cognitive Shield** | [`sololys/TonderSheeld`](https://github.com/sololys/TonderSheeld) | Synthetic psychosomatics, Schaerbeek ceiling ($2^{12}$), Landauer erasure floor ($E_{\min} = k_B T \ln 2$) & Diurnal Gearbox ($S_1\text{--}S_5$) | `26/26 PASS` |
-<!-- SOVEREIGN_CONSTELLATION_MAP_END -->
-
----
-`STATE ANCHOR: 0xABCDEF00` · `RELEASE: v1.5.0-MASTER` · `GATE: [SSOT_LOCKED // HOLD 0.00V_DC]` · `ORCID: 0009-0006-0431-6637`
+`STATE ANCHOR: 0xABCDEF00` · `RELEASE: v1.5.1` · `GATE: [SSOT_LOCKED // HOLD 0.00V_DC]` · `ORCID: 0009-0006-0431-6637`
 
