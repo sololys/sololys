@@ -1,0 +1,26 @@
+NOTICE AND SURFACE INDEX BOUNDARY
+=================================
+
+Repository : https://github.com/sololys/sololys
+Copyright  : Copyright (c) 2026 Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
+State      : Surface Index & Verification Entrypoint (0.00 V DC // HOLD)
+
+1. Executable Verification Scripts (MIT License)
+------------------------------------------------
+The executable verification scripts and Makefile targets in `L1_LAW/`,
+`L2_GATE/`, `L3_WITNESS/`, and `Makefile` constitute "the Software" licensed
+under the MIT License in `LICENSE`.
+
+2. Architectural Index, Prose & Visual Assets (CC-BY-ND-4.0)
+------------------------------------------------------------
+The architectural index prose, constellation matrices, and visual sigils in
+`README.md` and `assets/` are licensed under the Creative Commons
+Attribution-NoDerivatives 4.0 International Public License (`CC-BY-ND-4.0`).
+
+3. Ontological and Patent Boundary (0.00 V DC)
+----------------------------------------------
+All materials in this repository operate strictly at 0.00 V DC
+(`PHYSICAL_AUTHORITY = NONE`, `INSPIRED_BY != IMPLEMENTS != PROVES`). Physical
+L2/L3 hardware implementations, private production vaults, and unpublished
+patent claims are not delivered in this repository, and nothing herein grants an
+implied patent license, safety certification, or trademark right.
