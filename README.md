@@ -5,17 +5,35 @@ Everything here explores one practical question: **how to keep cheap, reversible
 
 ---
 
-## Start Here — Choose a Door
+## Coordinate System — Five Rooms Around `(0,0)`
 
-Each repository has a single responsibility so code, specifications, working notes, and essays never get mixed together:
+This profile sits at `(0,0)` between two axes so essays, working math, formal rules, runnable gates, and provenance checksums stay cleanly separated:
 
-| Look here if you want... | Repository | Direct Entry |
-| :--- | :--- | :--- |
-| **Runnable code & FPGA gates** — Python (stdlib only) and synthesizable SystemVerilog gate prototypes | **[`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | [`run_demo.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/run_demo.py) · [`L2_GATE/`](https://github.com/sololys/ky-rox-public-demonstrators/tree/main/L2_GATE) |
-| **Specifications & transition rules** — Formal gate contracts, game-theoretic models, and standalone verifiers | **[`epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | [`L1_LAW/`](https://github.com/sololys/epistemic-architectures/tree/main/L1_LAW) · [`L2_GATE/`](https://github.com/sololys/epistemic-architectures/tree/main/L2_GATE) |
-| **Working math & counterexamples** — Ongoing derivations, spectral checks, and test scripts in progress | **[`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)** | [`notes/`](https://github.com/sololys/epistemic-architectures-notes/tree/main/notes) |
-| **Project map & checksums** — Overview index and SHA-256 provenance seals across private prototype repos | **[`monolitt`](https://github.com/sololys/monolitt)** | [`verify_monolith_seals.py`](https://github.com/sololys/monolitt/blob/main/verify_monolith_seals.py) |
-| **Books & essays (Norwegian)** — Long-form prose, philosophy of law, and essays (*Konseptuell Granitt*) | **[`skrivevaerelset`](https://github.com/sololys/skrivevaerelset)** | [`03_FERDIGE_BOKER_PDF/`](https://github.com/sololys/skrivevaerelset/tree/main/03_FERDIGE_BOKER_PDF) |
+- **Vertical axis (expression):** from human language and legal philosophy down to runnable code and FPGA logic.
+- **Horizontal axis (commitment):** from open working drafts where ideas can fail freely, over to sealed SHA-256 boundaries.
+
+```text
+                     Language, law & why
+                              │
+                       skrivevaerelset
+                              │
+  Open drafts ────────────────┼──────────────── Sealed boundary
+    (notes)                 (0,0)                 (monolitt)
+                              │
+                   epistemic-architectures
+                              │
+                 ky-rox-public-demonstrators
+                              │
+                     Runnable code & RTL
+```
+
+| Stage | Repository | What lives here | Direct Entry |
+| :--- | :--- | :--- | :--- |
+| **1 · Word** | **[`skrivevaerelset`](https://github.com/sololys/skrivevaerelset)** | **Books & essays (Norwegian)** — Long-form prose, philosophy of law, and essays (*Konseptuell Granitt*) | [`03_FERDIGE_BOKER_PDF/`](https://github.com/sololys/skrivevaerelset/tree/main/03_FERDIGE_BOKER_PDF) |
+| **2 · Draft** | **[`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)** | **Working math & counterexamples** — Ongoing derivations, spectral checks, and test scripts in progress | [`notes/`](https://github.com/sololys/epistemic-architectures-notes/tree/main/notes) |
+| **3 · Rule** | **[`epistemic-architectures`](https://github.com/sololys/epistemic-architectures)** | **Specifications & transition rules** — Formal gate contracts, game-theoretic models, and standalone verifiers | [`L1_LAW/`](https://github.com/sololys/epistemic-architectures/tree/main/L1_LAW) · [`L2_GATE/`](https://github.com/sololys/epistemic-architectures/tree/main/L2_GATE) |
+| **4 · Gate** | **[`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | **Runnable code & FPGA gates** — Python (stdlib only) and synthesizable SystemVerilog gate prototypes | [`run_demo.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/run_demo.py) · [`L2_GATE/`](https://github.com/sololys/ky-rox-public-demonstrators/tree/main/L2_GATE) |
+| **5 · Seal** | **[`monolitt`](https://github.com/sololys/monolitt)** | **Project map & checksums** — Overview index and SHA-256 provenance seals across private prototype repos | [`verify_monolith_seals.py`](https://github.com/sololys/monolitt/blob/main/verify_monolith_seals.py) |
 
 *(Older control-loop experiments are archived in [`loop-engineering`](https://github.com/sololys/loop-engineering), superseded by `ky-rox-public-demonstrators`.)*
 
@@ -35,7 +53,7 @@ python3 run_demo.py
 
 ## Kort på norsk (og ærlig avgrensning)
 
-Jeg er selvlært systemutvikler i Risør og bruker denne profilen som inngangsport til fem adskilte arbeidsrom — fra kjørende kode og maskinvareporter i [`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators) til norske bøker og essays i [`skrivevaerelset`](https://github.com/sololys/skrivevaerelset).
+Jeg er selvlært systemutvikler i Risør. Denne profilen fungerer som nullpunkt `(0,0)` i et enkelt koordinatsystem med fem adskilte arbeidsrom — langs bevegelsen **ordet** ([`skrivevaerelset`](https://github.com/sololys/skrivevaerelset)) → **kladden** ([`epistemic-architectures-notes`](https://github.com/sololys/epistemic-architectures-notes)) → **regelen** ([`epistemic-architectures`](https://github.com/sololys/epistemic-architectures)) → **porten** ([`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)) → **seglet** ([`monolitt`](https://github.com/sololys/monolitt)).
 
 - **Avgrensning (`INSPIRED_BY != IMPLEMENTS != PROVES`):** Alt som ligger åpent her er lokale programvareprototyper (`L1`) og syntese-/tidsanalyser for FPGA (`L1.5`), ikke fysiske anlegg i drift. Revisjonslogger på disk er append-only SHA-256 hash-kjeder, ikke fysisk WORM-maskinvare.
 - **Arkiv og lisens:** [ORCID `0009-0006-0431-6637`](https://orcid.org/0009-0006-0431-6637) · [`LICENSE`](LICENSE) · [`NOTICE`](NOTICE)
