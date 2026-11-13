@@ -41,37 +41,38 @@ This profile sits at `(0,0)` between two axes so essays, working math, formal ru
 
 ## From Impulse to Seal — The Consequence Circuit
 
-Across the five rooms, proposals travel through a planar circuit with three hard rules:
+Across the five rooms, proposals travel down a planar vertical spine (`0` wire crossings) governed by three hard boundaries:
 
-1. **No shortcut around friction:** A compressed idea (`p_art` in **1 · Word**) cannot enter the gate directly; it must pass through reversible search (`J` in **2 · Draft**) and temporal/physical constraints (`D` in **3 · Rule**).
-2. **Bounded `HOLD` with a dual clock:** Doubt returns the candidate to the search loop with an explicit deficiency receipt (`Δ_K ≠ ∅`), while stalling past `τ_max` escalates authority (`P_int -> P_ext`) rather than freezing indefinitely.
-3. **Asymmetry across the Gödel air gap:** Formal checks inside `F` (`Π_K` in **4 · Gate**) can issue `KILL` or `HOLD` on their own, but at `Δ_K = 0` they stop at `0.00 V DC · READY`. Crossing into `OPEN` (**5 · Seal**) requires external human witness (`W_ext ∉ F` at `(0,0)`) recorded in an append-only `SHA-256 WAL`.
+1. **Left flank (`HOLD` in `X < 0` — unfinished work under a dual clock):** Premature closure at `p_art` without candidate trajectories, unfinished load in `D`, or a non-zero residual / occupied zone at `Π_K` returns to `J` with an explicit deficiency receipt (`Δ_K ≠ ∅`). No return bypasses the clock: stalling past `τ_max` escalates authority (`P_int -> P_ext`) without auto-opening.
+2. **Right flank (`KILL` in `X > 0` — counterfeited currency cut to `0 V`):** Claiming metaphor as proof (`L`, `chmod 444`), leaking side effects out of zero-voltage search (`J`), unpaid paper bookkeeping (`D`), or formal self-authorization (`Π_K`) trips `KILL`.
+3. **Galvanic air gap (`READY :: 0.00 V DC` vs `OPEN :: 5.00 V DC`):** At exact `Δ_K = 0` and `Σ permit ≤ 1`, the formal system `F` stops at `[READY :: 0.00 V DC]` — an exposed dry contact with zero authority. Closing `[OPEN :: 5.00 V DC]` (**5 · Seal**) requires external human witness (`W_ext ∉ F` at `(0,0)`) against an external counter-test, recorded in an append-only `SHA-256 WAL`.
 
 ```text
-[ u_raw ] ──( L: Acoustics )──> [ M_L ] ──( A: Compression )──> [ p_art ∈ NP_COSMOS ]
-                                                                          │
-               ┌──────────────────────────────────────────────────────────┘
-               │  ┌─── REVERSIBLE LOOP (Δ_K ≠ ∅, τ ≤ τ_max) ────────────────────────────┐
-               ▼  ▼                                                                     │
-       [ J: Search {γ_i} ] ──( D: Body / Time / Inertia )──> [ γ'_i : Candidate ]       │
-                                                                          │             │
-                                                                ┌─────────┴─────────┐   │
-                                                                │  GATE IN F: Π_K   │   │
-                                                                │ Σ read_permit ≤ 1 │   │
-                                                                └─┬───────┬───────┬─┘   │
-                                                                  │       │       │     │
-                                                               [KILL]     │     [HOLD]  │
-                                                                  │       │       └──┬──┘
-                                                              (Discard)   ▼          └─> [ τ > τ_max : P_ext ]
-                                                                [ Residual: Δ_K = 0 ]
-                                                                [ 0.00 V DC · READY ]
-                                                                          │
-                                                               ═══════════╪═══════════  <-- GÖDEL AIR GAP (F ⊬ OPEN)
-                                                                          ▼
-                                                              [ Ω ← W_ext ∉ F : Human ]
-                                                                          │
-                                                                          ▼
-                                                                [ OPEN + SHA-256 WAL ]
+                                      [u_raw]
+                                         │
+                                         ▼
+                                     (L) Acoustics [chmod 444] ─(metaphor = proof)──► [KILL]
+                                         │
+                                         ▼
+              ┌─(premature closure)─ (A) Vector Lock (p_art)
+              │                          │
+              ▼                          ▼
+[P_ext] ◄─ [HOLD: Δ_K≠∅, τ≤τ_max] ─► (J) Search {γ_i} ──────────(sandbox leak)──────► [KILL]
+(τ > τ_max)   ▲                          │
+              │                          ▼
+              ├─(unfinished load)─── (D) Dance / Load ──────────(paper bookkeeping)─► [KILL]
+              │                          │
+              │                          ▼
+              └─(Δ_K ≠ 0 / zone)──── (Π_K) Gate [Δ_K=0, Σp≤1] ─(self-authorization)─► [KILL]
+                                         │
+                                         ▼
+                                [READY :: 0.00 V DC]
+           (Outermost point in F — exposed dry contact, zero authority)
+═════════════════════════════════ GALVANIC AIR GAP ═════════════════════════════════════════
+                                         │
+                                         ▼  Only via W_ext ∉ F against external counter-test
+                                [OPEN :: 5.00 V DC]
+                (Authorized inscription + SHA-256 WAL in P_COSMOS)
 ```
 
 ---
