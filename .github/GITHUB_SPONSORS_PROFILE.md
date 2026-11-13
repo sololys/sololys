@@ -4,7 +4,7 @@
 
 **Operational Summary**
 
-* **Object:** Financial and structural anchoring of **Gemini-Core (Brahman.1)**, **KY-ROX**, **Reality Forge**, and **PODS Sovereign Bioreactors**.
+* **Object:** Financial and structural anchoring of **Epistemic Architectures**, **KY-ROX**, **Reality Forge**, and **PODS Sovereign Bioreactors**.
 * **Mechanism:** Direct sponsorship converting capital into thermodynamic compute work (high-frequency simulations, RTL/hardware verification) and formal open-source specifications.
 * **State:** Open-source demonstrators. Sovereign infrastructure. Fail-closed.
 
@@ -12,7 +12,7 @@
 
 We do not build for tomorrow. We build for states designed to withstand the wear of time.
 
-The architecture of **Gemini-Core** demands a foundation as unyielding as the geological bedrock it conceptually occupies—anchored 3,400 meters beneath the Fennoscandian Shield on the Hardangervidda plateau. This work does not merely produce software; it formalizes the strict boundary conditions of next-generation cyber-physical control.
+The architecture of the `(0,0)` constellation demands a foundation as unyielding as the geological bedrock it conceptually occupies—anchored 3,400 meters beneath the Fennoscandian Shield on the Hardangervidda plateau. This work does not merely produce software; it formalizes the strict boundary conditions of next-generation cyber-physical control.
 
 It is an infrastructure where mathematical physics, deterministic control theory, and sovereign systems converge into a single, unambiguous topology. A structure where nothing is left to guesswork. Where a bit does not merely arise, but is authorized. Where faults do not propagate, but are halted. Here, reality is never assumed by a generator; it is **admitted** through exact, fail-closed verification.
 
@@ -40,7 +40,7 @@ Your support as a sponsor does not fund marketing or abstract promises. It acts 
 
 Systems built to endure cannot rest on temporary premises. We seek supporters—developers, researchers, and advocates for independent technology—who understand the value of infrastructure that refuses to fail open.
 
-By becoming a sponsor, you become part of this foundation. You guarantee that the sovereign infrastructure of **Gemini-Core** remains structurally unshakable at its core, flawlessly agile at its surface, and free from compromise.
+By becoming a sponsor, you become part of this foundation. You guarantee that the sovereign infrastructure of the `(0,0)` constellation remains structurally unshakable at its core, flawlessly agile at its surface, and free from compromise.
 
 Thank you for helping rebuild digital and physical reality from the ground up.
 
@@ -50,7 +50,7 @@ Thank you for helping rebuild digital and physical reality from the ground up.
 
 **Operasjonelt sammendrag**
 
-* **Objekt:** Finansiell og strukturell forankring av **Gemini-Core (Brahman.1)**, **KY-ROX**, **Reality Forge** og **PODS Sovereign Bioreactors**.
+* **Objekt:** Finansiell og strukturell forankring av **Epistemic Architectures**, **KY-ROX**, **Reality Forge** og **PODS Sovereign Bioreactors**.
 * **Mekanisme:** Direkte sponsing som konverterer kapital til termodynamisk regnearbeid (høyfrekvente simuleringer, RTL-/maskinvareverifikasjon) og åpne, formelle spesifikasjoner.
 * **Tilstand:** Åpen kildekode. Suveren infrastruktur. Fail-closed.
 
@@ -58,7 +58,7 @@ Thank you for helping rebuild digital and physical reality from the ground up.
 
 Vi bygger ikke for i morgen. Vi bygger for tilstander som skal tåle tidens slitasje.
 
-Arkitekturen i **Gemini-Core** krever et fundament like urokkelig som grunnfjellet den konseptuelt hviler i – forankret 3 400 meter under det fennoskandiske skjoldet på Hardangervidda. Dette arbeidet produserer ikke bare programvare; det formaliserer de strenge grensebetingelsene for neste generasjons cyber-fysiske kontrollsystemer.
+Arkitekturen i the `(0,0)` constellation krever et fundament like urokkelig som grunnfjellet den konseptuelt hviler i – forankret 3 400 meter under det fennoskandiske skjoldet på Hardangervidda. Dette arbeidet produserer ikke bare programvare; det formaliserer de strenge grensebetingelsene for neste generasjons cyber-fysiske kontrollsystemer.
 
 Det er en infrastruktur der matematisk fysikk, deterministisk kontrollteori og suverene systemer smelter sammen til én entydig topologi. En struktur der ingenting er overlatt til tolkning. Der en bit ikke bare oppstår, men autoriseres. Der feil ikke forplantes, men stanses. Her antas aldri funksjonalitet; virkeligheten genereres ikke av en modell, men **slippes inn** gjennom eksakt, *fail-closed* verifikasjon.
 
@@ -86,6 +86,6 @@ Din støtte som sponsor går ikke til markedsføring eller abstrakte løfter. De
 
 Systemer bygget for å vare, kan ikke hvile på midlertidige premisser. Vi søker støttespillere – utviklere, forskere og talsmenn for uavhengig teknologi – som forstår verdien av infrastruktur som ikke kan korrumperes.
 
-Ved å bli sponsor blir du en del av dette fundamentet. Du garanterer at den suverene infrastrukturen i **Gemini-Core** forblir strukturelt urokkelig i kjernen, feilfritt smidig på overflaten, og fri fra kompromisser.
+Ved å bli sponsor blir du en del av dette fundamentet. Du garanterer at den suverene infrastrukturen i the `(0,0)` constellation forblir strukturelt urokkelig i kjernen, feilfritt smidig på overflaten, og fri fra kompromisser.
 
 Takk for at du er med på å bygge den fysiske og digitale virkeligheten på nytt.
