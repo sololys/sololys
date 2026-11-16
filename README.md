@@ -35,8 +35,6 @@ This profile sits at `(0,0)` between two axes so essays, working math, formal ru
 | **4 · Gate** | **[`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | **Runnable code & FPGA gates** — Python (stdlib only) and synthesizable SystemVerilog gate prototypes | [`run_demo.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/run_demo.py) · [`L2_GATE/`](https://github.com/sololys/ky-rox-public-demonstrators/tree/main/L2_GATE) |
 | **5 · Seal** | **[`monolitt`](https://github.com/sololys/monolitt)** | **Project map & checksums** — Overview index and SHA-256 provenance seals across private prototype repos | [`verify_monolith_seals.py`](https://github.com/sololys/monolitt/blob/main/verify_monolith_seals.py) |
 
-*(Older control-loop experiments are archived in [`loop-engineering`](https://github.com/sololys/loop-engineering), superseded by `ky-rox-public-demonstrators`.)*
-
 ---
 
 ## From Impulse to Seal — The Consequence Circuit
