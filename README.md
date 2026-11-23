@@ -35,6 +35,11 @@ This profile sits at `(0,0)` between two axes so essays, working math, formal ru
 | **4 · Gate** | **[`ky-rox-public-demonstrators`](https://github.com/sololys/ky-rox-public-demonstrators)** | **Runnable code & FPGA gates** — Python (stdlib only) and synthesizable SystemVerilog gate prototypes | [`run_demo.py`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/run_demo.py) · [`KY v1.5`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L1_LAW/KY_SPEC_v1.5.md) · [`205B RTL`](https://github.com/sololys/ky-rox-public-demonstrators/blob/main/L2_GATE/fpga_capsule_frame_205b_decoder.sv) |
 | **5 · Seal** | **[`monolitt`](https://github.com/sololys/monolitt)** | **Project map & checksums** — Overview index and SHA-256 provenance seals across private prototype repos | [`verify_monolith_seals.py`](https://github.com/sololys/monolitt/blob/main/verify_monolith_seals.py) |
 
+### Domain Satellites
+
+Real-time microkernel, hardware-in-the-loop, molecular, and financial realization gates anchored to the core invariants:
+[`omega-gate-qnx`](https://github.com/sololys/omega-gate-qnx) · [`RTDRA`](https://github.com/sololys/RTDRA) · [`femos-biomimetic-nitrogenase`](https://github.com/sololys/femos-biomimetic-nitrogenase) · [`ky-rox-finans-gate`](https://github.com/sololys/ky-rox-finans-gate)
+
 ---
 
 ## From Impulse to Seal — The Consequence Circuit
