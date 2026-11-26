@@ -62,13 +62,25 @@ jobs:
           print("PR_REALIZATION_CONTRACT_GATE=PASS")
           PY
 
-      - name: Verify Default Fail-Closed State (make -> HOLD 0.00 V DC)
+      - name: Verify Clean (0,0) Portal Surface & Zero Leaks
         run: |
-          if make >/dev/null 2>&1; then
-            echo "DEFAULT_HOLD_GATE=KILL (Default 'make' did not fail closed!)"
-            exit 1
-          fi
-          echo "DEFAULT_HOLD_GATE=PASS (0.00 V DC)"
-
-      - name: Execute Explicit Realization Contract (make verify)
-        run: make verify
+          python3 - <<'PY'
+          import pathlib, sys
+          req = ("README.md", "LICENSE", "NOTICE", "CONTRIBUTING.md")
+          missing = [p for p in req if not pathlib.Path(p).is_file()]
+          if missing:
+              print(f"PORTAL_SURFACE_GATE=KILL (missing {missing})")
+              sys.exit(1)
+          bad = ("/home/" + "sololyset", "Gemini" + "-Core", "03_" + "ENGINES", "05_" + "PATENTS", "07_" + "BOKHYLLA", "09_" + "SYSTEM", "CARBON" + "/")
+          for p in sorted(pathlib.Path(".").rglob("*")):
+              if ".git" in p.parts or not p.is_file() or p.suffix.lower() in {".svg", ".png", ".jpg"}:
+                  continue
+              if p.as_posix().startswith(".github/workflows/"):
+                  continue
+              txt = p.read_text(encoding="utf-8")
+              hits = [b for b in bad if b in txt]
+              if hits:
+                  print(f"PORTAL_SURFACE_GATE=KILL (leak {hits} in {p})")
+                  sys.exit(1)
+          print("PORTAL_SURFACE_GATE=PASS (0.00 V DC)")
+          PY

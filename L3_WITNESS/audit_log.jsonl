@@ -1,4 +1,0 @@
-{"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855", "file": "GENESIS_HOLD_0V00"}
-{"sha256": "607bebbe93f8370317e46bd8603b8e29457766b310ceac31e2ca31038057e6c5", "file": "L3_WITNESS/latest_state.json"}
-{"sha256": "11e1dddacb89eca9ba07e1e224c12976340b4614f58e746c2f3e375808192697", "file": "L3_WITNESS/latest_state.json"}
-{"authority": "NONE", "file": "L3_WITNESS/latest_state.json", "prev_hash": "11e1dddacb89eca9ba07e1e224c12976340b4614f58e746c2f3e375808192697", "sha256": "5be9a2b517cf8653e672dc9b921f396c7385949cd13a92f5980112a547c7e31a", "state": "HOLD", "state_sha256": "f81c7736167184983cbf9e79db1d285b564c00505ceb77b82a180d1a1c1af0f0", "timestamp": "2026-11-26T02:36:28Z", "v_dc": "0.00", "w_ext_id": ""}

@@ -3,13 +3,17 @@ NOTICE AND SURFACE INDEX BOUNDARY
 
 Repository : https://github.com/sololys/sololys
 Copyright  : Copyright (c) 2026 Marius Egerhei Torjusen (ORCID: 0009-0006-0431-6637)
-State      : Surface Index & Verification Entrypoint (0.00 V DC // HOLD)
+State      : (0,0) Constellation Portal & Surface Index (0.00 V DC // HOLD)
 
-1. Executable Verification Scripts (MIT License)
-------------------------------------------------
-The executable verification scripts and Makefile targets in `L1_LAW/`,
-`L2_GATE/`, `L3_WITNESS/`, and `Makefile` constitute "the Software" licensed
-under the MIT License in `LICENSE`.
+1. Portal Surface & Constellation Index
+---------------------------------------
+This repository serves strictly as the `(0,0)` portal room of the `sololys`
+constellation (`README.md`, `CONTRIBUTING.md`, `LICENSE`, `NOTICE`, and
+`assets/`). Executable specifications and standalone gate verifiers live in
+`https://github.com/sololys/epistemic-architectures` (`3 · Rule`) and
+`https://github.com/sololys/ky-rox-public-demonstrators` (`4 · Gate`). Any
+software snippets or workflow gates in this repository are licensed under the
+MIT License in `LICENSE`.
 
 2. Architectural Index, Prose & Visual Assets (CC-BY-ND-4.0)
 ------------------------------------------------------------
