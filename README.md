@@ -37,8 +37,8 @@ This profile sits at `(0,0)` between two axes so essays, working math, formal ru
 
 ### Domain Satellites
 
-Real-time microkernel, hardware-in-the-loop, molecular, and financial realization gates anchored to the core invariants:
-[`omega-gate-qnx`](https://github.com/sololys/omega-gate-qnx) · [`RTDRA`](https://github.com/sololys/RTDRA) · [`femos-biomimetic-nitrogenase`](https://github.com/sololys/femos-biomimetic-nitrogenase) · [`ky-rox-finans-gate`](https://github.com/sololys/ky-rox-finans-gate)
+Symplectic 3D phase-space, real-time microkernel, hardware-in-the-loop, molecular, and financial realization gates anchored to the core invariants:
+[`KOSMOS`](https://github.com/sololys/KOSMOS) · [`omega-gate-qnx`](https://github.com/sololys/omega-gate-qnx) · [`RTDRA`](https://github.com/sololys/RTDRA) · [`femos-biomimetic-nitrogenase`](https://github.com/sololys/femos-biomimetic-nitrogenase) · [`ky-rox-finans-gate`](https://github.com/sololys/ky-rox-finans-gate)
 
 ---
 
